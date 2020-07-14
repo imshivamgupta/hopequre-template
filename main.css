@@ -6601,7 +6601,7 @@ a.dropdown-item:hover .show-on-hover {
   display: block;
   position: absolute;
   z-index: 10;
-  background-color: lightcyan;
+  background-color: rgb(246, 252, 255);
   right: -80%;
   min-width: 150px;
   display: flex;
