@@ -5776,6 +5776,7 @@ header.open .main-nav.sticky .header__nav-links_ul + .nav-item--icon {
     .dropdown-item-navigationTitle
     p.body_text_bold {
     line-height: 1.4;
+    font-weight: 600;
   }
 
   .cd-morph-dropdown
@@ -6591,4 +6592,38 @@ html.mix-blend-mode body.docready .header-skewed__tri {
 .type span {
   font-size: 14px;
   line-height: 1.5;
+}
+
+.show-on-hover {
+  display: none;
+}
+a.dropdown-item:hover .show-on-hover {
+  display: block;
+  position: absolute;
+  z-index: 10;
+  background-color: lightcyan;
+  right: -80%;
+  min-width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.show-on-hover ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.show-on-hover ul li {
+  padding: 0.4rem 1rem;
+  flex: 1;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.show-on-hover ul li:nth-child(odd) {
+  /* background-color: rgba(0, 0, 0, 0.1); */
+}
+
+.show-on-hover ul li:hover {
+  background-color: rgba(0, 0, 0, 0.08);
 }
