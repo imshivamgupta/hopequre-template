@@ -6600,16 +6600,20 @@ html.mix-blend-mode body.docready .header-skewed__tri {
 a.dropdown-item:hover .show-on-hover {
   display: block;
   position: absolute;
-  z-index: 10;
+  z-index: 999;
   background-color: rgb(246, 252, 255);
-  right: -80%;
+  left: 70%;
+  top: 0%;
   min-width: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+a.dropdown-item:hover .show-on-hover.left-side {
+  left: -95%;
+}
 .show-on-hover ul {
-  width: 100%;
+  width: 400px;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -6620,54 +6624,41 @@ a.dropdown-item:hover .show-on-hover {
   font-weight: 600;
   text-transform: capitalize;
 }
-.show-on-hover ul li:nth-child(odd) {
-  /* background-color: rgba(0, 0, 0, 0.1); */
-}
 
 .show-on-hover ul li:hover {
   background-color: rgba(0, 0, 0, 0.08);
 }
 
-.menu-l1 {
-  display: none;
-  position: absolute;
-  top: 10%;
-  background: aliceblue;
-  z-index: 9999;
-  left: 90%;
-  width: 100%;
-  padding: 0.6rem;
-  border: 2px solid rgba(0, 0, 0, 0.08) !important;
-}
-
-.menu-l1 ul li {
-  padding: 0.6rem;
-}
-.menu-l1 ul li:hover {
-  background: rgba(0, 0, 0, 0.08);
-}
-
-a.dropdown-item.m-show:hover .menu-l1 {
-  display: block;
-}
-.menu-l2 {
-  display: none;
-  position: absolute;
-  top: 10%;
-  background: rgb(210, 234, 255);
-  z-index: 9999;
-  left: 90%;
-  width: 100%;
-  padding: 0.6rem;
-  border: 2px solid rgba(0, 0, 0, 0.08) !important;
-}
-a.dropdown-item.m-show .menu-l1 li:hover .menu-l2 {
-  display: block;
-}
-
 .new-menu {
   z-index: 999;
   background: white;
-  height: max-content;
+  height: 448px;
   border-radius: 8px;
+}
+
+.therapist-menu {
+  width: 800px;
+  columns: 2;
+}
+.therapist-menu,
+.behaviour-menu {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  flex-wrap: wrap;
+}
+.therapist-menu div,
+.therapist-menu a,
+.behaviour-menu div,
+.behaviour-menu a {
+  width: 400px;
+}
+.sub-menu {
+  position: absolute;
+  left: 90%;
+  top: 0;
+  z-index: 999999;
+  width: 300px;
+  background: white;
+  padding: 1rem;
 }
