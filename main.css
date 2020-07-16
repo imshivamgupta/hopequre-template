@@ -6664,3 +6664,10 @@ a.dropdown-item.m-show:hover .menu-l1 {
 a.dropdown-item.m-show .menu-l1 li:hover .menu-l2 {
   display: block;
 }
+
+.new-menu {
+  z-index: 999;
+  background: white;
+  height: max-content;
+  border-radius: 8px;
+}
