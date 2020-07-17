@@ -6663,6 +6663,13 @@ a.dropdown-item:hover .show-on-hover.left-side {
   padding: 1rem;
 }
 
+.icon-top {
+  position: absolute;
+  font-size: 2rem !important;
+  top: 50px;
+  left: 12px;
+}
+
 /* Campus Page */
 section#campus {
   background-image: url('./w.png');
