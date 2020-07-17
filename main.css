@@ -6662,3 +6662,27 @@ a.dropdown-item:hover .show-on-hover.left-side {
   background: white;
   padding: 1rem;
 }
+
+/* Campus Page */
+section#campus {
+  background-image: url('./w.png');
+  background-color: rgb(224, 239, 227);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 90vh;
+}
+
+section#campus .content {
+  height: 100%;
+}
+
+section#campus .content h1 {
+  font-weight: 600;
+}
+
+section#timeline .image {
+  background-color: red;
+  width: 80px;
+  height: 80px;
+}
