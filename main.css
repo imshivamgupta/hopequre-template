@@ -6613,7 +6613,7 @@ a.dropdown-item:hover .show-on-hover.left-side {
   left: -95%;
 }
 .show-on-hover ul {
-  width: 400px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -6632,26 +6632,22 @@ a.dropdown-item:hover .show-on-hover.left-side {
 .new-menu {
   z-index: 999;
   background: white;
-  height: 448px;
+  height: 556px;
   border-radius: 8px;
 }
 
-.therapist-menu {
-  width: 800px;
-  columns: 2;
-}
 .therapist-menu,
 .behaviour-menu {
   display: flex;
   flex-direction: column;
-  width: 800px;
+  width: 750px;
   flex-wrap: wrap;
 }
 .therapist-menu div,
 .therapist-menu a,
 .behaviour-menu div,
 .behaviour-menu a {
-  width: 400px;
+  width: 350px;
 }
 .sub-menu {
   position: absolute;
