@@ -139,6 +139,11 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
+
+:root {
+  --main-hopequre: #65d3bf;
+}
+
 .popover,
 .tooltip,
 body {
@@ -6200,7 +6205,11 @@ html.mix-blend-mode body.docready .header-skewed__tri {
   z-index: -2;
 }
 .header-skewed-home__bg2 {
-  background-image: linear-gradient(48.06deg, #e4002b 15%, #ff7373 60%);
+  background-image: linear-gradient(
+    48.06deg,
+    var(--main-hopequre) 15%,
+    var(--main-hopequre) 60%
+  );
   position: absolute;
   top: 1%;
   right: 0;
@@ -6211,7 +6220,7 @@ html.mix-blend-mode body.docready .header-skewed__tri {
   z-index: -3;
 }
 .header-skewed-home__title {
-  margin-top: 300px;
+  margin-top: 215px;
   margin-bottom: 70px;
 }
 @media (max-width: 767.98px) {
@@ -6363,11 +6372,7 @@ html.mix-blend-mode body.docready .header-skewed__tri {
 .post {
   padding-bottom: 50px;
 }
-@media (min-width: 1200px) {
-  .card-double-thin-border--small {
-    margin-top: -430px;
-  }
-}
+
 @keyframes pulse-ring {
   0% {
     opacity: 1;
@@ -6437,6 +6442,7 @@ html.mix-blend-mode body.docready .header-skewed__tri {
 .card-body-footer p {
   margin-bottom: 0;
 }
+
 @keyframes fadeOut {
   0% {
     opacity: 1;
@@ -6558,6 +6564,7 @@ html.mix-blend-mode body.docready .header-skewed__tri {
   width: 100%;
   border-radius: 10px;
   overflow: hidden;
+  min-height: 243px;
 }
 
 .icon_wrapper {
@@ -6572,14 +6579,15 @@ html.mix-blend-mode body.docready .header-skewed__tri {
 }
 .icon_wrapper:before {
   content: '';
-  border-right: 120px solid rgba(0, 0, 0, 0);
-  border-top: 120px solid rgb(19, 83, 185);
+  border-right: 70px solid rgba(0, 0, 0, 0);
+  border-top: 70px solid rgb(19, 83, 185);
   position: absolute;
   left: 2px;
   top: 30px;
 }
 .cat_txt {
   padding: 0.6rem;
+  margin-top: -3rem;
 }
 
 .hopequre-box {
@@ -6671,7 +6679,7 @@ a.dropdown-item:hover .show-on-hover.left-side {
 
 .icon-top {
   position: absolute;
-  font-size: 2rem !important;
+  font-size: 1.2rem !important;
   top: 50px;
   left: 12px;
 }
@@ -6698,6 +6706,10 @@ section#timeline .image {
   background-color: red;
   width: 80px;
   height: 80px;
+}
+
+.card.card.hq-card.min-height {
+  min-height: 220px;
 }
 
 /* programs */
@@ -6891,4 +6903,24 @@ section#timeline .image {
 
 .payment-base_entry-img {
   height: 360px;
+}
+
+.payment-base_entry-content {
+  padding: 1rem;
+}
+
+.payment-base_entry-content .teaser {
+  color: rgb(66 85 99);
+}
+
+.payment-base_entry-content .readmore svg {
+  color: rgb(41 131 251);
+  fill: rgb(41 131 251);
+  width: 20px;
+  height: 20px;
+}
+
+.testmonials {
+  border-left: 3px solid var(--main-hopequre) !important;
+  border-right: 3px solid var(--main-hopequre) !important;
 }
