@@ -718,7 +718,8 @@ let personalityMenu = `<div class="position-relative relationship-menu new-menu"
 </div>
 `
 Array.from(lists).map((list, index) => {
-  list.addEventListener('mouseenter', () => {
+  list.addEventListener('mouseenter', (event) => {
+    event.target.classList.add('hover')
     switch (index) {
       case 0:
         showMenu.innerHTML = clinicalMenu
@@ -739,4 +740,28 @@ Array.from(lists).map((list, index) => {
         break
     }
   })
+  list.addEventListener('mouseleave', (event) => {
+    event.target.className.match(/hover/g)
+      ? event.target.classList.remove('hover')
+      : null
+  })
+  list.addEventListener(
+    'click',
+    (event) => {
+      event.currentTarget.classList.add('hover-active')
+      removeHoverClass(index)
+    },
+    true
+  )
 })
+
+function removeHoverClass(index) {
+  Array.from(lists).map((list, elIndex) => {
+    if (elIndex != index) {
+      list.className.match(/hover-active/g)
+        ? list.classList.remove('hover-active')
+        : null
+    }
+  })
+  // console.log(index)
+}

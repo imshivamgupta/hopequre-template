@@ -6630,6 +6630,25 @@ a.dropdown-item:hover .show-on-hover {
 a.dropdown-item:hover .show-on-hover.left-side {
   left: -95%;
 }
+a.dropdown-item.hover:hover {
+  background-color: rgb(19 83 185) !important;
+}
+a.dropdown-item.hover:hover p.body_text_bold {
+  color: #fff !important;
+}
+a.dropdown-item.hover:hover p.font_p_small {
+  color: #fff !important;
+}
+a.dropdown-item.hover-active {
+  background-color: rgb(19 83 185) !important;
+}
+a.dropdown-item.hover-active p.body_text_bold {
+  color: #fff !important;
+}
+a.dropdown-item.hover-active p.font_p_small {
+  color: #fff !important;
+}
+
 .show-on-hover ul {
   width: 350px;
   display: flex;
