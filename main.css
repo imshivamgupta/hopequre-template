@@ -4757,9 +4757,10 @@ nav a {
 }
 @media (min-width: 992px) {
   .card-double-thin-border {
-    max-width: 575px;
+    max-width: 400px;
     margin-top: -380px;
     float: left;
+    transform: rotate(45deg);
   }
 }
 @media (min-width: 1200px) {
@@ -4786,7 +4787,7 @@ nav a {
   z-index: 5;
   background: #fff;
   box-shadow: 0 0 80px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
+  border-radius: 50px;
   color: #002846;
 }
 @media (min-width: 768px) {
@@ -4904,7 +4905,7 @@ aside > .container {
 }
 @media (min-width: 768px) {
   .image-rotated-45__content {
-    width: 80%;
+    width: 100%;
   }
   .pt-md-100 {
     padding-top: 100px;
@@ -5095,11 +5096,11 @@ aside > .container {
 .footer-light__form .btn-newsletter {
   padding: 5px 20px 6px;
   line-height: 1.1;
-  background: #ff7373;
+  background: var(--main-hopequre);
   border-radius: 0.2rem !important;
 }
 .footer-light__form .btn-newsletter:hover {
-  background: #ff4040;
+  background: var(--main-hopequre);
 }
 .footer-light__form .custom-checkbox {
   margin-top: 0.5rem;
@@ -6292,6 +6293,7 @@ html.mix-blend-mode body.docready .header-skewed__tri {
 }
 .home .image-rotated-45__content {
   display: block;
+  margin-top: 100px;
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .home .first {
@@ -6630,6 +6632,15 @@ a.dropdown-item:hover .show-on-hover {
 a.dropdown-item:hover .show-on-hover.left-side {
   left: -95%;
 }
+a.dropdown-item:hover {
+  background-color: rgb(19 83 185) !important;
+}
+a.dropdown-item:hover p.body_text_bold {
+  color: #fff !important;
+}
+a.dropdown-item:hover p.font_p_small {
+  color: #fff !important;
+}
 a.dropdown-item.hover:hover {
   background-color: rgb(19 83 185) !important;
 }
@@ -6660,6 +6671,9 @@ a.dropdown-item.hover-active p.font_p_small {
   flex: 1;
   font-weight: 600;
   text-transform: capitalize;
+}
+.show-on-hover ul li div p {
+  color: black;
 }
 
 .show-on-hover ul li:hover {
@@ -6940,6 +6954,14 @@ section#timeline .image {
 }
 
 .testmonials {
+  border-top: 3px solid var(--main-hopequre) !important;
   border-left: 3px solid var(--main-hopequre) !important;
-  border-right: 3px solid var(--main-hopequre) !important;
+}
+
+.header__logo span.mode-color {
+  color: white;
+}
+
+nav.sticky .header__logo span.mode-color {
+  color: rgba(0, 0, 0, 0.7);
 }

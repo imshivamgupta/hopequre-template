@@ -71,8 +71,8 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold">Generalised Anxiety Disorder</p>
-          <p class="font_p_small" style="font-weight:400">
+          <p class="body_text_bold" style="color:rgba(0,0,0,0.8)!important">Generalised Anxiety Disorder</p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
             State Of Arousal that is evoked by general events in day to day
             life.
           </p>
@@ -87,8 +87,8 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold">Panic Disorder</p>
-          <p class="font_p_small" style="font-weight:400">
+          <p class="body_text_bold  text-dark"  style="color:rgba(0,0,0,0.8)!important">Panic Disorder</p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
             State of panic that evokes a state of breathlessness, fear and
             stress all together.
           </p>
@@ -103,8 +103,8 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold">Phobias</p>
-          <p class="font_p_small" style="font-weight:400">
+          <p class="body_text_bold  text-dark"  style="color:rgba(0,0,0,0.8)!important">Phobias</p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
             Struggling with Irrational fear, Get over your Phobias with us!
           </p>
         </div>
@@ -118,8 +118,8 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold">Social Anxiety</p>
-          <p class="font_p_small" style="font-weight:400">
+          <p class="body_text_bold  text-dark"  style="color:rgba(0,0,0,0.8)!important">Social Anxiety</p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
             Seek therapy If facing people or social gatherings give you nerve
             wrecking anxiety.
           </p>
@@ -302,8 +302,8 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold">Impulse control disorders</p>
-          <p class="font_p_small" style="font-weight:400">
+          <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Impulse control disorders</p>
+          <p class="font_p_small" style="font-weight:400; color:rgba(0,0,0,.8)!important">
             Inability to resist an urge to carrry out an implusive act.
           </p>
         </div>
@@ -317,8 +317,8 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold">Adult ADHD</p>
-          <p class="font_p_small" style="font-weight:400">
+          <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Adult ADHD</p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
             Persistent difficulty in paying atention, and controlling
             hyperactive and impulsive behaviour.
           </p>
@@ -397,8 +397,8 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold">Procastination</p>
-          <p class="font_p_small" style="font-weight:400">
+          <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Procastination</p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
             Inability to start working due to lack of motivation.
           </p>
         </div>
@@ -412,8 +412,8 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold">Time Management</p>
-          <p class="font_p_small" style="font-weight:400">
+          <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Time Management</p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
             Manage your time efficiently.
           </p>
         </div>
@@ -427,8 +427,8 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold">Self harm & Suicidal Behaviour </p>
-          <p class="font_p_small" style="font-weight:400">
+          <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Self harm & Suicidal Behaviour </p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
             Control behaviour or thoughts involving pain or injury to oneself.
           </p>
         </div>
@@ -589,8 +589,8 @@ let childMenu = `<div class="position-relative therapist-menu new-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold">Operant Defiant Disorder</p>
-          <p class="font_p_small" style="font-weight:400">
+          <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Operant Defiant Disorder</p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
             Frequent and reccuring patterns of anger, arugument, rebel and
             revenge.
           </p>
@@ -605,8 +605,8 @@ let childMenu = `<div class="position-relative therapist-menu new-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold">Conduct Disorder</p>
-          <p class="font_p_small" style="font-weight:400">
+          <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Conduct Disorder</p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
             Patterns of Disrputive and violent behaviour, especially violating
             norms
           </p>
