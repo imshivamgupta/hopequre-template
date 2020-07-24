@@ -7002,7 +7002,7 @@ nav.sticky .header__logo span.mode-color {
 }
 @media (max-width: 576px) {
   .collage div {
-    height: 100px;
+    height: 65px;
   }
   .collage {
     margin-top: 2.5rem;
