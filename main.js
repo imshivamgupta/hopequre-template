@@ -720,6 +720,7 @@ let personalityMenu = `<div class="position-relative relationship-menu new-menu"
 Array.from(lists).map((list, index) => {
   list.addEventListener('mouseenter', (event) => {
     event.target.classList.add('hover')
+    console.log(this, lists)
     switch (index) {
       case 0:
         showMenu.innerHTML = clinicalMenu
