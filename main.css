@@ -4812,7 +4812,7 @@ nav a {
 }
 .icon-text img,
 .icon-text svg {
-  height: 40px;
+  /* height: 40px; */
   fill: #2983fb;
   margin-bottom: 25px;
 }
@@ -6683,7 +6683,7 @@ a.dropdown-item.hover-active p.font_p_small {
 .new-menu {
   z-index: 999;
   background: white;
-  max-height: 556px;
+  height: 556px;
   border-radius: 8px;
 }
 
@@ -6742,7 +6742,7 @@ section#timeline .image {
 }
 
 .card.card.hq-card.min-height {
-  min-height: 220px;
+  min-height: 250px;
 }
 
 /* programs */

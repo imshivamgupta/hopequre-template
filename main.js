@@ -29,7 +29,7 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/048-depression 1.png"
       width="25"
       height="25"
     />
@@ -48,7 +48,8 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+    src="assets/icons/005-anxiety 1.png"
+
       width="25"
       height="25"
     />
@@ -65,7 +66,7 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
       <li class="d-flex my-2">
         <i>
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+            src="assets/icons/058-brain-2 1.png"
             width="25"
             height="25"
           />
@@ -81,7 +82,7 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
       <li class="d-flex my-2">
         <i>
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+          src="assets/icons/004-anger 1.png"
             width="25"
             height="25"
           />
@@ -97,7 +98,8 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
       <li class="d-flex my-2">
         <i>
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+          src="assets/icons/070-death 1.png"
+
             width="25"
             height="25"
           />
@@ -112,7 +114,8 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
       <li class="d-flex my-2">
         <i>
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+          src="assets/icons/028-schizophrenia 1.png"
+
             width="25"
             height="25"
           />
@@ -134,7 +137,7 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/033-memory 1.png"
       width="25"
       height="25"
     />
@@ -153,7 +156,7 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/052-bipolar-1 1.png"
       width="25"
       height="25"
     />
@@ -171,7 +174,7 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/067-open-mind-1 1.png"
       width="25"
       height="25"
     />
@@ -190,7 +193,7 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/anorexia 1.png"
       width="25"
       height="25"
     />
@@ -208,7 +211,7 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/026-vision 1.png"
       width="25"
       height="25"
     />
@@ -234,7 +237,7 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/099-strenght 1.png"
       width="25"
       height="25"
     />
@@ -252,7 +255,7 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/063-strategy-1 1.png"
       width="25"
       height="25"
     />
@@ -265,12 +268,99 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
   </div>
   <div class="show-on-hover card hq-card">
     <ul>
-      <li>Substance</li>
-      <li>Alcohol</li>
-      <li>Smoking</li>
-      <li>Internet & Mobile, Video Games</li>
-      <li>Gambling</li>
-      <li>Sexual</li>
+    <li class="d-flex">
+    <i>
+      <img
+        src="assets/icons/no-drugs (1) 1.png"
+        width="25"
+        height="25"
+      />
+    </i>
+    <div class="d-flex flex-column">
+      <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Substance</p>
+      <p class="font_p_small" style="font-weight:400; color:rgba(0,0,0,.8)!important">
+      Inability to stop substance use
+      </p>
+    </div>
+  </li>
+  <li class="d-flex">
+  <i>
+    <img
+      src="assets/icons/whiskey 1.png"
+      width="25"
+      height="25"
+    />
+  </i>
+  <div class="d-flex flex-column">
+    <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Alcohol</p>
+    <p class="font_p_small" style="font-weight:400; color:rgba(0,0,0,.8)!important">
+    Inability to control your use of alcohol
+    </p>
+  </div>
+</li>
+<li class="d-flex">
+<i>
+  <img
+    src="assets/icons/quit-smoking 1.png"
+    width="25"
+    height="25"
+  />
+</i>
+<div class="d-flex flex-column">
+  <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Smoking</p>
+  <p class="font_p_small" style="font-weight:400; color:rgba(0,0,0,.8)!important">
+  Inability to stop using nicotine.
+  </p>
+</div>
+</li>
+<li class="d-flex">
+<i>
+  <img
+    src="assets/icons/comunications 1.png"
+    width="25"
+    height="25"
+  />
+</i>
+<div class="d-flex flex-column">
+  <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">
+  Internet & Mobile, Video Games </p>
+  <p class="font_p_small" style="font-weight:400; color:rgba(0,0,0,.8)!important">
+  Inability to stop using nicotine.
+  </p>
+</div>
+</li>
+<li class="d-flex">
+<i>
+  <img
+    src="assets/icons/poker-chip 1.png"
+    width="25"
+    height="25"
+  />
+</i>
+<div class="d-flex flex-column">
+  <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">
+  Gambling </p>
+  <p class="font_p_small" style="font-weight:400; color:rgba(0,0,0,.8)!important">
+  Maladaptive patterns of gambling behavior
+  </p>
+</div>
+</li>
+<li class="d-flex">
+<i>
+  <img
+    src="assets/icons/sex-addict 1.png"
+    width="25"
+    height="25"
+  />
+</i>
+<div class="d-flex flex-column">
+  <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">
+  Sexual</p>
+  <p class="font_p_small" style="font-weight:400; color:rgba(0,0,0,.8)!important">
+  Cumpulsive engagement in sexual activity, despite negative consequences.
+  </p>
+</div>
+</li>
     </ul>
   </div>
 </a>
@@ -280,7 +370,7 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/051-bipolar 1.png"
       width="25"
       height="25"
     />
@@ -296,7 +386,7 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
       <li class="d-flex my-2">
         <i>
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+            src="assets/icons/027-open-mind 1.png"
             width="25"
             height="25"
           />
@@ -311,7 +401,7 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
       <li class="d-flex my-2">
         <i>
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+            src="assets/icons/061-learning 1.png"
             width="25"
             height="25"
           />
@@ -333,7 +423,7 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/stress 1.png"
       width="25"
       height="25"
     />
@@ -346,9 +436,51 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
   </div>
   <div class="show-on-hover card hq-card">
     <ul>
-      <li>Personal</li>
-      <li>Workplace</li>
-      <li>Relationship</li>
+    <li class="d-flex">
+    <i>
+      <img
+        src="assets/icons/072-exhausted-1 1.png"
+        width="25"
+        height="25"
+      />
+    </i>
+    <div class="d-flex flex-column">
+      <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Personal Stress</p>
+      <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
+      Personal situations that are tough to handle
+      </p>
+    </div>
+  </li>
+  <li class="d-flex">
+  <i>
+    <img
+      src="assets/icons/053-folder 1.png"
+      width="25"
+      height="25"
+    />
+  </i>
+  <div class="d-flex flex-column">
+    <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Workplace Stress</p>
+    <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
+    Workplace issues hindering normal life functioning
+    </p>
+  </div>
+</li>
+<li class="d-flex">
+<i>
+  <img
+    src="assets/icons/062-conflict 1.png"
+    width="25"
+    height="25"
+  />
+</i>
+<div class="d-flex flex-column">
+  <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Relationship Stress</p>
+  <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
+  Relationship issues going over-board
+  </p>
+</div>
+</li>
     </ul>
   </div>
 </a>
@@ -358,7 +490,7 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/096-target-1 1.png"
       width="25"
       height="25"
     />
@@ -374,7 +506,7 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/039-inspiration 2.png"
       width="25"
       height="25"
     />
@@ -388,10 +520,10 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
   </div>
   <div class="show-on-hover card hq-card left-side">
     <ul>
-      <li class="d-flex my-2">
+      <li class="d-flex">
         <i>
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+            src="assets/icons/031-stopclock 1.png"
             width="25"
             height="25"
           />
@@ -403,10 +535,10 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
           </p>
         </div>
       </li>
-      <li class="d-flex my-2">
+      <li class="d-flex">
         <i>
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+            src="assets/icons/025-alarm-clock 1.png"
             width="25"
             height="25"
           />
@@ -418,10 +550,10 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
           </p>
         </div>
       </li>
-      <li class="d-flex my-2">
+      <li class="d-flex">
         <i>
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+            src="assets/icons/055-dreaming-1 1.png"
             width="25"
             height="25"
           />
@@ -450,7 +582,7 @@ let relationshipMenu = `<div class="position-relative new-menu relationship-menu
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/054-in-love-1 1.png"
       width="25"
       height="25"
     />
@@ -466,7 +598,7 @@ let relationshipMenu = `<div class="position-relative new-menu relationship-menu
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/074-broken-heart-1 1.png"
       width="25"
       height="25"
     />
@@ -485,7 +617,7 @@ let relationshipMenu = `<div class="position-relative new-menu relationship-menu
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/family 1.png"
       width="25"
       height="25"
     />
@@ -503,7 +635,7 @@ let relationshipMenu = `<div class="position-relative new-menu relationship-menu
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/030-dead 1.png"
       width="25"
       height="25"
     />
@@ -530,7 +662,7 @@ let childMenu = `<div class="position-relative therapist-menu new-menu">
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/039-inspiration 1.png"
       width="25"
       height="25"
     />
@@ -548,7 +680,7 @@ let childMenu = `<div class="position-relative therapist-menu new-menu">
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/097-autism-1 1.png"
       width="25"
       height="25"
     />
@@ -566,7 +698,7 @@ let childMenu = `<div class="position-relative therapist-menu new-menu">
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/081-imagination-2 1.png"
       width="25"
       height="25"
     />
@@ -583,7 +715,7 @@ let childMenu = `<div class="position-relative therapist-menu new-menu">
       <li class="d-flex my-2">
         <i>
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+            src="assets/icons/anxiety 1.png"
             width="25"
             height="25"
           />
@@ -599,7 +731,7 @@ let childMenu = `<div class="position-relative therapist-menu new-menu">
       <li class="d-flex my-2">
         <i>
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+          src="assets/icons/nervous 1.png"
             width="25"
             height="25"
           />
@@ -621,7 +753,7 @@ let childMenu = `<div class="position-relative therapist-menu new-menu">
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/092-knowledge-1 1.png"
       width="25"
       height="25"
     />
@@ -640,7 +772,7 @@ let childMenu = `<div class="position-relative therapist-menu new-menu">
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/098-confusion-1 1.png"
       width="25"
       height="25"
     />
@@ -658,7 +790,7 @@ let childMenu = `<div class="position-relative therapist-menu new-menu">
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/violence 1.png"
       width="25"
       height="25"
     />
@@ -685,7 +817,7 @@ let personalityMenu = `<div class="position-relative relationship-menu new-menu"
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/021-extrovert 1.png"
       width="25"
       height="25"
     />
@@ -703,7 +835,7 @@ let personalityMenu = `<div class="position-relative relationship-menu new-menu"
 >
   <i>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
+      src="assets/icons/079-perfectionist 1.png"
       width="25"
       height="25"
     />
