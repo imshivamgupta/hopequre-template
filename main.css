@@ -6172,7 +6172,7 @@ aside .close-wrapper .close span:after {
 }
 html.mix-blend-mode body.docready .header-skewed__tri {
   opacity: 1;
-  visibility: visible;
+  visibility: hidden;
 }
 
 .header-skewed-home {
@@ -6222,7 +6222,8 @@ html.mix-blend-mode body.docready .header-skewed__tri {
 }
 .header-skewed-home__title {
   margin-top: 215px;
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
+  margin-bottom: 35px;
 }
 @media (max-width: 767.98px) {
   .header-skewed-home__title {
