@@ -5980,7 +5980,9 @@ aside .card-deck {
   flex-flow: row wrap;
   margin-right: -15px;
   margin-left: -15px;
-  @media (max-width: 556px) {
+}
+@media (max-width: 556px) {
+  aside .card-deck {
     overflow-y: scroll;
     height: 72vh;
   }
