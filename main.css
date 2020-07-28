@@ -6865,6 +6865,9 @@ section#timeline .image {
   .home .hq-card--small {
     width: auto;
   }
+  .process-block {
+    width: 310px;
+  }
 }
 .header__resources__main-title p {
   color: rgb(66 85 99);
@@ -7138,4 +7141,31 @@ nav.sticky .header__logo span.mode-color {
 .h-scroll {
   flex-flow: row nowrap;
   overflow-x: scroll;
+}
+
+section#corporate {
+  padding: 80px;
+}
+
+@media (max-width: 556px) {
+  .sm-center {
+    text-align: center;
+  }
+  .sm-center a.btn.btn-primary {
+    margin: auto;
+  }
+  section#corporate {
+    padding: 1rem;
+  }
+  section#corporate h2 {
+    font-size: 1.5rem;
+  }
+  section#corporate .hover-effect {
+    width: 270px;
+    padding: 0;
+    justify-content: unset !important;
+  }
+  .mr-top {
+    margin-top: 1.5rem;
+  }
 }
