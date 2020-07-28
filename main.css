@@ -6564,7 +6564,8 @@ html.mix-blend-mode body.docready .header-skewed__tri {
   position: relative;
   border-radius: 3px;
   border: 2px solid rgb(19, 83, 185);
-  width: 100%;
+  /* width: 100%; */
+  width: 265px;
   border-radius: 10px;
   overflow: hidden;
   min-height: 243px;
@@ -7126,4 +7127,9 @@ nav.sticky .header__logo span.mode-color {
 .icon-top-2 {
   top: 45px;
   left: 8px;
+}
+
+.h-scroll {
+  flex-flow: row nowrap;
+  overflow-x: scroll;
 }
