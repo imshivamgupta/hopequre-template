@@ -7138,11 +7138,6 @@ nav.sticky .header__logo span.mode-color {
   left: 8px;
 }
 
-.h-scroll {
-  flex-flow: row nowrap;
-  overflow-x: scroll;
-}
-
 section#corporate {
   padding: 80px;
 }
@@ -7168,6 +7163,16 @@ section#corporate {
   .mr-top {
     margin-top: 1.5rem;
   }
+
+  .h-scroll {
+    flex-flow: row nowrap;
+    overflow-x: scroll;
+  }
+}
+@media (min-width: 556px) {
+  .h-scroll {
+    overflow: hidden;
+  }
 }
 
 html {
@@ -7176,4 +7181,100 @@ html {
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent; /* make scrollbar transparent */
+}
+
+.text-image-two-cols {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.marked-list__icon--red {
+  fill: rgb(255 115 115);
+}
+.marked-list__icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+main ul li.new-list {
+  padding-left: 0;
+}
+main ul li.new-list::before {
+  content: '';
+}
+.image-curved--rotated {
+  transform: rotate(-5deg);
+  position: relative;
+}
+
+.image-curved__wrapper {
+  max-width: 438px;
+  min-width: 438px;
+  max-height: 438px;
+  min-height: 438px;
+  overflow: hidden;
+  border-radius: 40px;
+  background-position: center;
+  background-size: cover;
+}
+
+.text-image-two-cols__text h3 {
+  color: rgb(0 40 70);
+}
+
+.text-image-two-cols__text p {
+  color: rgb(66 85 99);
+  margin-bottom: 30px;
+}
+
+.border-blue {
+  border: 3px solid rgba(6, 24, 67, 0.6);
+  padding: 2rem;
+}
+
+.form {
+  background: white;
+  margin-top: 2.5rem;
+}
+
+.cta-section__content p {
+  color: black;
+}
+
+.cta-section__content p.pro {
+  margin: 0;
+  text-align: left;
+}
+.cta-section-2 p {
+  font-size: 1rem;
+  text-align: left;
+}
+.cta-section {
+  padding: 80px 0;
+}
+.ins {
+  border-right: 3px solid rgba(0, 0, 0, 0.08);
+}
+
+ul.form {
+  text-align: left;
+}
+
+ul.form li::before {
+  content: unset;
+}
+
+.cta-section ul.form li {
+  color: black;
+  padding: 0;
+}
+.cta-section ul.form li input {
+  margin-right: 0.6rem;
+}
+
+.customize {
+  background: rgb(38 37 39 / 52%);
+  z-index: 999999;
 }
