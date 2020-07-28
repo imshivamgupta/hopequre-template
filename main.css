@@ -7122,3 +7122,8 @@ nav.sticky .header__logo span.mode-color {
   background-color: rgba(0, 0, 0, 0.1);
   color: var(--pink);
 }
+
+.icon-top-2 {
+  top: 45px;
+  left: 8px;
+}
