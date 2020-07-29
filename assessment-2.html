@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="bootstrap-4.3.1.css" />
     <link rel="stylesheet" href="main.css" />
   </head>
-  <body>
+  <body class="dark-nav">
     <!-- Menu -->
     <aside class="fadeMeOut">
       <div class="square square-1"></div>
@@ -1606,25 +1606,6 @@
           </ul>
         </div>
       </div>
-
-      <div class="container">
-        <section class="triangle-header__content">
-          <!-- header triangles -->
-          <div class="header__large-tri header__large-tri--color-blue">
-            <div class="inner_tri inner_tri--color inner_tri__1"></div>
-            <div class="inner_tri inner_tri--color inner_tri__2"></div>
-            <div class="inner_tri inner_tri--color inner_tri__3"></div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-6">
-              <div class="header__resources__main-title">
-                <h1 class="font_h1 font-weight-700">Self Assessment</h1>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
     </header>
 
     <main class="assesment-base">
@@ -1715,6 +1696,8 @@
                   class="btn text-white mt-4"
                   href="#"
                   style="background-color: turquoise;"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
                   >See how to give test?</a
                 >
               </p>
@@ -1746,7 +1729,10 @@
           </div>
         </div>
       </section>
-      <section class="cta-section cta-section-2">
+      <section
+        class="cta-section cta-section-2"
+        style="background-image: url('assets/img/corpate-bg.jpeg');"
+      >
         <div class="container">
           <div class="cta-section__content" id="contactusnow">
             <div class="text-center text-white">
@@ -1808,8 +1794,6 @@
                         data-submit-button="1"
                         type="submit"
                         name="form_page_submit"
-                        data-toggle="modal"
-                        data-target="#exampleModal"
                       >
                         Submit
                       </button>
