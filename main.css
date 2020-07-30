@@ -6902,7 +6902,7 @@ section#timeline .image {
   background-repeat: no-repeat;
 }
 .cards-card .card-body {
-  padding: 25px 25px 75px;
+  padding: 25px 25px 50px;
 }
 .cards-card .card-body-footer {
   position: absolute;
@@ -6940,7 +6940,7 @@ section#timeline .image {
 }
 @media (min-width: 768px) {
   .cat {
-    max-width: 24%;
+    max-width: 22%;
     flex: 1 0 24%;
   }
 }
