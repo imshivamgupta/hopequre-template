@@ -7318,3 +7318,135 @@ body.dark-nav .main-nav .header__nav-links_dark .nav-item--icon {
     padding: 50px 0;
   }
 }
+
+.hq-accordion {
+  width: 100%;
+  height: 470px;
+  overflow: hidden;
+  margin: 30px auto;
+  position: relative;
+  border-radius: 10px;
+  -webkit-animation: appear-1 ease 2s;
+  animation: appear-1 ease 2s;
+  -ms-animation: appear-1 ease 2s;
+  -webkit-animation: appear-1 ease 2s;
+}
+
+.hq-accordion ul {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  height: 470px;
+  padding: 0px;
+}
+
+.hq-accordion ul li {
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  width: 16.666%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.hq-accordion ul li:nth-child(1).animEffect {
+  animation-name: animation-1oqhlu1;
+  animation-duration: 0.3s;
+}
+
+.hq-accordion ul li {
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  width: 16.666%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.hq-accordion ul li.animEffect {
+  background-image: url('https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_1/image/vm/ade07fad-abc0-4deb-98ec-f04b17e206a6.png');
+  background-position: right;
+}
+
+.hq-accordion ul li.animEffect:hover {
+  width: 50% !important;
+}
+
+@-webkit-keyframes appear-1 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes appear-1 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+section.new-col.text-image-two-cols {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+@media (max-width: 556px) {
+  .hq-accordion {
+    display: none;
+  }
+  .hq-accordion-mobile {
+    width: 100%;
+  }
+  .hq-accordion-mobile ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 0px;
+    animation: 1s ease 0s 1 normal forwards running animation-1ylxcxx;
+  }
+  .hq-accordion-mobile ul li {
+    animation-name: animation-1ylxcxx;
+    display: block;
+    animation-duration: 0.5s;
+    overflow: hidden;
+
+    height: 85px;
+    position: relative;
+    margin-bottom: 6px;
+    transition: height 0.4s ease 0s;
+    background-position: center;
+    background-size: cover;
+  }
+  .hq-accordion-mobile ul li:first-child {
+    border-radius: 15px 15px 0px 0px;
+  }
+  .hq-accordion-mobile ul li:last-child {
+    border-radius: 0 0 15px 15px;
+  }
+  .hq-accordion-mobile ul li.active {
+    margin-bottom: 6px;
+    position: relative;
+    height: 300px !important;
+    transition: height 0.4s ease 0s;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.col-space {
+  margin-bottom: 6.5rem;
+}
+.col-space:last-child {
+  margin-bottom: 0rem;
+}
