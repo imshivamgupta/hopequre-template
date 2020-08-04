@@ -7726,3 +7726,10 @@ main.Knowledge-hub .ais-search-box--magnifier-wrapper {
   background-clip: border-box;
   border-radius: 0.25rem;
 }
+
+.cards-slider__title {
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 556px) {
+}

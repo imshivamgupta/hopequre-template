@@ -898,3 +898,15 @@ function removeHoverClass(index) {
   })
   // console.log(index)
 }
+
+var mySwiper = new Swiper('.swiper-wrapper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+})
