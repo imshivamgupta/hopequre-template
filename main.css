@@ -7679,3 +7679,50 @@ main.Knowledge-hub .ais-search-box--magnifier-wrapper {
   overflow: hidden;
   padding-bottom: 50px;
 }
+
+.cards-slider-arrows svg {
+  width: 20px;
+  height: 20px;
+  fill: rgb(41 131 251);
+  stroke: rgb(41 131 251);
+  stroke-width: 3;
+}
+
+.swiper-slide,
+.swiper-wrapper {
+  height: 100%;
+  position: relative;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+.swiper-slide,
+.swiper-wrapper {
+  height: 100%;
+  position: relative;
+}
+
+.swiper-slide .card .card-body,
+.swiper-slide .cards-card .card-body {
+  padding: 25px 25px 25px;
+  position: relative;
+}
+
+.swiper-slide .card,
+.related-articles .swiper-slide .cards-card {
+  height: 100%;
+  border: none;
+  border-radius: 6px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border-radius: 0.25rem;
+}
