@@ -340,7 +340,7 @@
      ========================================================================== */
 
 .counter {
-  background: url(../img/bg-counter.jpg) center center no-repeat;
+  background: url(assets/img/corpate-bg.jpeg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
