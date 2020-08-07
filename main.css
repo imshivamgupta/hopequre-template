@@ -4135,45 +4135,7 @@ aside {
     animation: unset !important;
     transition: none !important;
   }
-} /*!
- * Font Awesome Pro 5.3.1 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license (Commercial License)
- */
-
-.fab {
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
 }
-@keyframes fa-spin {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-.fa-twitter:before {
-  content: '\f099';
-} /*!
- * Font Awesome Pro 5.3.1 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license (Commercial License)
- */
-@font-face {
-  font-family: 'Font Awesome 5 Pro';
-  font-style: normal;
-  font-weight: 900;
-  src: url(../fonts/fa-solid-900.eot);
-  src: url(../fonts/fa-solid-900.eot?#iefix) format('embedded-opentype'),
-    url(../fonts/fa-solid-900.woff2) format('woff2'),
-    url(../fonts/fa-solid-900.woff) format('woff'),
-    url(../fonts/fa-solid-900.ttf) format('truetype'),
-    url(../fonts/fa-solid-900.svg#fontawesome) format('svg');
-} /*!
- * Font Awesome Pro 5.3.1 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license (Commercial License)
- */
-
 .header-skewed-home__title h1,
 .join p.h1 {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -7750,3 +7712,6 @@ main.Knowledge-hub .ais-search-box--magnifier-wrapper {
   font-size: 0.8rem;
 }
 
+section.form .form-group {
+  margin-bottom: 1.5rem;
+}
