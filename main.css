@@ -7679,7 +7679,7 @@ main.Knowledge-hub .ais-search-box--magnifier-wrapper {
   border-radius: 6px;
 }
 
-.card {
+/* .card {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -7687,7 +7687,7 @@ main.Knowledge-hub .ais-search-box--magnifier-wrapper {
   word-wrap: break-word;
   background-clip: border-box;
   border-radius: 0.25rem;
-}
+} */
 
 .cards-slider__title {
   margin-bottom: 1.5rem;
@@ -8869,9 +8869,6 @@ body {
   }
 }
 
-/* ==========================================================================
-     21.Medium devices (desktops, 992px and up)
-     ========================================================================== */
 
 @media (min-width: 992px) {
   .overlay nav {
@@ -8908,44 +8905,4 @@ body {
     margin-top: 3em;
   }
 
-  .video .owl-nav .owl-prev {
-    left: -10px;
-  }
-
-  .video .owl-nav .owl-next {
-    right: -10px;
-  }
-
-  .twitter-icon {
-    margin-bottom: 0;
-  }
-
-  .share {
-    margin-bottom: 3em;
-    padding-bottom: 3em;
-  }
-
-  .newsletter-sub {
-    right: 3%;
-  }
-
-  .footer-links,
-  .footer-contact {
-    margin: 0;
-  }
-
-  .site-policy .modal-content {
-    padding: 1.5em 3em;
-  }
-}
-
-@media (min-width: 991px) and (max-width: 1082px) {
-
-}
-
-@media (min-width: 600px) {
-  .video .owl-nav .owl-next,
-  .video .owl-nav .owl-prev {
-    top: 47%;
-  }
 }
