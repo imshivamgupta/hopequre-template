@@ -1632,14 +1632,8 @@
               </h4>
             </div>
             <div class="order mt-5">
-              <h5>Your Order</h5>
+              <h5 class="ml-2">Appointment</h5>
               <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">Appointment</th>
-                    <th scope="col">Quantity</th>
-                  </tr>
-                </thead>
                 <tbody>
                   <tr>
                     <th scope="row">
@@ -1655,52 +1649,52 @@
                     <th scope="row">Appointment Time</th>
                     <td>1800 IST</td>
                   </tr>
-                  <tr style="border-top: 2px solid;">
-                    <th scope="row">Total</th>
-                    <td>Rs 6000/-</td>
-                  </tr>
                 </tbody>
               </table>
             </div>
           </div>
           <div
-            class="col-md-5 d-flex justify-content-center"
+            class="col-md-5 d-flex justify-content-center p-4"
             style="background: url('assets/img/corpate-bg.jpeg');"
           >
-            <div class="col-md-8">
-              <div class="bg-white mt-4 rounded p-2">
-                <table class="table text-center">
+            <div class="col-md-12">
+              <div class="bg-white rounded p-2">
+                <table class="table">
                   <tbody>
                     <tr>
                       <th scope="row">
                         Price
                       </th>
-                      <td>2</td>
+                      <td class="text-right">2</td>
                     </tr>
                     <tr>
                       <th scope="row">Discount</th>
-                      <td>2</td>
+                      <td class="text-right">2</td>
+                    </tr>
+                    <tr>
+                      <th colspan="2">
+                        <div class="form-group mb-1 text-left">
+                          <label for="exampleInputEmail1">Coupon</label>
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="exampleInputEmail1"
+                            aria-describedby="emailHelp"
+                            placeholder="Enter code"
+                          />
+                          <small id="emailHelp" class="form-text text-muted"
+                            >50% off.</small
+                          >
+                        </div>
+                      </th>
                     </tr>
                     <tr style="border-top: 2px solid;">
                       <th scope="row">Total</th>
-                      <td>Rs 6000/- (including GST)</td>
+                      <td class="text-right">Rs 6000/- (including GST)</td>
                     </tr>
                   </tbody>
                 </table>
                 <form action="">
-                  <div class="form-group mb-1">
-                    <label for="exampleInputEmail1">Coupon</label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
-                      placeholder="Enter code"
-                    />
-                    <small id="emailHelp" class="form-text text-muted"
-                      >50% off.</small
-                    >
-                  </div>
                   <button class="btn btn-primary btn-block">Pay Now</button>
                 </form>
               </div>
