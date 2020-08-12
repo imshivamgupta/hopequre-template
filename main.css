@@ -147,16 +147,14 @@ html {
 .popover,
 .tooltip,
 body {
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Gilroy', sans-serif
 }
 body {
   margin: 0;
   font-size: 1rem;
   font-weight: 400;
   color: #425563;
-  background-color: #fff;
+  background: url('assets/img/bg.png') no-repeat ;
 }
 dt {
   font-weight: 700;
@@ -4425,9 +4423,12 @@ main .text-center ul li:before {
   color: #2983fb;
 }
 .btn-secondary {
-  background-image: linear-gradient(190deg, #ff7373, #e4002b);
+  background: linear-gradient(180deg, #FFB6CB 0%, #FF6C87 100%);
+  border-radius: 16px;
 }
-
+.btn.btn-secondary{
+  box-shadow: 0px 4px 15px rgba(255 122 148 / 60%);
+}
 .btn-secondary.btn-bordered {
   background: #fff;
   border: 2px solid #e4002b;
@@ -4435,16 +4436,19 @@ main .text-center ul li:before {
 }
 .btn-secondary:active,
 .btn-secondary:not(:disabled):not(.disabled):active {
-  background-image: linear-gradient(190deg, #ff7373, #e4002b);
-  color: #fff;
+  background: linear-gradient(180deg, #FFB6CB 0%, #FF6C87 100%);  color: #fff;
   border: 0;
 }
 .btn-greenGradient,
 .btn-greenGradient:active,
 .btn-greenGradient:hover,
 .btn-greenGradient:not(:disabled):not(.disabled):active {
-  background-image: linear-gradient(190deg, #00ffc8, #2983fb);
+  background: linear-gradient(180deg, #85B2FE 0%, #1A6FFF 100%);
+border-radius: 16px;
   color: #fff;
+}
+.btn.btn-greenGradient{
+  box-shadow: 0px 4px 15px rgba(49 123 246 / 60%);
 }
 .btn-default {
   background: #fff;
@@ -6092,7 +6096,7 @@ aside .close-wrapper .close span:after {
 }
 .triangle-header__sections-nav {
   margin-bottom: 128px;
-  border-bottom: 2px solid #ebebeb;
+  /* border-bottom: 2px solid #ebebeb; */
 }
 .triangle-header__sections-nav .list-item {
   display: inline-block;
@@ -6105,6 +6109,7 @@ aside .close-wrapper .close span:after {
   position: relative;
   top: 2px;
   white-space: nowrap;
+  border-bottom: 1px solid #fff;
 }
 .triangle-header__sections-nav .list-link.active {
   color: #e4002b;
