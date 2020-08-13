@@ -4228,24 +4228,18 @@ html {
 .footer-light__list-title {
   font-size: 1.125rem;
   line-height: 26px;
-  font-family: 'DIN Next LT W01 Regular', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Gilroy-Medium';
 }
 
 aside .card-deck .card .card-title {
   font-size: 1.125rem;
   line-height: 26px;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Gilroy-Medium';
 }
 
 .font_h6_light,
 .font_label {
-  font-family: 'DIN Next LT W01 Light', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Gilroy-Medium';
 }
 .font_h6_light {
   font-size: 1.125rem;
@@ -4258,9 +4252,7 @@ aside .card-deck .card .card-title {
 
 .footer-light__subscription p,
 .home .gray-cards-bg__title p {
-  font-family: 'DIN Next LT W01 Regular', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Gilroy-Medium', sans-serif;
 }
 
 .home .gray-cards-bg__title p {
@@ -4323,9 +4315,7 @@ aside .card-deck .card .card-title {
 
 .font_26 {
   font-size: 1.625rem;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Gilroy-Medium','Montserrat';
   line-height: 32px;
 }
 
@@ -4382,6 +4372,7 @@ main ul li:before {
 }
 p {
   margin-bottom: 1.875rem;
+  font-family: 'Gilroy-Regular';
 }
 p:only-of-type {
   margin-bottom: 0.5rem;
@@ -4433,18 +4424,29 @@ border-radius: 16px;
   box-shadow: 0px 4px 15px rgba(255 122 148 / 60%);
   font-family: 'Gilroy-Medium', sans-serif;
 }
-.btn.btn-tertiary{
-  font-family: 'Gilroy-Medium', sans-serif;
-  color: white;
-  background: linear-gradient(180deg, #FE978A 0%, #FF5E49 100%);
-border-radius: 16px;
-box-shadow: 0px 4px 15px rgba(255 122 148 / 60%);
-}
 .btn-secondary.btn-bordered {
   background: #fff;
   border: 2px solid #e4002b;
   color: #e4002b;
 }
+.btn.btn-tertiary{
+  font-family: 'Gilroy-Medium', sans-serif;
+  color: white;
+  background: linear-gradient(180deg, #FE978A 0%, #FF5E49 100%);
+  border-radius: 16px;
+  box-shadow: 0px 4px 15px rgba(255 122 148 / 60%);
+}
+
+.btn-green{
+  background: linear-gradient(180deg, #62DBC6 0%, #309F8C 100%);
+  border-radius: 16px;
+  box-shadow: 0px 4px 15px rgba(48, 159, 140, .6);
+  font-family: 'Gilroy-Medium', sans-serif;
+  color: #fff;
+}
+
+
+
 .btn-secondary:active,
 .btn-secondary:not(:disabled):not(.disabled):active {
   background: linear-gradient(180deg, #FFB6CB 0%, #FF6C87 100%);  color: #fff;
@@ -6961,10 +6963,15 @@ section#timeline .image {
 }
 
 .testmonials {
-  border-top: 3px solid var(--main-hopequre) !important;
-  border-left: 3px solid var(--main-hopequre) !important;
+  border-radius: 40px!important;
+  border: 6px solid white!important;
+  background: rgba(255, 255, 255, 0.4);
 }
 
+.join{
+  border-radius: 40px!important;
+
+}
 .header__logo span.mode-color {
   color: white;
 }
@@ -6998,10 +7005,16 @@ nav.sticky .header__logo span.mode-color {
 }
 .hover-effect {
   transition: all 0.2s linear;
+  box-shadow: unset!important;
+  border-radius: 40px!important;
+}
+.hover-effect p{
+  line-height: 1.4!important;
+  color: #899CBB!important;
 }
 .hover-effect:hover {
   transform: scale(1.2);
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 8);
+  box-shadow: unset;
 }
 .t-80-low {
   background-color: royalblue;
@@ -7047,6 +7060,12 @@ nav.sticky .header__logo span.mode-color {
   .bio {
     flex-direction: column;
   }
+
+}
+.bio p{
+  font-size: 1.2rem;
+  font-family: 'Gilroy-Medium';
+  color: #899CBB;
 }
 .circled-shape__gradient {
   position: absolute;
@@ -8961,4 +8980,14 @@ div.gradient{
 
 .cat_txt p{
   line-height: 1.4;
+}
+.blog{
+  border-radius: 40px!important;
+  overflow: hidden;
+  padding: 4px;
+}
+.blog p:only-child{
+  color: black;
+  font-size: 1.2rem!important;
+  font-family: 'Gilroy-Bold';
 }
