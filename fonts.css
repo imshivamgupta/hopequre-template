@@ -10,3 +10,43 @@
   font-family: Gilroy-SemiBold;
   src: url('assets/Gilroy/Radomir\ Tinkov\ -\ Gilroy-SemiBold.otf');
 }
+@font-face {
+  font-family: Gilroy-Regular;
+  src: url('assets/Gilroy/Radomir\ Tinkov\ -\ Gilroy-Regular.otf');
+}
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url('assets/Gilroy/Radomir\ Tinkov\ -\ Gilroy-Medium.otf');
+}
+@font-face {
+  font-family: Gilroy-Light;
+  src: url('assets/Gilroy/Radomir\ Tinkov\ -\ Gilroy-UltraLight.otf');
+}
+@font-face {
+  font-family: Gilroy-HeavyItalic;
+  src: url('assets/Gilroy/Radomir\ Tinkov\ -\ Gilroy-HeavyItalic.otf');
+}
+@font-face {
+  font-family: Gilroy-Heavy;
+  src: url('assets/Gilroy/Radomir\ Tinkov\ -\ Gilroy-Heavy.otf');
+}
+@font-face {
+  font-family: Gilroy-ExtraBold;
+  src: url('assets/Gilroy/Radomir\ Tinkov\ -\ Gilroy-ExtraBold.otf');
+}
+@font-face {
+  font-family: Gilroy-BoldItalic;
+  src: url('assets/Gilroy/Radomir\ Tinkov\ -\ Gilroy-BoldItalic.otf');
+}
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url('assets/Gilroy/Radomir\ Tinkov\ -\ Gilroy-Bold.otf');
+}
+@font-face {
+  font-family: Gilroy-BlackItalic;
+  src: url('assets/Gilroy/Radomir\ Tinkov\ -\ Gilroy-BlackItalic.otf');
+}
+@font-face {
+  font-family: Gilroy-Black;
+  src: url('assets/Gilroy/Radomir\ Tinkov\ -\ Gilroy-BlackItalic.otf');
+}
