@@ -7310,7 +7310,7 @@ body.dark-nav .main-nav .header__nav-links_dark .nav-item--icon {
 }
 
 .therapist-menu.programs {
-  width: 675px;
+  width: 650px;
 }
 
 .therapist-menu.programs div,
@@ -7325,6 +7325,9 @@ body.dark-nav .main-nav .header__nav-links_dark .nav-item--icon {
   .therapist-menu.programs div,
   .therapist-menu.programs a {
     width: 315px;
+  }
+  .therapist-menu.programs a:nth-child(n+5) {
+    width: 300px;
   }
 }
 
@@ -8990,4 +8993,28 @@ div.gradient{
   color: black;
   font-size: 1.2rem!important;
   font-family: 'Gilroy-Bold';
+}
+
+
+/* Menu Updated */
+.cd-morph-dropdown .morph-dropdown-wrapper .dropdown-list{
+  border-radius: 38px;
+  border: 6px solid #fff;
+  background: #639ACD;
+}
+
+.cd-morph-dropdown .morph-dropdown-wrapper .dropdown-list .dropdown .content .dropdown-item-navigationTitle p{
+  color: #fff;
+}
+.therapist-menu, .behaviour-menu, .new-menu{
+
+position: absolute;
+  top: -6px;
+  background:#639ACD;
+  border: 6px solid rgb(255 255 255);
+  border-left: 0;
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+border-top-right-radius: 40px;
+border-bottom-right-radius: 40px;
 }
