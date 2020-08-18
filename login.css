@@ -1,513 +1,500 @@
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
-.login-background{
-	background: url('assets/img/bg.png') ;
-	background-repeat: repeat-y;
-	background-size: cover;
-	background-position:center;
+.login-background {
+  background: url('assets/img/bg.png');
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
 }
 
 h1 {
-	font-weight: bold;
-	margin: 0;
+  font-weight: bold;
+  margin: 0;
 }
 
 h2 {
-	text-align: center;
+  text-align: center;
 }
 
 p {
-	font-size: 14px;
-	font-weight: 100;
-	line-height: 20px;
-	letter-spacing: 0.5px;
-	margin: 20px 0 30px;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
 }
 
 span {
-	font-size: 12px;
+  font-size: 12px;
 }
 
 a {
-	color: #333;
-	font-size: 14px;
-	text-decoration: none;
-	margin: 15px 0;
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
 }
 
 button {
-	border-radius: 20px;
-	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
-	color: #FFFFFF;
-	font-size: 12px;
-	font-weight: bold;
-	padding: 12px 45px;
-	letter-spacing: 1px;
-	/* text-transform: uppercase; */
-	transition: transform 80ms ease-in;
+  border-radius: 20px;
+  border: 1px solid #ff4b2b;
+  background-color: #ff4b2b;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  /* text-transform: uppercase; */
+  transition: transform 80ms ease-in;
 }
 
 button:active {
-	transform: scale(0.95);
+  transform: scale(0.95);
 }
 
 button:focus {
-	outline: none;
+  outline: none;
 }
 
 button.ghost {
-	background-color: transparent;
-	border-color: #FFFFFF;
+  background-color: transparent;
+  border-color: #ffffff;
 }
 
 form {
-	background-color: #FFFFFF;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	padding: 0 50px;
-	height: 100%;
-	text-align: center;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
 }
 
 input {
-	background-color: #eee;
-	border: none;
-	padding: 5px 15px;
-	margin: 8px 0;
-	width: 100%;
+  background-color: #eee;
+  border: none;
+  padding: 5px 15px;
+  margin: 8px 0;
+  width: 100%;
 }
 
 .auth {
-	/* background-color: #fff; */
-	border-radius: 50px; 
-	background: rgba(255, 255, 255, .6);
-    border: 6px solid white;
-  	box-shadow: 0 14px 28px rgba(0,0,0,0.25),
-			0 10px 10px rgba(0,0,0,0.22);
-	position: relative;
-	overflow: hidden;
-	width: 768px;
-	max-width: 100%;
-	min-height: 600px;
+  /* background-color: #fff; */
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 6px solid white;
+  box-shadow: 0 14px 28px rgb(0 0 0 / 0%), 0 10px 10px rgb(0 0 0 / 12%);
+  position: relative;
+  overflow: hidden;
+  width: 768px;
+  max-width: 100%;
+  min-height: 600px;
 }
 
 .form-container {
-	position: absolute;
-	top: 0;
-	height: 100%;
-	transition: all 0.6s ease-in-out;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
 }
 
 .sign-in-container {
-	left: 0;
-	width: 50%;
-	z-index: 2;
+  left: 0;
+  width: 50%;
+  z-index: 2;
 }
 
-
-
 .container.right-panel-active .sign-in-container {
-	transform: translateX(100%);
+  transform: translateX(100%);
 }
 
 .sign-up-container {
-	left: 0;
-	width: 50%;
-	opacity: 0;
-	z-index: 1;
+  left: 0;
+  width: 50%;
+  opacity: 0;
+  z-index: 1;
 }
 
 .container.right-panel-active .sign-up-container {
-	transform: translateX(100%);
-	opacity: 1;
-	z-index: 5;
-	animation: show 0.6s;
+  transform: translateX(100%);
+  opacity: 1;
+  z-index: 5;
+  animation: show 0.6s;
 }
 
 @keyframes show {
-	0%, 49.99% {
-		opacity: 0;
-		z-index: 1;
-	}
+  0%,
+  49.99% {
+    opacity: 0;
+    z-index: 1;
+  }
 
-	50%, 100% {
-		opacity: 1;
-		z-index: 5;
-	}
+  50%,
+  100% {
+    opacity: 1;
+    z-index: 5;
+  }
 }
 
 .overlay-container {
-	position: absolute;
-	top: 0;
-	left: 50%;
-	width: 50%;
-	height: 100%;
-	overflow: hidden;
-	transition: transform 0.6s ease-in-out;
-	z-index: 100;
-	border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+  z-index: 100;
+  border-radius: 50px;
 }
 
-.container.right-panel-active .overlay-container{
-	transform: translateX(-100%);
+.container.right-panel-active .overlay-container {
+  transform: translateX(-100%);
 }
 
 .overlay {
-	background: #62DBC6;
-	background: -webkit-linear-gradient(to bottom, #62DBC6, #309F8C);
-	background: linear-gradient(to bottom, #62DBC6, #309F8C);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 0 0;
-	color: #FFFFFF;
-	position: relative;
-	left: -100%;
-	height: 100%;
-	width: 200%;
-  	transform: translateX(0);
-	transition: transform 0.6s ease-in-out;
+  background: #62dbc6;
+  background: -webkit-linear-gradient(to bottom, #62dbc6, #309f8c);
+  background: linear-gradient(to bottom, #62dbc6, #309f8c);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  color: #ffffff;
+  position: relative;
+  left: -100%;
+  height: 100%;
+  width: 200%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
 }
 
 .container.right-panel-active .overlay {
-  	transform: translateX(50%);
+  transform: translateX(50%);
 }
 
 .overlay-panel {
-	position: absolute;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	padding: 0 40px;
-	text-align: center;
-	top: 0;
-	height: 100%;
-	width: 50%;
-	transform: translateX(0);
-	transition: transform 0.6s ease-in-out;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
 }
 
 .overlay-left {
-	transform: translateX(-20%);
+  transform: translateX(-20%);
 }
 
 .container.right-panel-active .overlay-left {
-	transform: translateX(0);
+  transform: translateX(0);
 }
 
 .overlay-right {
-	right: 0;
-	transform: translateX(0);
+  right: 0;
+  transform: translateX(0);
 }
 
 .container.right-panel-active .overlay-right {
-	transform: translateX(20%);
+  transform: translateX(20%);
 }
 
 .social-container {
-	margin: 15px 0px 0px 0px;
+  margin: 15px 0px 0px 0px;
 }
 
 .social-container a {
-	border: 1px solid #DDDDDD;
-	border-radius: 50%;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 5px;
-	height: 40px;
-	width: 40px;
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
 }
 
-.left-widget-heading{
-	font-size:1.8rem;
-	color:#fff;
+.left-widget-heading {
+  font-size: 1.8rem;
+  color: #fff;
 }
 
-.form-main-heading{
-	font-size:1.8rem;
+.form-main-heading {
+  font-size: 1.8rem;
 }
 
-.form-container .form-control{
-	height:unset;
-	padding:5px 15px;
-	margin: 5px;
+.form-container .form-control {
+  height: unset;
+  padding: 5px 15px;
+  margin: 5px;
 }
 
-.form-container .form-control:focus{
-	border: 1px solid #BCBFC7;
+.form-container .form-control:focus {
+  border: 1px solid #bcbfc7;
 }
 .bubble {
-	background-color: rgba(255, 255, 255, 0.4);
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	position: absolute;
-  }
-  .bubble-1 {
-	opacity: 0.45;
-	left: 8vw;
-	top: 25vh;
-	transform: translate(0, 0) scale(5);
-  }
+  background-color: rgba(255, 255, 255, 0.4);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+}
+.bubble-1 {
+  opacity: 0.45;
+  left: 8vw;
+  top: 25vh;
+  transform: translate(0, 0) scale(5);
+}
 
-  .bubble-2 {
-	opacity: 0.44;
-	left: 3vw;
-	top: 10vh;
-	transform: translate(0, 0) scale(1.88);
-  }
-  .bubble-3 {
-	opacity: 0.35;
-	left: 28vw;
-	top: 90vh;
-	transform: translate(0, 0) scale(5);
-  }
+.bubble-2 {
+  opacity: 0.44;
+  left: 3vw;
+  top: 10vh;
+  transform: translate(0, 0) scale(1.88);
+}
+.bubble-3 {
+  opacity: 0.35;
+  left: 28vw;
+  top: 90vh;
+  transform: translate(0, 0) scale(5);
+}
 
-
-  /* Customize the label (the container) */
+/* Customize the label (the container) */
 .check-custom {
-	display: block;
-	position: relative;
-	padding-left: 25px;
-	line-height: 20px;
-	cursor: pointer;
-	font-size: 13px;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	color: #899CBB;
-  }
-  
-  /* Hide the browser's default checkbox */
-  .check-custom input {
-	position: absolute;
-	opacity: 0;
-	cursor: pointer;
-	height: 0;
-	width: 0;
-  }
-  
-  /* Create a custom checkbox */
-  .checkmark {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 15px;
-	width: 15px;
-	background-color: #eee;
-	border-radius: 4px;
-	margin-top:5px;
-  }
-  
-  /* On mouse-over, add a grey background color */
-  .check-custom:hover input ~ .checkmark {
-	background-color: #ccc;
-  }
-  
-  /* When the checkbox is checked, add a blue background */
-  .check-custom input:checked ~ .checkmark {
-	background: #62DBC6;
-	background: -webkit-linear-gradient(to bottom, #62DBC6, #309F8C);
-	background: linear-gradient(to bottom, #62DBC6, #309F8C);
-  }
-  
-  /* Create the checkmark/indicator (hidden when not checked) */
-  .checkmark:after {
-	content: "";
-	position: absolute;
-	display: none;
-  }
-  
-  /* Show the checkmark when checked */
-  .check-custom input:checked ~ .checkmark:after {
-	display: block;
-  }
-  
-  /* Style the checkmark/indicator */
-  .check-custom .checkmark:after {
-	left: 5px;
-	top: 2px;
-	width: 5px;
-	height: 10px;
-	border: solid white;
-	border-width: 0 3px 3px 0;
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	transform: rotate(45deg);
-  }
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  line-height: 20px;
+  cursor: pointer;
+  font-size: 13px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #899cbb;
+}
 
-  .checkbox-division{
-	width: 100%;
-    text-align: left;
-  }
+/* Hide the browser's default checkbox */
+.check-custom input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
 
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border-radius: 4px;
+  margin-top: 5px;
+}
 
+/* On mouse-over, add a grey background color */
+.check-custom:hover input ~ .checkmark {
+  background-color: #ccc;
+}
 
+/* When the checkbox is checked, add a blue background */
+.check-custom input:checked ~ .checkmark {
+  background: #62dbc6;
+  background: -webkit-linear-gradient(to bottom, #62dbc6, #309f8c);
+  background: linear-gradient(to bottom, #62dbc6, #309f8c);
+}
 
-  .switch{
-	  margin-bottom: 0px !important;
-  }
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
 
+/* Show the checkmark when checked */
+.check-custom input:checked ~ .checkmark:after {
+  display: block;
+}
 
-  .switch {
-	position: relative;
-	display: inline-block;
-	width: 150px;
-	height: 34px;
-  }
-  
-  .switch input {display:none;}
-  
-  .slider {
-	position: absolute;
-	cursor: pointer;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: linear-gradient(180deg, #FFB6CB 0%, #FF6C87 100%);
-	-webkit-transition: .4s;
-	transition: .4s;
-	 border-radius: 34px;
-  }
-  
-  .slider:before {
-	position: absolute;
-	content: "";
-	height: 26px;
-	width: 26px;
-	left: 4px;
-	bottom: 4px;
-	background-color: white;
-	-webkit-transition: .4s;
-	transition: .4s;
-	border-radius: 50%;
-  }
-  
-  input:checked + .slider {
-	background: linear-gradient(to bottom, #62DBC6, #309F8C);
-  }
-  
-  input:focus + .slider {
-	box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
-	-webkit-transform: translateX(26px);
-	-ms-transform: translateX(26px);
-	transform: translateX(115px);
-  }
-  
-  /*------ ADDED CSS ---------*/
-  .slider:after
-  {
-   content:'Client';
-   color: white;
-   display: block;
-   position: absolute;
-   transform: translate(-50%,-50%);
-   top: 50%;
-   left: 50%;
-   font-size: 13px;
-   
-  }
-  
-  input:checked + .slider:after
-  {  
-	content:'Therapists';
-  }
+/* Style the checkmark/indicator */
+.check-custom .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
 
-  .valid-message{
-	border: 1px solid #BCBFC7;
-    border-radius: 7px;
-    padding: 10px;
-  }
+.checkbox-division {
+  width: 100%;
+  text-align: left;
+}
 
+.switch {
+  margin-bottom: 0px !important;
+}
 
-  .valid-message p{
-	  text-align:left;
-	  margin-top: 5px;
-	  margin-bottom:5px;
-	  font-size: 12px;
-	  line-height:15px;
-	  color: #899CBB;
-  }
-  
-  /*--------- END --------*/
-  
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: 34px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, #ffb6cb 0%, #ff6c87 100%);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background: linear-gradient(to bottom, #62dbc6, #309f8c);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(115px);
+}
+
+/*------ ADDED CSS ---------*/
+.slider:after {
+  content: 'Client';
+  color: white;
+  display: block;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 13px;
+}
+
+input:checked + .slider:after {
+  content: 'Therapists';
+}
+
+.valid-message {
+  border: 1px solid #bcbfc7;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.valid-message p {
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #899cbb;
+}
+
+/*--------- END --------*/
 
 footer {
-    background-color: #222;
-    color: #fff;
-    font-size: 14px;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 999;
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 999;
 }
 
 footer p {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 footer i {
-    color: red;
+  color: red;
 }
 
 footer a {
-    color: #3c97bf;
-    text-decoration: none;
+  color: #3c97bf;
+  text-decoration: none;
 }
 
-.signup-slider-phn{
-	display: none;
+.signup-slider-phn {
+  display: none;
 }
 
 /* media queris */
 
-@media (max-width: 767.98px){
+@media (max-width: 767.98px) {
+  form {
+    background-color: unset;
+  }
 
-	form{
-		background-color: unset;
-	}
+  .auth {
+    min-height: 700px;
+  }
 
-	.auth{
-		min-height:700px;
-	}
+  .overlay {
+    display: none;
+  }
 
-	.overlay{
-		display: none;
-	}
+  .overlay-container {
+    display: none;
+  }
 
-	.overlay-container{
-		display: none;
-	}
+  .sign-in-container {
+    width: 100%;
+  }
 
-	.sign-in-container{
-		width:100%;
-	}
+  .sign-up-container {
+    width: 100%;
+  }
 
-	.sign-up-container{
-		width:100%;
-		
+  .container.right-panel-active .sign-up-container {
+    transform: none;
+  }
 
-	}
-
-	.container.right-panel-active .sign-up-container{
-		transform: none;
-	}
-
-	.signup-slider-phn{
-		margin:15px 0px;
-		display: block;
-	}
+  .signup-slider-phn {
+    margin: 15px 0px;
+    display: block;
+  }
 }
