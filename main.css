@@ -4693,34 +4693,12 @@ nav a {
   .skewed-bg-card-overlaped__mask {
     width: 100%;
     height: 60vw;
-    background-color: royalblue;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0;
     position: relative;
   }
-  .skewed-bg-card-overlaped__mask::after,
-  .skewed-bg-card-overlaped__mask::before {
-    content: '';
-    position: absolute;
-    height: 200px;
-    width: 100%;
-    background-color: royalblue;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: left top;
-  }
-  .skewed-bg-card-overlaped__mask::before {
-    top: 0;
-    left: -5px;
-  }
-  .skewed-bg-card-overlaped__mask::after {
-    height: 300px;
-    bottom: -5px;
-    right: 0;
-    background-color: royalblue;
-    background-position: right bottom;
-  }
+
 }
 @media (min-width: 576px) and (max-width: 991.98px) {
   .skewed-bg-card-overlaped__mask::after,
@@ -5821,24 +5799,7 @@ header.open .main-nav.sticky .header__nav-links_ul + .nav-item--icon {
     white-space: normal;
     min-height: 30px;
   }
-  .cd-morph-dropdown
-    .morph-dropdown-wrapper
-    .dropdown-list
-    .dropdown:nth-child(3)
-    .content
-    .col-lg-6
-    > a:nth-child(4),
-  .cd-morph-dropdown
-    .morph-dropdown-wrapper
-    .dropdown-list
-    .dropdown:nth-child(3)
-    .content
-    .row
-    > a:last-child {
-    background-color: white;
-    border-bottom-right-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem;
-  }
+
   .cd-morph-dropdown.is-dropdown-visible .morph-dropdown-wrapper {
     transform: translateY(0);
   }
@@ -6514,7 +6475,6 @@ html.mix-blend-mode body.docready .header-skewed__tri {
   display: block;
 }
 .skewed-bg-card-overlaped__mask--car-bg {
-  background-color: royalblue;
 }
 .financial .skewed-bg-card-overlaped__mask {
   background-position: center top;
@@ -6530,10 +6490,7 @@ html.mix-blend-mode body.docready .header-skewed__tri {
   }
 }
 @media (min-width: 576px) {
-  .skewed-bg-card-overlaped__mask {
-    background-color: royalblue;
-    background-position: center bottom;
-  }
+
 }
 
 /* Addon */
@@ -9005,23 +8962,22 @@ div.gradient{
 .cd-morph-dropdown .morph-dropdown-wrapper .dropdown-list{
   border-radius: 38px;
   border: 6px solid #fff;
-  background: #639ACD;
+  background: #5191A5;
 }
 
 .cd-morph-dropdown .morph-dropdown-wrapper .dropdown-list .dropdown .content .dropdown-item-navigationTitle p{
   color: #fff;
 }
 .therapist-menu, .behaviour-menu, .new-menu{
-
-position: absolute;
+  position: absolute;
   top: -6px;
-  background:#639ACD;
+  background:#5191A5;
   border: 6px solid rgb(255 255 255);
   border-left: 0;
-border-top-left-radius: 0;
-border-bottom-left-radius: 0;
-border-top-right-radius: 40px;
-border-bottom-right-radius: 40px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 .assessment-bg{
   width: 400px;
@@ -9057,8 +9013,21 @@ border-bottom-right-radius: 40px;
 }
 .pos-cos{
   position: absolute;
-    bottom: -2rem;
-    left: 50%;
-    transform: translateX(-50%);
-    width: max-content;
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+}
+
+.new-style li{
+
+  background: rgb(243 242 242 / 38%);
+  display: inline-block;
+  width: 500px;
+  padding: .6rem;
+  border-radius: .6rem;
+  border: 1px solid rgb(255 255 255);
+  color: rgb(255 255 255);
+  margin-bottom: .6rem;
+
 }
