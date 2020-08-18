@@ -33,39 +33,92 @@
                 ><img src="assets/loginicon/google.svg" width="14" alt=""></a>
               <!-- <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a> -->
             </div>
-            
-           
-            <input type="text" class="form-control" placeholder="Enter your name" />
-            <div class="error-msg">The name field is required</div>
-           
-            
-            
-              <input type="email" class="form-control" placeholder="example@email.com" />
-            <div class="error-msg">The email field is required</div>
-            
 
-          
+            <div class="row" style="display: none;">
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Enter your name" />
+                <div class="error-msg">The name field is required</div>
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="example@email.com" />
+                <div class="error-msg">The email field is required</div>
+              </div>
+              <div class="col-md-6">
+                <input type="" class="form-control" placeholder="Contact number" />
+                <div class="error-msg">The email field is required</div>
+
+              </div>
+              <div class="col-md-6">
+                <div class="input-password">
+                  <input type="password" class="form-control" placeholder="Enter Password" />
+                  <span><img class="info-icon" src="assets/icons/help.svg"  alt="" data-toggle="tooltip" data-placement="bottom" title="Password must be atleast 8 characters. It should contain characters from the four primary categories, including: uppercase letters, lowercase letters, numbers and special characters."></span>
+                </div>
+                <div class="error-msg">The Password field is required</div>
+    
+              </div>
+
+              <div class="col-md-6">
+                <input type="password" class="form-control" placeholder="Repeat Password" />
+                <div class="error-msg">Password must be same</div>
+              </div>
+              <div class="col-md-6">
+                <div class="referalCode">
+                  <input type="text" class="form-control" placeholder="Enter Referral Code" />
+                  <div class="error-msg">Referral code is required</div>
+                </div>
+              </div>
+            </div>
+
+             <input type="text" class="form-control" placeholder="Enter your name" />
+            <div class="error-msg">The name field is required</div>
+
+            <input type="email" class="form-control" placeholder="example@email.com" />
+            <div class="error-msg">The email field is required</div>
+
             <input type="" class="form-control" placeholder="Contact number" />
             <div class="error-msg">The email field is required</div>
-           
-
-
 
             <div class="input-password">
               <input type="password" class="form-control" placeholder="Enter Password" />
-              <span><img class="info-icon" src="assets/icons/help.svg"  alt="" data-toggle="tooltip" data-placement="bottom" title="Password must be atleast 8 characters. It should contain characters from the four primary categories, including: uppercase letters, lowercase letters, numbers and special characters."></span>
+              <span><img class="info-icon" src="assets/icons/info.svg"  alt="" data-toggle="tooltip" data-placement="bottom" title="Password must be atleast 8 characters. It should contain characters from the four primary categories, including: uppercase letters, lowercase letters, numbers and special characters."></span>
             </div>
-
             <div class="error-msg">The Password field is required</div>
+
             <input type="password" class="form-control" placeholder="Repeat Password" />
             <div class="error-msg">Password must be same</div>
+
+            <div class="referalCode">
+              <input type="text" class="form-control" placeholder="Enter Referral Code" />
+              <div class="error-msg">Referral code is required</div>
+            </div>
+             
+           
+             
+           
+            
+            
+              
+            
+
+          
+            
+           
+
+
+
+            
+            
+
+           
+
+
             <div class="checkbox-division mt-2">
               <label class="check-custom">By creating an account you agree to our terms & policy
                 <input type="checkbox" checked="checked">
                 <span class="checkmark"></span>
               </label>
             </div>
-            <button class="btn btn-block btn-secondary text-white py-1 rounded-pill">Sign Up</button>
+            <button class="btn btn-block btn-greenGradient text-white py-1 rounded-pill">Sign Up</button>
             <!-- <div class="valid-message">
               <p>Password must be at least 8 characters long.</p>
               <p> It should contain characters from the four primary categories, including: uppercase, lowercase, numbers, and characters.</p>
@@ -97,7 +150,7 @@
             <input type="email" class="form-control" placeholder="Email" />
             <input type="password" class="form-control" placeholder="Password" />
             <a href="#">Forgot your password?</a>
-            <button class="btn btn-block btn-secondary text-white py-1 rounded-pill">Sign In</button>
+            <button class="btn btn-block btn-greenGradient text-white py-1 rounded-pill">Sign In</button>
             <span class="signup-slider-phn">New to HopeQure??  
               <a href="javascript:;" class="signUpSlider">Sign Up</a>
             </span>
@@ -113,7 +166,7 @@
               <p>
                 To keep connected with us please login with your personal info
               </p>
-              <button class="ghost btn btn-secondary text-white py-1 rounded-pill" id="signIn">Sign In</button>
+              <button class="ghost btn btn-greenGradient text-white py-1 rounded-pill" id="signIn">Sign In</button>
             </div>
             <div class="overlay-panel overlay-right main">
                 <div class='bubble bubble-1'></div>
@@ -122,7 +175,7 @@
                 
               <h1 class="left-widget-heading">Hello, Friend!</h1>
               <p>Enter your personal details and start journey with us</p>
-              <button class="ghost btn btn-secondary text-white py-1 rounded-pill" id="signUp">Sign Up</button>
+              <button class="ghost btn btn-greenGradient text-white py-1 rounded-pill" id="signUp">Sign Up</button>
             </div>
           </div>
         </div>
@@ -138,6 +191,8 @@
         $('#myDIV').text(function(i, v){
 		   return v === 'Swipe to Login as Therapist' ? 'Swipe to Login as Client' : 'Swipe to Login as Therapist'
         });
+
+        $(".referalCode").toggle();
         
       });
 
