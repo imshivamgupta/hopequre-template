@@ -5,32 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webinar</title>
     <link rel="stylesheet" href="bootstrap-4.3.1.css" />
+    <link rel="stylesheet" href="fonts.css" />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="login.css" />
+    
   </head>
-  <body>
-    <section class="mt-5">
+  <body class="login-background">
+    <section class="mt-2">
       <div class="container auth" id="container">
         <div class="form-container sign-up-container">
           <form action="#">
-            <h1>Create Account</h1>
+            <h1 class="form-main-heading">Create Account</h1>
             <div class="social-container">
-              <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+              <!-- <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
               <a href="#" class="social"
                 ><i class="fab fa-google-plus-g"></i
               ></a>
-              <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a> -->
+              <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"></div></label>
             </div>
             <span>or use your email for registration</span>
-            <input type="text" placeholder="Name" />
-            <input type="email" placeholder="Email" />
-            <input type="password" placeholder="Password" />
-            <button>Sign Up</button>
+            <input type="text" class="form-control" placeholder="Enter your name" />
+            <input type="email" class="form-control" placeholder="example@email.com" />
+            <input type="password" class="form-control" placeholder="Enter Password" />
+            <input type="password" class="form-control" placeholder="Repeat Password" />
+            <button class="btn btn-block btn-secondary text-white py-1 rounded-pill">Sign Up</button>
+            <div class="checkbox-division mt-2">
+              <label class="check-custom">By creating an account you agree to our terms & policy
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+            <div class="valid-message">
+              <p>Password must be at least 8 characters long.</p>
+              <p> It should contain characters from the four primary categories, including: uppercase, lowercase, numbers, and characters.</p>
+            </div>
+            <span class="signup-slider-phn">Already have an account?  
+              <a href="#" class="signInSlider">Sign in</a>
+            </span>
           </form>
         </div>
-        <div class="form-container sign-in-container">
+        <div class="form-container sign-in-container ">
           <form action="#">
-            <h1>Sign in</h1>
+            <h1 class="form-main-heading">Log In</h1>
             <div class="social-container">
               <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
               <a href="#" class="social"
@@ -39,25 +56,35 @@
               <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
             </div>
             <span>or use your account</span>
-            <input type="email" placeholder="Email" />
-            <input type="password" placeholder="Password" />
+            <input type="email" class="form-control" placeholder="Email" />
+            <input type="password" class="form-control" placeholder="Password" />
             <a href="#">Forgot your password?</a>
-            <button>Sign In</button>
+            <button class="btn btn-block btn-secondary text-white py-1 rounded-pill">Sign In</button>
+            <span class="signup-slider-phn">New to HopeQure??  
+              <a href="#" class="signUpSlider">Sign Up</a>
+            </span>
           </form>
         </div>
         <div class="overlay-container">
           <div class="overlay">
             <div class="overlay-panel overlay-left">
-              <h1>Welcome Back!</h1>
+              <div class='bubble bubble-1'></div>
+                <div class='bubble bubble-2'></div>
+                <div class='bubble bubble-3'></div>
+              <h1 class="left-widget-heading">New to HopeQure</h1>
               <p>
                 To keep connected with us please login with your personal info
               </p>
-              <button class="ghost" id="signIn">Sign In</button>
+              <button class="ghost btn btn-secondary text-white py-1 rounded-pill" id="signIn">Sign In</button>
             </div>
-            <div class="overlay-panel overlay-right">
-              <h1>Hello, Friend!</h1>
+            <div class="overlay-panel overlay-right main">
+                <div class='bubble bubble-1'></div>
+                <div class='bubble bubble-2'></div>
+                <div class='bubble bubble-3'></div>
+                
+              <h1 class="left-widget-heading">Hello, Friend!</h1>
               <p>Enter your personal details and start journey with us</p>
-              <button class="ghost" id="signUp">Sign Up</button>
+              <button class="ghost btn btn-secondary text-white py-1 rounded-pill" id="signUp">Sign Up</button>
             </div>
           </div>
         </div>
@@ -67,15 +94,29 @@
     <script>
       const signUpButton = document.getElementById('signUp')
       const signInButton = document.getElementById('signIn')
+      const signUpText = document.getElementsByClassName('signUpSlider')[0]
+      const signInText = document.getElementsByClassName('signInSlider')[0]
       const container = document.getElementById('container')
 
       signUpButton.addEventListener('click', () => {
         container.classList.add('right-panel-active')
       })
 
+      signUpText.addEventListener('click', () => {
+        container.classList.add('right-panel-active')
+      })
+
       signInButton.addEventListener('click', () => {
         container.classList.remove('right-panel-active')
       })
+
+      signInText.addEventListener('click', () => {
+        container.classList.remove('right-panel-active')
+      })
+
+
+
+      
     </script>
   </body>
 </html>
