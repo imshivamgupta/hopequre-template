@@ -90,7 +90,7 @@ input {
   overflow: hidden;
   width: 768px;
   max-width: 100%;
-  min-height: 600px;
+  min-height: 650px;
 }
 
 .form-container {
@@ -207,7 +207,7 @@ input {
 }
 
 .social-container {
-  margin: 15px 0px 0px 0px;
+  margin: 8px;
 }
 
 .social-container a {
@@ -232,8 +232,9 @@ input {
 
 .form-container .form-control {
   height: unset;
-  padding: 5px 15px;
-  margin: 5px;
+  padding: 2px 15px;
+    margin: 3px;
+  border-radius: 8px;
 }
 
 .form-container .form-control:focus {
@@ -349,6 +350,10 @@ input {
   margin-bottom: 0px !important;
 }
 
+.switch-signup-margin{
+	margin-top:20px;
+}
+
 .switch {
   position: relative;
   display: inline-block;
@@ -462,11 +467,47 @@ footer a {
   display: none;
 }
 
+.error-msg{
+	text-align: left;
+    width: 100%;
+    color: #ff6c87;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+.input-password{
+	width:100%;
+	position: relative;
+}
+
+.info-icon{
+	width: 20px;
+    position: absolute;
+    right: 7px;
+	top: 11px;
+	cursor: pointer;
+}
+.tooltip>.tooltip-inner {
+    background-color: #fff ;
+    padding: 5px 15px;
+    color: #425563;
+	font-size: 14px;
+    font-weight: lighter;
+    line-height: 18px;
+	text-align: left;
+	
+}
+
+
+
+
+
 /* media queris */
 
 @media (max-width: 767.98px) {
   form {
-    background-color: unset;
+	background-color: unset;
+	padding:0px 35px;
   }
 
   .auth {
