@@ -6639,8 +6639,9 @@ a.dropdown-item:hover .show-on-hover.left-side {
   left: -95%;
 }
 a.dropdown-item:hover {
-  background-color: rgba(0, 0, 0, 0.4) !important;
-}
+  background-color: rgb(234 234 234 / 40%) !important;
+  border: 2px solid rgb(255 255 255);
+  border-radius: 15px;}
 a.dropdown-item:hover p.body_text_bold {
   color: #fff !important;
 }
@@ -6648,7 +6649,9 @@ a.dropdown-item:hover p.font_p_small {
   color: #fff !important;
 }
 a.dropdown-item.hover:hover {
-  background-color: rgba(0, 0, 0, 0.4) !important;
+  background-color: rgb(234 234 234 / 40%) !important;
+    border: 2px solid rgb(255 255 255);
+    border-radius: 15px;
 }
 a.dropdown-item.hover:hover p.body_text_bold {
   color: #fff !important;
@@ -6657,7 +6660,9 @@ a.dropdown-item.hover:hover p.font_p_small {
   color: #fff !important;
 }
 a.dropdown-item.hover-active {
-  background-color: rgb(19 83 185) !important;
+  background-color: rgb(234 234 234 / 40%) !important;
+  border: 2px solid rgb(255 255 255);
+  border-radius: 15px;
 }
 a.dropdown-item.hover-active p.body_text_bold {
   color: #fff !important;
@@ -9017,4 +9022,43 @@ border-top-left-radius: 0;
 border-bottom-left-radius: 0;
 border-top-right-radius: 40px;
 border-bottom-right-radius: 40px;
+}
+.assessment-bg{
+  width: 400px;
+}
+
+.assessment-card{
+  padding: .4rem;
+  border: 6px solid white;
+  border-top-left-radius: 50px!important;
+    border-top-right-radius: 50px!important;
+}
+
+.payment-base_entry-img{
+  border-top-left-radius: 50px!important;
+  border-top-right-radius: 50px!important;
+}
+
+.assessment-base_categories a.btn.btn-green.active{
+  background: linear-gradient(180deg, #62DBC6 0%, #309F8C 100%);
+  border-radius: 16px;
+  box-shadow: 0px 4px 15px rgba(48, 159, 140, .6);
+  font-family: 'Gilroy-Medium', sans-serif;
+  color: #fff;
+}
+.assessment-base_categories a.btn.btn-green{
+  background: rgb(0 0 0 / 0%);
+  border-radius: 16px;
+  border: 2px solid rgb(48 159 140);
+  color: rgb(48 159 140);
+  box-shadow: unset;
+  font-family: 'Gilroy-Medium', sans-serif;
+  /* color: rgb(255 255 255); */
+}
+.pos-cos{
+  position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
 }
