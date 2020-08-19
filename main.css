@@ -156,7 +156,7 @@ body {
   color: #425563;
   background: url('assets/img/bg.png') ;
   background-repeat: repeat-y;
-  background-size: contain;
+  background-size: cover;
 }
 dt {
   font-weight: 700;
@@ -4413,7 +4413,7 @@ border-radius: 16px;
   color: #2983fb;
 }
 .btn-secondary {
-  background: linear-gradient(180deg, #FFB6CB 0%, #FF6C87 100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.73) 0%, rgba(255, 255, 255, 0) 47.4%), #FF7144;
   border-radius: 16px;
 }
 .btn.btn-primary{
