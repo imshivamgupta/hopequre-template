@@ -9030,3 +9030,36 @@ div.gradient{
   margin-bottom: .6rem;
 
 }
+
+@media (min-width: 776px){
+
+  .assessment-header .sec-height{
+    min-height: 500px;
+  }
+}
+@media (max-width: 556px){
+
+  header.assessment-header{
+    background: unset!important;
+  }
+  header.assessment-header .assessment-img{
+    margin-bottom: 5rem;
+  }
+}
+
+.assessment-base_categories .nav-tabs{
+  height: 592px;
+  overflow-y: scroll;
+  padding: 0 1rem;
+}
+.assessment-base_categories .nav-tabs::-webkit-scrollbar {
+  width: 4px;
+}
+
+.assessment-base_categories .nav-tabs::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(48, 159, 140, 0.4);
+}
+
+.assessment-base_categories .nav-tabs::-webkit-scrollbar-thumb {
+  background-color: rgba(48, 159, 140, 0.4);
+}
