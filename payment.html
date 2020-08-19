@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="bootstrap-4.3.1.css" />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fonts.css" />
   </head>
-  <body>
+  <body style="background-size: cover;">
     <aside class="fadeMeOut">
       <div class="square square-1"></div>
       <div class="square square-2"></div>
@@ -239,7 +240,10 @@
     </aside>
 
     <header class="header-gray cd-morph-dropdown dark">
-      <nav class="navbar navbar-expand-lg main-nav">
+      <nav
+        class="navbar navbar-expand-lg main-nav"
+        style="background-color: rgb(195 197 197);"
+      >
         <div class="container position-relative">
           <!-- header logo -->
           <div class="header__logo">
@@ -1607,106 +1611,111 @@
         </div>
       </div>
     </header>
-    <section class="mt-5">
+    <section class="" style="margin-top: 100px;">
       <div class="container">
-        <div class="row">
-          <div
-            class="col-md-7 p-4 rounded"
-            style="border: 2px solid rgba(0, 0, 0, 0.08);"
+        <div class="glass">
+          <h3
+            class="text-center my-md-5 position-relative"
+            style="color: #309f8c;"
           >
-            <div class="payment">
-              <h4 class="d-flex justify-content-between">
-                Appointment Booking
-                <div class="header__logo">
-                  <a class="logo-default d-flex align-items-center" href="#"
-                    ><img
-                      width="30"
-                      src="https://www.hopequre.com/images/logo.png"
-                      alt="logo"
-                    />
-                    <span class="text-dark ml-1 font-weight-bolder"
-                      >HopeQure</span
-                    >
-                  </a>
-                </div>
-              </h4>
+            Appointment Booking
+            <div class="gradient"></div>
+            <div class="client-details">
+              <p>Imran Hossen</p>
+              <p>abc@hopequre.com</p>
+              <p>+8801788822025</p>
+              <p>Date : 18/08/2020</p>
             </div>
-            <div class="order mt-5">
-              <h5 class="ml-2">Appointment</h5>
-              <hr />
-              <table class="table table-hover">
-                <tbody>
-                  <tr style="border-bottom: 1px solid rgba(0, 0, 0, 0.08);">
-                    <th scope="row">
-                      Professional Name
-                    </th>
-                    <td>Mark</td>
-                  </tr>
-                  <tr style="border-bottom: 1px solid rgba(0, 0, 0, 0.08);">
-                    <th scope="row">Appointment Date</th>
-                    <td>20/05/2020</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Appointment Time</th>
-                    <td>1800 IST</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <div
-            class="col-md-5 d-flex justify-content-center p-md-4"
-            style="background: url('assets/img/corpate-bg.jpeg');"
-          >
-            <div class="col-md-12">
-              <div class="bg-white rounded p-2">
-                <table class="table">
+          </h3>
+          <div class="row">
+            <div class="col-md-7 p-4 rounded">
+              <div class="payment"></div>
+              <div class="order mt-5">
+                <!-- <h5 class="ml-2">Appointment</h5> -->
+                <hr />
+                <table class="table table-hover">
                   <tbody>
-                    <tr>
+                    <tr style="border-bottom: 1px solid rgba(0, 0, 0, 0.08);">
                       <th scope="row">
-                        Price
+                        Professional Name
                       </th>
-                      <td class="text-right">2</td>
+                      <td class="color-primary">Mark</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid rgba(0, 0, 0, 0.08);">
+                      <th scope="row">Appointment Date</th>
+                      <td class="color-primary">20/05/2020</td>
                     </tr>
                     <tr>
-                      <th scope="row">Discount</th>
-                      <td class="text-right">2</td>
-                    </tr>
-                    <tr>
-                      <th colspan="2">
-                        <div class="form-group mb-1 text-left">
-                          <label for="exampleInputEmail1">Coupon</label>
-                          <div class="row">
-                            <div class="col-md-8">
-                              <input
-                                type="email"
-                                class="form-control"
-                                id="exampleInputEmail1"
-                                aria-describedby="emailHelp"
-                                placeholder="Enter code"
-                              />
-                            </div>
-                            <div class="col-md-4">
-                              <button class="btn btn-secondary">
-                                Apply
-                              </button>
-                            </div>
-                          </div>
-                          <small id="emailHelp" class="form-text text-muted"
-                            >50% off.</small
-                          >
-                        </div>
-                      </th>
-                    </tr>
-                    <tr style="border-top: 2px solid;">
-                      <th scope="row">Total</th>
-                      <td class="text-right">Rs 6000/- (including GST)</td>
+                      <th scope="row">Appointment Time</th>
+                      <td class="color-primary">1800 IST</td>
                     </tr>
                   </tbody>
                 </table>
-                <form action="">
-                  <button class="btn btn-primary btn-block">Pay Now</button>
-                </form>
+              </div>
+            </div>
+            <div
+              class="col-md-5 d-flex justify-content-center p-md-4 custom-box"
+            >
+              <div class="col-md-12">
+                <div class="bg-white rounded p-2">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <th scope="row">
+                          Price
+                        </th>
+                        <td class="text-right color-primary">$200</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Discount</th>
+                        <td class="text-right color-primary">20%</td>
+                      </tr>
+                      <tr>
+                        <th colspan="2">
+                          <div class="form-group mb-1 text-left">
+                            <div class="row">
+                              <div class="col-md-3">
+                                <label for="exampleInputEmail1">Coupon</label>
+                              </div>
+                              <div class="col-md-6">
+                                <input
+                                  type="email"
+                                  class="form-control pl-2 rounded"
+                                  id="exampleInputEmail1"
+                                  aria-describedby="emailHelp"
+                                  placeholder="Enter code"
+                                  style="background-color: rgba(0, 0, 0, 0.04);"
+                                />
+                              </div>
+                              <div class="col-md-3 ml-auto">
+                                <button class="btn btn-green">
+                                  Apply
+                                </button>
+                              </div>
+                            </div>
+                            <small id="emailHelp" class="form-text text-muted"
+                              >50% off.</small
+                            >
+                          </div>
+                        </th>
+                      </tr>
+                      <tr style="border-top: 2px solid;">
+                        <th scope="row">Total</th>
+                        <td
+                          class="text-right"
+                          style="font-family: 'Gilroy-Bold';"
+                        >
+                          Rs 6000/- (including GST)
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <form action="">
+                    <button class="btn btn-primary d-block w-50 mx-auto">
+                      Pay Now
+                    </button>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
