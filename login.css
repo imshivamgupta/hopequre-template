@@ -24,11 +24,11 @@ p {
   margin: 20px 0 30px;
 }
 
-span {
+.form-container span {
   font-size: 12px;
 }
 
-a {
+.form-container a {
   color: #333;
   font-size: 14px;
   text-decoration: none;

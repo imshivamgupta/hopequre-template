@@ -6,6 +6,8 @@
     <title>Therapy</title>
     <link rel="stylesheet" href="bootstrap-4.3.1.css" />
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="therapy.css" />
   </head>
   <body>
     <!-- Menu -->
@@ -238,7 +240,7 @@
       </div>
     </aside>
 
-    <header class="header-gray cd-morph-dropdown dark">
+    <header class="header-gray cd-morph-dropdown dark therapy-page">
       <nav class="navbar navbar-expand-lg main-nav">
         <div class="container position-relative">
           <!-- header logo -->
@@ -1607,8 +1609,8 @@
         </div>
       </div>
 
-      <div class="container">
-        <section class="triangle-header__content">
+      <div class="container therapy-header-card glass-effect-therapy">
+        <section class="triangle-header__content background-shape">
           <!-- header triangles -->
           <div class="header__large-tri header__large-tri--color-blue">
             <div class="inner_tri inner_tri--color inner_tri__1"></div>
@@ -1616,17 +1618,34 @@
             <div class="inner_tri inner_tri--color inner_tri__3"></div>
           </div>
 
+          
+
           <!-- ====================== Resources Image ====================== -->
 
-          <div class="row">
+          <div class="row header__resources__main-title">
             <div class="col-md-6">
-              <div class="header__resources__main-title">
-                <h1 class="font_h1 font-weight-700">Online Therapy</h1>
+              <div class="">
+                <h1 class="font_h1 font-weight-700"> Meet our Professionals to Receive Online Therapy</h1>
                 <p class="font_lead_normal">
-                  Online Counselling can be very confusing. But, we at HopeQure,
-                  ensure that it gets easily accessible and affordable just for
-                  you.
+                  We help you choose from a wide range of online counselling services with the help of online counselling chat and video counseling to receive psychological help to gain self-awareness. 
                 </p>
+                <p class="font_lead_normal">
+                  At HopeQure, we register professionals who are licensed, background verified, well-qualified, experienced and registered with licensing authorities. Your therapist will analyse your concerns and will help you by providing the best online mental health counselling services.
+                </p>
+              </div>
+
+              <div class="search-input-therapy">
+                <form class="search-container">
+                  <input type="text" id="search-bar" placeholder="What can I help you with today?">
+                  <a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
+                </form>
+              </div>
+              
+            </div>
+
+            <div class="col-md-6">
+              <div class="header_image">
+                <img src="assets/img/therapy-header.png" alt="">
               </div>
             </div>
           </div>
@@ -1634,7 +1653,7 @@
       </div>
     </header>
 
-    <section id="category" class="my-5">
+    <section id="category" class="my-5" style="display: none;">
       <div class="container">
         <div class="row">
           <div class="hq-accordion">
@@ -1735,8 +1754,8 @@
                               >
                                 <polygon
                                   points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
-                                ></polygon></svg
-                              >Lorem, ipsum dolor.
+                                ></polygon>
+                                </svg>Lorem, ipsum dolor.
                             </li>
                             <li class="d-flex align-items-center">
                               <svg
