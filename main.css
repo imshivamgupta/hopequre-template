@@ -4413,8 +4413,8 @@ border-radius: 16px;
   color: #2983fb;
 }
 .btn-secondary {
-  background: linear-gradient(180deg, #FFB6CB 0%, #FF6C87 100%);
-  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.73) 0%, rgba(255, 255, 255, 0) 47.4%), #FF7144;
+border-radius: 16px;
 }
 .btn.btn-primary{
   box-shadow:0px 4px 15px rgb(52 127 255 / 50%);
@@ -9062,4 +9062,32 @@ div.gradient{
 
 .assessment-base_categories .nav-tabs::-webkit-scrollbar-thumb {
   background-color: rgba(48, 159, 140, 0.4);
+}
+
+.custom-box{
+  background: white;
+  border-radius: 54px;
+  box-shadow: 4px 7px 12px 3px #00000014;
+}
+.color-primary{
+  font-family: 'Gilroy-Medium';
+  color: #3580FF;
+}
+.client-details{
+  position: absolute;
+  right: 10%;
+  top: -110%;
+  z-index: 1;
+  font-size: 1rem;
+  background: white;
+  padding: 1rem;
+  box-shadow: 0px 8px 34px rgba(201, 201, 201, 0.31);
+  border-radius: 25px;
+  color: #899CBB;
+}
+
+.client-details p{
+  font-family: 'Gilroy-Medium';
+  line-height: 1;
+  margin-bottom: .8rem;
 }
