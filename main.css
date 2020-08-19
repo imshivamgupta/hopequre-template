@@ -4698,7 +4698,6 @@ nav a {
     background-position: 0;
     position: relative;
   }
-
 }
 @media (min-width: 576px) and (max-width: 991.98px) {
   .skewed-bg-card-overlaped__mask::after,
