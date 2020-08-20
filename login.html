@@ -739,7 +739,7 @@
               class="form-control"
               placeholder="Password"
             />
-            <a href="#">Forgot your password?</a>
+            <a href="#" data-toggle="modal" data-target="#exampleModal">Forgot your password?</a>
             <button
               class="btn btn-block btn-greenGradient text-white py-1 rounded-pill"
             >
@@ -787,6 +787,62 @@
       </div>
     </section>
 
+    <!-- modal starts here -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Forgot Password</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body form-forget">
+            <div class="toggle-switch">
+              <div>
+                <label class="switch switch-signup-margin"
+                  ><input type="checkbox" />
+                  <div class="slider slider-forget round"></div
+                ></label>
+              </div>
+              <div>
+                <span id="forget">Swipe for Therapist</span>
+              </div>
+            </div>
+
+              <div class="email-verification">
+                <label for="">Enter Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="example@email.com"
+                />
+                <!-- <div class="error-msg">The email field is required</div> -->
+              </div>
+
+              <div class="verification-code">
+                <label for="">Enter Verification Code</label>
+                <input
+                  type=""
+                  class="form-control"
+                  placeholder=""
+                />
+                <!-- <div class="error-msg">The verification code is required</div> -->
+              </div>
+            
+
+            
+          </div>
+          <div class="modal-footer">
+            <!-- <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button> -->
+            <button type="button" class="btn btn-primary btn-sm">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal ends here -->
+
     <script src="jquery.min.js"></script>
 
     <script>
@@ -806,6 +862,14 @@
             return v === 'Swipe to Login as Therapist'
               ? 'Swipe to Login as Client'
               : 'Swipe to Login as Therapist'
+          })
+        })
+
+        $('.slider-forget').click(function () {
+          $('#forget').text(function (i, v) {
+            return v === 'Swipe to Login as Therapist'
+              ? 'Swipe for Client'
+              : 'Swipe for Therapist'
           })
         })
 
