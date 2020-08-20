@@ -10,6 +10,8 @@
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="therapy.css" />
   </head>
   <body>
     <!-- Menu -->
@@ -242,8 +244,8 @@
       </div>
     </aside>
 
-    <header class="header-gray cd-morph-dropdown dark">
-      <nav class="navbar navbar-expand-lg main-nav">
+    <header class="header-gray cd-morph-dropdown dark therapy-page">
+      <nav class="navbar navbar-expand-lg main-nav overlay-bg">
         <div class="container position-relative">
           <!-- header logo -->
           <div class="header__logo">
@@ -1611,8 +1613,8 @@
         </div>
       </div>
 
-      <div class="container">
-        <section class="triangle-header__content">
+      <div class="container therapy-header-card glass-effect-therapy">
+        <section class="triangle-header__content background-shape">
           <!-- header triangles -->
           <div class="header__large-tri header__large-tri--color-blue">
             <div class="inner_tri inner_tri--color inner_tri__1"></div>
@@ -1622,15 +1624,58 @@
 
           <!-- ====================== Resources Image ====================== -->
 
-          <div class="row">
-            <div class="col-md-6">
-              <div class="header__resources__main-title">
-                <h1 class="font_h1 font-weight-700">Webinar</h1>
+          <div class="row therapy-title">
+            <div class="col-md-6 d-flex justify-content-between flex-column">
+              <div class="">
+                <h1 class="font_h1 font-weight-700 mb-4">
+                  Webinar
+                </h1>
                 <p class="font_lead_normal">
                   Get real time access to technology enabled seamless Webinars
                   and a panel of experts. Stay updated with the insightful
                   information offered by the leading experts from the industry.
                 </p>
+              </div>
+
+              <div class="filter__search search-input-therapy my-5">
+                <form class="noSubmit">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      id="search-input"
+                      class="form-control subscribe_input ais-search-box--input"
+                      placeholder="Search Therapist"
+                      aria-label="Username"
+                      aria-describedby="basic-addon1"
+                      onkeyup="javascript: if(event.keyCode == 13) scrollToResult();"
+                      autocapitalize="off"
+                      autocomplete="off"
+                      autocorrect="off"
+                      role="textbox"
+                      spellcheck="false"
+                      value=""
+                    />
+                    <div class="input-group-prepend input_btn">
+                      <span
+                        class="input-group-text input_btn_span"
+                        id="basic-addon1"
+                      >
+                        <svg viewBox="0 0 48 48">
+                          <title>Search</title>
+                          <path
+                            d="M48,46.59L29.65,28.23a17,17,0,1,0-1.41,1.41L46.59,48ZM1.94,17A15,15,0,1,1,17,32,15.06,15.06,0,0,1,1.94,17Z"
+                          ></path>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="header_image">
+                <img src="assets/img/therapy-header.png" alt="" />
               </div>
             </div>
           </div>
@@ -1640,79 +1685,6 @@
 
     <main class="Knowledge-hub">
       <div class="container">
-        <div class="row">
-          <div class="col-md-9">
-            <div class="filter__search">
-              <form class="noSubmit">
-                <div class="input-group">
-                  <input
-                    type="text"
-                    id="search-input"
-                    class="form-control subscribe_input ais-search-box--input"
-                    placeholder="Search webinar"
-                    aria-label="Username"
-                    aria-describedby="basic-addon1"
-                    onkeyup="javascript: if(event.keyCode == 13) scrollToResult();"
-                    autocapitalize="off"
-                    autocomplete="off"
-                    autocorrect="off"
-                    role="textbox"
-                    spellcheck="false"
-                    value=""
-                  />
-                  <div class="input-group-prepend input_btn">
-                    <span
-                      class="input-group-text input_btn_span"
-                      id="basic-addon1"
-                    >
-                      <svg viewBox="0 0 48 48">
-                        <title>Search</title>
-                        <path
-                          d="M48,46.59L29.65,28.23a17,17,0,1,0-1.41,1.41L46.59,48ZM1.94,17A15,15,0,1,1,17,32,15.06,15.06,0,0,1,1.94,17Z"
-                        ></path>
-                      </svg>
-                    </span>
-                  </div>
-                  <span class="ais-search-box--magnifier-wrapper"
-                    ><div class="ais-search-box--magnifier">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        id="sbx-icon-search-13"
-                        viewBox="0 0 40 40"
-                        width="100%"
-                        height="100%"
-                      >
-                        <path
-                          d="M26.804 29.01c-2.832 2.34-6.465 3.746-10.426 3.746C7.333 32.756 0 25.424 0 16.378 0 7.333 7.333 0 16.378 0c9.046 0 16.378 7.333 16.378 16.378 0 3.96-1.406 7.594-3.746 10.426l10.534 10.534c.607.607.61 1.59-.004 2.202-.61.61-1.597.61-2.202.004L26.804 29.01zm-10.426.627c7.323 0 13.26-5.936 13.26-13.26 0-7.32-5.937-13.257-13.26-13.257C9.056 3.12 3.12 9.056 3.12 16.378c0 7.323 5.936 13.26 13.258 13.26z"
-                          fill-rule="evenodd"
-                        ></path>
-                      </svg></div></span
-                  ><span
-                    class="ais-search-box--reset-wrapper"
-                    style="display: none;"
-                    ><button
-                      type="reset"
-                      title="Clear the search query."
-                      class="ais-search-box--reset"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
-                        width="100%"
-                        height="100%"
-                      >
-                        <path
-                          d="M8.114 10L.944 2.83 0 1.885 1.886 0l.943.943L10 8.113l7.17-7.17.944-.943L20 1.886l-.943.943-7.17 7.17 7.17 7.17.943.944L18.114 20l-.943-.943-7.17-7.17-7.17 7.17-.944.943L0 18.114l.943-.943L8.113 10z"
-                          fill-rule="evenodd"
-                        ></path>
-                      </svg></button
-                  ></span>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-
         <div class="category-list category-list--margin"></div>
       </div>
       <!-- /container -->
@@ -1766,26 +1738,43 @@
                   style="width: 277px; margin-right: 10px;"
                   data-swiper-slide-index="0"
                 >
-                  <a href="#">
-                    <div class="card hq-card">
-                      <div
-                        class="card-image"
-                        style="background-image: url('assets/img/2.png');"
-                      ></div>
+                  <a
+                    href="#"
+                    class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card"
+                  >
+                    <div
+                      class="payment-base_entry-img"
+                      style="
+                        background: url('assets/img/2.png') no-repeat center;
+                        background-size: cover;
+                      "
+                    ></div>
 
-                      <div class="card-body">
-                        <h4 class="card-title font_h4_light">
-                          Pay by Link tutorial
-                        </h4>
-                        <p>
-                          Learn how to create payment links for customers in a
-                          few simple steps.
-                        </p>
-
-                        <div class="card-body-footer p-0">
-                          <button class="btn btn-primary w-100">
-                            Register Now
-                          </button>
+                    <div
+                      class="payment-base_entry-content d-flex flex-column flex-fill"
+                    >
+                      <h6
+                        class="title font_h4"
+                        style="color: #309f8c; font-family: 'Gilroy-Bold';"
+                      >
+                        Acquirer/acquiring bank
+                      </h6>
+                      <p class="teaser mb-2">
+                        Accept payments from your.
+                      </p>
+                      <div class="d-flex justify-content-center pos-cos">
+                        <div class="btn btn-primary">
+                          Begin Test
+                          <svg
+                            viewBox="0 0 48 48"
+                            width="25"
+                            stroke="#fff"
+                            fill="#fff"
+                          >
+                            <polygon
+                              points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
+                            ></polygon>
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -1796,26 +1785,43 @@
                   style="width: 277px; margin-right: 10px;"
                   data-swiper-slide-index="0"
                 >
-                  <a href="#">
-                    <div class="card hq-card">
-                      <div
-                        class="card-image"
-                        style="background-image: url('assets/img/2.png');"
-                      ></div>
+                  <a
+                    href="#"
+                    class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card"
+                  >
+                    <div
+                      class="payment-base_entry-img"
+                      style="
+                        background: url('assets/img/2.png') no-repeat center;
+                        background-size: cover;
+                      "
+                    ></div>
 
-                      <div class="card-body">
-                        <h4 class="card-title font_h4_light">
-                          Pay by Link tutorial
-                        </h4>
-                        <p>
-                          Learn how to create payment links for customers in a
-                          few simple steps.
-                        </p>
-
-                        <div class="card-body-footer p-0">
-                          <button class="btn btn-primary w-100">
-                            Register Now
-                          </button>
+                    <div
+                      class="payment-base_entry-content d-flex flex-column flex-fill"
+                    >
+                      <h6
+                        class="title font_h4"
+                        style="color: #309f8c; font-family: 'Gilroy-Bold';"
+                      >
+                        Acquirer/acquiring bank
+                      </h6>
+                      <p class="teaser mb-2">
+                        Accept payments from your.
+                      </p>
+                      <div class="d-flex justify-content-center pos-cos">
+                        <div class="btn btn-primary">
+                          Begin Test
+                          <svg
+                            viewBox="0 0 48 48"
+                            width="25"
+                            stroke="#fff"
+                            fill="#fff"
+                          >
+                            <polygon
+                              points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
+                            ></polygon>
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -1826,26 +1832,43 @@
                   style="width: 277px; margin-right: 10px;"
                   data-swiper-slide-index="0"
                 >
-                  <a href="#">
-                    <div class="card hq-card">
-                      <div
-                        class="card-image"
-                        style="background-image: url('assets/img/2.png');"
-                      ></div>
+                  <a
+                    href="#"
+                    class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card"
+                  >
+                    <div
+                      class="payment-base_entry-img"
+                      style="
+                        background: url('assets/img/2.png') no-repeat center;
+                        background-size: cover;
+                      "
+                    ></div>
 
-                      <div class="card-body">
-                        <h4 class="card-title font_h4_light">
-                          Pay by Link tutorial
-                        </h4>
-                        <p>
-                          Learn how to create payment links for customers in a
-                          few simple steps.
-                        </p>
-
-                        <div class="card-body-footer p-0">
-                          <button class="btn btn-primary w-100">
-                            Register Now
-                          </button>
+                    <div
+                      class="payment-base_entry-content d-flex flex-column flex-fill"
+                    >
+                      <h6
+                        class="title font_h4"
+                        style="color: #309f8c; font-family: 'Gilroy-Bold';"
+                      >
+                        Acquirer/acquiring bank
+                      </h6>
+                      <p class="teaser mb-2">
+                        Accept payments from your.
+                      </p>
+                      <div class="d-flex justify-content-center pos-cos">
+                        <div class="btn btn-primary">
+                          Begin Test
+                          <svg
+                            viewBox="0 0 48 48"
+                            width="25"
+                            stroke="#fff"
+                            fill="#fff"
+                          >
+                            <polygon
+                              points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
+                            ></polygon>
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -1856,26 +1879,43 @@
                   style="width: 277px; margin-right: 10px;"
                   data-swiper-slide-index="0"
                 >
-                  <a href="#">
-                    <div class="card hq-card">
-                      <div
-                        class="card-image"
-                        style="background-image: url('assets/img/2.png');"
-                      ></div>
+                  <a
+                    href="#"
+                    class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card"
+                  >
+                    <div
+                      class="payment-base_entry-img"
+                      style="
+                        background: url('assets/img/2.png') no-repeat center;
+                        background-size: cover;
+                      "
+                    ></div>
 
-                      <div class="card-body">
-                        <h4 class="card-title font_h4_light">
-                          Pay by Link tutorial
-                        </h4>
-                        <p>
-                          Learn how to create payment links for customers in a
-                          few simple steps.
-                        </p>
-
-                        <div class="card-body-footer p-0">
-                          <button class="btn btn-primary w-100">
-                            Register Now
-                          </button>
+                    <div
+                      class="payment-base_entry-content d-flex flex-column flex-fill"
+                    >
+                      <h6
+                        class="title font_h4"
+                        style="color: #309f8c; font-family: 'Gilroy-Bold';"
+                      >
+                        Acquirer/acquiring bank
+                      </h6>
+                      <p class="teaser mb-2">
+                        Accept payments from your.
+                      </p>
+                      <div class="d-flex justify-content-center pos-cos">
+                        <div class="btn btn-primary">
+                          Begin Test
+                          <svg
+                            viewBox="0 0 48 48"
+                            width="25"
+                            stroke="#fff"
+                            fill="#fff"
+                          >
+                            <polygon
+                              points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
+                            ></polygon>
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -1886,26 +1926,43 @@
                   style="width: 277px; margin-right: 10px;"
                   data-swiper-slide-index="0"
                 >
-                  <a href="#">
-                    <div class="card hq-card">
-                      <div
-                        class="card-image"
-                        style="background-image: url('assets/img/2.png');"
-                      ></div>
+                  <a
+                    href="#"
+                    class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card"
+                  >
+                    <div
+                      class="payment-base_entry-img"
+                      style="
+                        background: url('assets/img/2.png') no-repeat center;
+                        background-size: cover;
+                      "
+                    ></div>
 
-                      <div class="card-body">
-                        <h4 class="card-title font_h4_light">
-                          Pay by Link tutorial
-                        </h4>
-                        <p>
-                          Learn how to create payment links for customers in a
-                          few simple steps.
-                        </p>
-
-                        <div class="card-body-footer p-0">
-                          <button class="btn btn-primary w-100">
-                            Register Now
-                          </button>
+                    <div
+                      class="payment-base_entry-content d-flex flex-column flex-fill"
+                    >
+                      <h6
+                        class="title font_h4"
+                        style="color: #309f8c; font-family: 'Gilroy-Bold';"
+                      >
+                        Acquirer/acquiring bank
+                      </h6>
+                      <p class="teaser mb-2">
+                        Accept payments from your.
+                      </p>
+                      <div class="d-flex justify-content-center pos-cos">
+                        <div class="btn btn-primary">
+                          Begin Test
+                          <svg
+                            viewBox="0 0 48 48"
+                            width="25"
+                            stroke="#fff"
+                            fill="#fff"
+                          >
+                            <polygon
+                              points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
+                            ></polygon>
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -1916,116 +1973,43 @@
                   style="width: 277px; margin-right: 10px;"
                   data-swiper-slide-index="0"
                 >
-                  <a href="#">
-                    <div class="card hq-card">
-                      <div
-                        class="card-image"
-                        style="background-image: url('assets/img/2.png');"
-                      ></div>
+                  <a
+                    href="#"
+                    class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card"
+                  >
+                    <div
+                      class="payment-base_entry-img"
+                      style="
+                        background: url('assets/img/2.png') no-repeat center;
+                        background-size: cover;
+                      "
+                    ></div>
 
-                      <div class="card-body">
-                        <h4 class="card-title font_h4_light">
-                          Pay by Link tutorial
-                        </h4>
-                        <p>
-                          Learn how to create payment links for customers in a
-                          few simple steps.
-                        </p>
-
-                        <div class="card-body-footer p-0">
-                          <button class="btn btn-primary w-100">
-                            Register Now
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div
-                  class="swiper-slide"
-                  style="width: 277px; margin-right: 10px;"
-                  data-swiper-slide-index="0"
-                >
-                  <a href="#">
-                    <div class="card hq-card">
-                      <div
-                        class="card-image"
-                        style="background-image: url('assets/img/2.png');"
-                      ></div>
-
-                      <div class="card-body">
-                        <h4 class="card-title font_h4_light">
-                          Pay by Link tutorial
-                        </h4>
-                        <p>
-                          Learn how to create payment links for customers in a
-                          few simple steps.
-                        </p>
-
-                        <div class="card-body-footer p-0">
-                          <button class="btn btn-primary w-100">
-                            Register Now
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div
-                  class="swiper-slide"
-                  style="width: 277px; margin-right: 10px;"
-                  data-swiper-slide-index="0"
-                >
-                  <a href="#">
-                    <div class="card hq-card">
-                      <div
-                        class="card-image"
-                        style="background-image: url('assets/img/2.png');"
-                      ></div>
-
-                      <div class="card-body">
-                        <h4 class="card-title font_h4_light">
-                          Pay by Link tutorial
-                        </h4>
-                        <p>
-                          Learn how to create payment links for customers in a
-                          few simple steps.
-                        </p>
-
-                        <div class="card-body-footer p-0">
-                          <button class="btn btn-primary w-100">
-                            Register Now
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div
-                  class="swiper-slide"
-                  style="width: 277px; margin-right: 10px;"
-                  data-swiper-slide-index="0"
-                >
-                  <a href="#">
-                    <div class="card hq-card">
-                      <div
-                        class="card-image"
-                        style="background-image: url('assets/img/2.png');"
-                      ></div>
-
-                      <div class="card-body">
-                        <h4 class="card-title font_h4_light">
-                          Pay by Link tutorial
-                        </h4>
-                        <p>
-                          Learn how to create payment links for customers in a
-                          few simple steps.
-                        </p>
-
-                        <div class="card-body-footer p-0">
-                          <button class="btn btn-primary w-100">
-                            Register Now
-                          </button>
+                    <div
+                      class="payment-base_entry-content d-flex flex-column flex-fill"
+                    >
+                      <h6
+                        class="title font_h4"
+                        style="color: #309f8c; font-family: 'Gilroy-Bold';"
+                      >
+                        Acquirer/acquiring bank
+                      </h6>
+                      <p class="teaser mb-2">
+                        Accept payments from your.
+                      </p>
+                      <div class="d-flex justify-content-center pos-cos">
+                        <div class="btn btn-primary">
+                          Begin Test
+                          <svg
+                            viewBox="0 0 48 48"
+                            width="25"
+                            stroke="#fff"
+                            fill="#fff"
+                          >
+                            <polygon
+                              points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
+                            ></polygon>
+                          </svg>
                         </div>
                       </div>
                     </div>
@@ -2089,26 +2073,43 @@
                   style="width: 277px; margin-right: 10px;"
                   data-swiper-slide-index="0"
                 >
-                  <a href="#">
-                    <div class="card hq-card">
-                      <div
-                        class="card-image"
-                        style="background-image: url('assets/img/2.png');"
-                      ></div>
+                  <a
+                    href="#"
+                    class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card"
+                  >
+                    <div
+                      class="payment-base_entry-img"
+                      style="
+                        background: url('assets/img/2.png') no-repeat center;
+                        background-size: cover;
+                      "
+                    ></div>
 
-                      <div class="card-body">
-                        <h4 class="card-title font_h4_light">
-                          Pay by Link tutorial
-                        </h4>
-                        <p>
-                          Learn how to create payment links for customers in a
-                          few simple steps.
-                        </p>
-
-                        <div class="card-body-footer p-0">
-                          <button class="btn btn-primary w-100">
-                            View Details
-                          </button>
+                    <div
+                      class="payment-base_entry-content d-flex flex-column flex-fill"
+                    >
+                      <h6
+                        class="title font_h4"
+                        style="color: #309f8c; font-family: 'Gilroy-Bold';"
+                      >
+                        Acquirer/acquiring bank
+                      </h6>
+                      <p class="teaser mb-2">
+                        Accept payments from your.
+                      </p>
+                      <div class="d-flex justify-content-center pos-cos">
+                        <div class="btn btn-primary">
+                          Begin Test
+                          <svg
+                            viewBox="0 0 48 48"
+                            width="25"
+                            stroke="#fff"
+                            fill="#fff"
+                          >
+                            <polygon
+                              points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
+                            ></polygon>
+                          </svg>
                         </div>
                       </div>
                     </div>
