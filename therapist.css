@@ -16,6 +16,10 @@
    
 }
 
+.therapist-page{
+    overflow:hidden;
+}
+
 
 .header_image img{
     width:80%;
@@ -31,6 +35,7 @@
     border-radius: 50px;
     position: relative;
     margin-top: 2rem;
+    /* overflow: hidden; */
 }
 
 .therapy-title{
@@ -72,11 +77,12 @@ button{
 
 
 .left-nav{
-    background: linear-gradient(180deg, #85B2FE 0%, #1A6FFF 100%);
-border: 4px solid #FFFFFF;
-box-sizing: border-box;
-border-radius: 44px;
-box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.1);
+    background: #488af9;
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 44px;
+    box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
 }
 
 .left-nav .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -85,6 +91,12 @@ box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.1);
     
     
 }
+
+.left-nav .nav-link:hover{
+    background-color: #e3e7ef6e;
+}
+
+
 
 .left-nav a{
     color: #fff;
@@ -102,6 +114,7 @@ border: 5px solid #FFFFFF;
 box-sizing: border-box;
 border-radius: 44px;
 box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.1);
+font-size: 1.2rem;
 }
 
 
@@ -180,6 +193,15 @@ box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.1);
 
 #therapist-list .payment-base_entry-content {
     text-align: center;
+    font-size: 1.2rem;
+}
+
+#therapist-list .payment-base_entry-content p{
+    margin-bottom: 0;
+}
+
+#therapist-list .payment-base_entry-content .price{
+    margin-bottom: 15px;
 }
 
 #therapist-list .font_h4{
