@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
 .header__large-tri {
     width: 1100px;
     height: 1100px;
@@ -20,7 +22,11 @@
     padding: 2rem;
     border-radius: 50px;
     position: relative;
-    margin-top: -7rem;
+    margin-top: 2rem;
+}
+
+.therapy-title{
+    margin-top:40px;
 }
 
 .therapy-title .font_h1{
@@ -30,7 +36,7 @@
 }
 
 .search-input-therapy{
-    margin-top:4rem;
+    margin-top:2rem;
 }
 
 .search-input-therapy .form-control:focus{
@@ -39,16 +45,20 @@
 }
 
 .search-input-therapy .form-control{
-    height: 40px;
+    height: 50px;
     border-radius: 25px !important;
 }
 
 .search-input-therapy form .input_btn_span {
     border-radius: 100% !important;
-    width: 40px;
-    height: 40px;
-    margin: -1px -40px !important;
+    width: 50px;
+    height: 50px;
+    margin: -1px -50px !important;
     background: linear-gradient(180deg, #85B2FE 0%, #1A6FFF 100%);
+}
+
+button{
+    font-family: 'Gilroy-Regular';
 }
 
 .left-nav{
@@ -56,6 +66,7 @@
 border: 4px solid #FFFFFF;
 box-sizing: border-box;
 border-radius: 44px;
+box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.1);
 }
 
 .left-nav .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -72,7 +83,6 @@ border-radius: 44px;
 .left-nav .nav-link{
     padding:1.5rem 1rem;
     text-align: center;
-    border-bottom: 1px solid #ffffffa8;
     border-radius: 0px;
 }
 
@@ -81,6 +91,7 @@ border-radius: 44px;
 border: 5px solid #FFFFFF;
 box-sizing: border-box;
 border-radius: 44px;
+box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -88,7 +99,7 @@ border-radius: 44px;
     
         padding:1.5rem 1rem;
         text-align: center;
-        border-bottom: 1px solid #ffffffa8;
+        /*  */
         border-radius: 0px;
         cursor: pointer;
     
@@ -102,7 +113,7 @@ border-radius: 44px;
 
 .filters .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #fff;
-    background-color: unset;
+    background-color: rgb(255 255 255 / 13%);
     
     
 }
@@ -115,7 +126,7 @@ border-radius: 44px;
     background: #FFFFFF;
     border: 2px solid rgb(111 206 190);;
     box-sizing: border-box;
-    box-shadow: 0px 10.7209px 117.93px rgba(24, 109, 209, 0.08);
+    box-shadow: 5px 10.7209px 117.93px rgb(108 197 181 / 19%);
     border-radius: 20px;
     left: 25px !important;
 }
@@ -123,6 +134,7 @@ border-radius: 44px;
 .filters .dropdown-item:focus, .dropdown-item:hover {
     color: #16181b;
     background-color: #fff;
+    outline: none;
 }
 
 .tip:before{
@@ -135,4 +147,118 @@ border-radius: 44px;
     left: -8px;
     top: 20px;
     content: '';
+}
+
+
+.profession{
+    color: #3580FF;
+}
+
+#therapist-list hr{
+    box-sizing: content-box;
+    height: 0;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    border: 0;
+    border-top: 1px solid rgb(224 224 224);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* .filters hr{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+#therapist-list .left-nav hr{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+} */
+
+/* range slider */
+
+input[type=range] {
+	-webkit-appearance: none;
+	margin: 20px 0;
+	width: 100%;
+}
+input[type=range]:focus {
+	outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 4px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: #03a9f4;
+	border-radius: 25px;
+}
+input[type=range]::-webkit-slider-thumb {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background: #fff;
+	box-shadow: 0 0 4px 0 rgba(0,0,0, 1);
+	cursor: pointer;
+	-webkit-appearance: none;
+	margin-top: -8px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+	background: linear-gradient(180deg, #85B2FE 0%, #1A6FFF 100%);
+}
+.range-wrap{
+	/* width: 500px; */
+    position: relative;
+    margin-top: 20px;
+}
+.range-value{
+	position: absolute;
+	top: -50%;
+}
+.range-value span{
+	width: 30px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	background: linear-gradient(180deg, #85B2FE 0%, #1A6FFF 100%);
+	color: #fff;
+	font-size: 12px;
+	display: block;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	border-radius: 6px;
+}
+.range-value span:before{
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 10px solid #1A6FFF;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	margin-top: -1px;
+}
+
+/* media queries */
+
+@media (max-width: 767.98px) {
+
+.header_image{
+    display:none;
+}
+
+#therapist-list .dropdown-menu{
+    top: 75px !important;
+    min-width: 15rem;
+    left:71px !important;
+}
+
+.tip:before{
+    display: none;
+}
+
 }
