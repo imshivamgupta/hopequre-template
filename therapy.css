@@ -16,6 +16,14 @@
    
 }
 
+
+.header_image img{
+    width:80%;
+}
+
+.header_image{
+    text-align: center;
+}
 .glass-effect-therapy{
     background: rgba(255, 255, 255, .6);
     border: 6px solid white;
@@ -60,6 +68,8 @@
 button{
     font-family: 'Gilroy-Regular';
 }
+
+
 
 .left-nav{
     background: linear-gradient(180deg, #85B2FE 0%, #1A6FFF 100%);
