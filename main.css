@@ -9092,18 +9092,26 @@ div.gradient{
   margin-bottom: .8rem;
 }
 
-header.assessment-header .header__large-tri {
+header.custom-header{
+  overflow: hidden;
+}
+header.custom-header .header__large-tri {
   width: 1100px;
   height: 1100px;
   border-radius: 100%;
   overflow: hidden;
   position: absolute;
-  transform: rotate(45deg) translate(-6%, -72%);
+  transform: rotate(0deg) translate(40%, -52%);
 }
 
 
-header.assessment-header .header__large-tri--color-blue {
+header.custom-header .header__large-tri--color-blue {
   background: linear-gradient(180deg, #199F8F 0%, rgba(41, 238, 214, 0) 100%);
   filter: drop-shadow(0px 8px 80px rgba(71, 145, 255, 0.04));
 
+}
+
+.swiper-slide .card.hq-card{
+  box-shadow: unset;
+  border-radius: 50px;
 }
