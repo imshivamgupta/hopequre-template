@@ -9048,7 +9048,7 @@ div.gradient{
 }
 
 .assessment-base_categories .nav-tabs{
-  height: 592px;
+  max-height: 592px;
   overflow-y: scroll;
   padding: 0 1rem;
 }
@@ -9115,3 +9115,21 @@ header.custom-header .header__large-tri--color-blue {
   box-shadow: unset;
   border-radius: 50px;
 }
+
+/* Programs Page style::START */
+@media(max-width: 556px){
+  header.programs section.sec-height .row{
+    margin: unset!important;
+  }
+  header.programs section.sec-height .assessment-img{
+    margin-bottom: 80px;
+  }
+}
+header.programs+.assesment-base .nav-tabs{
+  overflow: unset;
+  height: auto;
+}
+header.programs+.assesment-base .card.hq-card{
+  border-radius: 35px;
+}
+/* Programs Page style::END */
