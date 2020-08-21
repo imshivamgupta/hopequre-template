@@ -1128,6 +1128,35 @@
             <div class="header_image">
               <img src="assets/img/therapy-header.png" alt="">
             </div>
+
+            <div class="filter__search search-input-therapy disorder_search">
+              <form class="noSubmit">
+                <div class="input-group">
+                  <input type="text" id="search-input" class="form-control subscribe_input ais-search-box--input"
+                    placeholder="Search Therapist" aria-label="Username" aria-describedby="basic-addon1"
+                    onkeyup="javascript: if(event.keyCode == 13) scrollToResult();" autocapitalize="off"
+                    autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" value="" />
+                  <div class="input-group-prepend input_btn dropdown">
+                    <span class="input-group-text input_btn_span dropdown-toggle" id="dropdownMenuButton">
+                      <svg viewBox="0 0 48 48">
+                        <title>Search</title>
+                        <path
+                          d="M48,46.59L29.65,28.23a17,17,0,1,0-1.41,1.41L46.59,48ZM1.94,17A15,15,0,1,1,17,32,15.06,15.06,0,0,1,1.94,17Z">
+                        </path>
+                      </svg>
+                    </span>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+
+
+                </div>
+              </form>
+            </div>
+
           </div>
         </div>
       </section>
@@ -1225,20 +1254,9 @@
                   </div>
               </div>
 
-              <hr>
+              
 
-              <div class="dropright">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                  aria-selected="false">Disorder</a>
-
-                <div class="dropdown-menu tip">
-                  <button class="dropdown-item" type="button">Action</button>
-                  <hr>
-                  <button class="dropdown-item" type="button">Another action</button>
-                  <hr>
-                  <button class="dropdown-item" type="button">Something else here</button>
-                </div>
-              </div>
+              
 
 
 

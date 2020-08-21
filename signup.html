@@ -544,22 +544,24 @@
     </header>
 
     <section class="mt-2">
-      <div class="container auth" id="container">
-       
-        <div class="form-container sign-in-container ">
+      <div class="container auth right-panel-active" id="container">
+        <div class="form-container sign-up-container">
           <form action="#">
-            <h1 class="form-main-heading">Log In As</h1>
-            <div class="toggle-switch mt-4">
+            <h1 class="form-main-heading">Create Account</h1>
+
+            <div class="toggle-switch">
               <div>
-                <label class="switch"
-                  ><input type="checkbox" id="togBtn" />
-                  <div class="slider round sliderLogin"></div
+                <label class="switch switch-signup-margin"
+                  ><input type="checkbox" />
+                  <div class="slider round"></div
                 ></label>
               </div>
+
               <div>
-                <span id="loginSwipe">Swipe to Login as Therapist</span>
+                <span id="myDIV">Swipe to Login as Therapist</span>
               </div>
             </div>
+
             <div class="social-container">
               <a href="#" class="social"
                 ><img src="assets/loginicon/fb.svg" width="7" alt=""
@@ -567,29 +569,151 @@
               <a href="#" class="social"
                 ><img src="assets/loginicon/google.svg" width="14" alt=""
               /></a>
+              <!-- <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a> -->
             </div>
 
-            <input type="email" class="form-control" placeholder="Email" />
+            <div class="row" style="display: none;">
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your name"
+                />
+                <div class="error-msg">The name field is required</div>
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="example@email.com"
+                />
+                <div class="error-msg">The email field is required</div>
+              </div>
+              <div class="col-md-6">
+                <input
+                  type=""
+                  class="form-control"
+                  placeholder="Contact number"
+                />
+                <div class="error-msg">The email field is required</div>
+              </div>
+              <div class="col-md-6">
+                <div class="input-password">
+                  <input
+                    type="password"
+                    class="form-control"
+                    placeholder="Enter Password"
+                  />
+                  <span
+                    ><img
+                      class="info-icon"
+                      src="assets/icons/help.svg"
+                      alt=""
+                      data-toggle="tooltip"
+                      data-placement="bottom"
+                      title="Password must be atleast 8 characters. It should contain characters from the four primary categories, including: uppercase letters, lowercase letters, numbers and special characters."
+                  /></span>
+                </div>
+                <div class="error-msg">The Password field is required</div>
+              </div>
+
+              <div class="col-md-6">
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder="Repeat Password"
+                />
+                <div class="error-msg">Password must be same</div>
+              </div>
+              <div class="col-md-6">
+                <div class="referalCode">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter Referral Code"
+                  />
+                  <div class="error-msg">Referral code is required</div>
+                </div>
+              </div>
+            </div>
+
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter your name"
+            />
+            <div class="error-msg">The name field is required</div>
+
+            <input
+              type="email"
+              class="form-control"
+              placeholder="example@email.com"
+            />
+            <div class="error-msg">The email field is required</div>
+
+            <input type="" class="form-control" placeholder="Contact number" />
+            <div class="error-msg">The email field is required</div>
+
+            <div class="input-password">
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Enter Password"
+              />
+              <span
+                ><img
+                  class="info-icon"
+                  src="assets/icons/info.svg"
+                  alt=""
+                  data-toggle="tooltip"
+                  data-placement="bottom"
+                  title="Password must be atleast 8 characters. It should contain characters from the four primary categories, including: uppercase letters, lowercase letters, numbers and special characters."
+              /></span>
+            </div>
+            <div class="error-msg">The Password field is required</div>
+
             <input
               type="password"
               class="form-control"
-              placeholder="Password"
+              placeholder="Repeat Password"
             />
-            <a href="#" data-toggle="modal" data-target="#exampleModal">Forgot your password?</a>
+            <div class="error-msg">Password must be same</div>
+
+            <div class="referalCode">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter Referral Code"
+              />
+              <div class="error-msg">Referral code is required</div>
+            </div>
+
+            <div class="checkbox-division mt-2">
+              <label class="check-custom"
+                >By creating an account you agree to our terms & policy
+                <input type="checkbox" checked="checked" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
             <button
               class="btn btn-block btn-greenGradient text-white py-1 rounded-pill"
             >
-              Sign In
+              Sign Up
             </button>
+            <!-- <div class="valid-message">
+              <p>Password must be at least 8 characters long.</p>
+              <p> It should contain characters from the four primary categories, including: uppercase, lowercase, numbers, and characters.</p>
+            </div> -->
             <span class="signup-slider-phn"
-              >New to HopeQure??
-              <a href="javascript:;" class="signUpSlider">Sign Up</a>
+              >Already have an account?
+              <a href="javascript:;" class="signInSlider">Sign in</a>
             </span>
           </form>
         </div>
+        
         <div class="overlay-container">
           <div class="overlay">
-            <!-- <div class="overlay-panel overlay-left">
+            <div class="overlay-panel overlay-left">
               <div class="bubble bubble-1"></div>
               <div class="bubble bubble-2"></div>
               <div class="bubble bubble-3"></div>
@@ -603,81 +727,14 @@
               >
                 Sign In
               </button>
-            </div> -->
-            <div class="overlay-panel overlay-right main">
-              <div class="bubble bubble-1"></div>
-              <div class="bubble bubble-2"></div>
-              <div class="bubble bubble-3"></div>
-
-              <h1 class="left-widget-heading">Hello, Friend!</h1>
-              <p>Enter your personal details and start journey with us</p>
-              <button
-                class="ghost btn btn-greenGradient text-white py-1 rounded-pill"
-                id="signUp"
-              >
-                Sign Up
-              </button>
             </div>
+            
           </div>
         </div>
       </div>
     </section>
 
-    <!-- modal starts here -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Forgot Password</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body form-forget">
-            <div class="toggle-switch">
-              <div>
-                <label class="switch switch-signup-margin"
-                  ><input type="checkbox" />
-                  <div class="slider slider-forget round"></div
-                ></label>
-              </div>
-              <div>
-                <span id="forget">Swipe for Therapist</span>
-              </div>
-            </div>
-
-              <div class="email-verification">
-                <label for="">Enter Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  placeholder="example@email.com"
-                />
-                <!-- <div class="error-msg">The email field is required</div> -->
-              </div>
-
-              <div class="verification-code">
-                <label for="">Enter Verification Code</label>
-                <input
-                  type=""
-                  class="form-control"
-                  placeholder=""
-                />
-                <!-- <div class="error-msg">The verification code is required</div> -->
-              </div>
-            
-
-            
-          </div>
-          <div class="modal-footer">
-            <!-- <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button> -->
-            <button type="button" class="btn btn-primary btn-sm">Send</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- modal ends here -->
+   
 
     <script src="jquery.min.js"></script>
 
@@ -722,27 +779,27 @@
       //   }
       // }
 
-      // const signUpButton = document.getElementById('signUp')
-      // const signInButton = document.getElementById('signIn')
-      // const signUpText = document.getElementsByClassName('signUpSlider')[0]
-      // const signInText = document.getElementsByClassName('signInSlider')[0]
-      // const container = document.getElementById('container')
+    //   const signUpButton = document.getElementById('signUp')
+    //   const signInButton = document.getElementById('signIn')
+    //   const signUpText = document.getElementsByClassName('signUpSlider')[0]
+    //   const signInText = document.getElementsByClassName('signInSlider')[0]
+    //   const container = document.getElementById('container')
 
-      // signUpButton.addEventListener('click', () => {
-      //   container.classList.add('right-panel-active')
-      // })
+    //   signUpButton.addEventListener('click', () => {
+    //     container.classList.add('right-panel-active')
+    //   })
 
-      // signUpText.addEventListener('click', () => {
-      //   container.classList.add('right-panel-active')
-      // })
+    //   signUpText.addEventListener('click', () => {
+    //     container.classList.add('right-panel-active')
+    //   })
 
-      // signInButton.addEventListener('click', () => {
-      //   container.classList.remove('right-panel-active')
-      // })
+    //   signInButton.addEventListener('click', () => {
+    //     container.classList.remove('right-panel-active')
+    //   })
 
-      // signInText.addEventListener('click', () => {
-      //   container.classList.remove('right-panel-active')
-      // })
+    //   signInText.addEventListener('click', () => {
+    //     container.classList.remove('right-panel-active')
+    //   })
 
       $(function () {
         $('[data-toggle="tooltip"]').tooltip()

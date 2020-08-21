@@ -21,8 +21,90 @@
 }
 
 
+.therapist_info{
+    margin-top:50px;
+}
+
+.similar_therapists{
+    text-align:center;
+    background: rgba(71, 194, 173, 0.73);
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 44px;
+    box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+}
+
+.similar_therapists .list-group-item{
+    background: none;
+}
+
+
+.similar_therapists .payment-base_entry-img{
+    height: 160px;
+}
+.similar_therapists .card.hq-card{
+    box-shadow: none;
+}
+
+.similar_therapists_info h6{
+    margin-top: 10px;
+    
+}
+
+.similar_therapists_info p{
+    margin-bottom: 0px;
+    font-size:1rem;
+}
+
+.similar_therapists_info .teaser{
+
+    color: rgb(66 85 99);
+}
+
+.therapist_detail_card .glass{
+    margin: unset;
+    margin-bottom: 2rem;
+}
+
+.therapist_detail_card .education_heading {
+    color: #309f8c;
+    font-family: 'Gilroy-Bold'
+}
+
+
+.awards_card{
+    text-align: right;
+}
+
+.calender_table th{
+    text-align:center;
+}
+
+
+.calender_table td{
+    text-align: center;
+    background: rgba(255, 255, 255, .6);
+    /* border: 2px solid white; */
+    padding: 1rem;
+    border-radius: 50px;
+    position: relative;
+    margin: 10px;
+}
+
+
+
+.therapist_detail_card p{
+    margin-bottom: 0px;
+}
+
+
 .header_image img{
     width:80%;
+}
+
+.disorder_search{
+margin-top: 5rem !important;
 }
 
 .header_image{
