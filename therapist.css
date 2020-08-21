@@ -107,6 +107,10 @@
 margin-top: 5rem !important;
 }
 
+.disorder_search .dropdown-toggle::after{
+    border: none;
+}
+
 .header_image{
     text-align: center;
 }
