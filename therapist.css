@@ -77,6 +77,45 @@
     text-align: right;
 }
 
+.calender .cards-slider-arrows {
+    display: flex;
+    z-index: 99;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.calender_identifiers .unavailable_date{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: orange;
+    
+}
+
+.circle {
+    width:10px;
+    height:10px;
+    border-radius:50px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    background: rgb(117 209 194);
+    display: inline-block;
+}
+.unavailable-circle {
+    background: rgb(255 113 68 / 62%);
+}
+
+.available-slot{
+    border:3px solid #75d1c2;
+}
+
+.unavailable-slot{
+    border: 3px solid #fea68a;;
+}
+
+
 .calender_table th{
     text-align:center;
 }
@@ -86,7 +125,7 @@
     text-align: center;
     background: rgba(255, 255, 255, .6);
     /* border: 2px solid white; */
-    padding: 1rem;
+    padding: .9rem;
     border-radius: 50px;
     position: relative;
     margin: 10px;

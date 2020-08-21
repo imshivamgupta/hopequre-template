@@ -1187,9 +1187,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-9 col-sm-8 col-lg-9 therapist_detail_card">
-                    <div class="calender glass" style="display: none;">
-                        <div class="action_btn">
-
+                    <div class="calender glass">
+                        <h3 class="" style="text-align: center;color: #309f8c;
+                        font-family: 'Gilroy-Bold'">Book Your Slot</h3>
+                        <div class="cards-slider-arrows">
+                            <div class="swiper-button-prev4 prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-disabled="true">
+                                <svg viewBox="0 0 48 48">
+                                    <title>Back</title>
+                                    <polygon points="30.59 8 32 9.41 18.83 24 32 38.59 30.59 40 16 24 30.59 8">
+                                    </polygon>
+                                </svg>
+                            </div>
+                            <div class="swiper-button-next4 next swiper-button-disabled" tabindex="-1" role="button" aria-label="Next slide" aria-disabled="true">
+                                <svg viewBox="0 0 48 48">
+                                    <title>Next</title>
+                                    <polygon points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8">
+                                    </polygon>
+                                </svg>
+                            </div>
                         </div>
                         <div class="calender_table table-responsive">
                             <table style="border-collapse: separate;
@@ -1202,34 +1217,34 @@
                                 </tr>
                                 <tr>
                                   <th scope="row">Monday</th>
-                                  <td>8:30-9:30</td>
-                                  <td>8:30-9:30</td>
-
-                                  <td>8:30-9:30</td>
+                                  <td class="unavailable-slot">8:30-9:30</td>
                                   <td>8:30-9:30</td>
 
-
                                   <td>8:30-9:30</td>
+                                  <td class="available-slot">8:30-9:30</td>
+
+
+                                  <td class="unavailable-slot">8:30-9:30</td>
                                   <td>8:30-9:30</td>
                                 </tr>
                                 <tr>
                                   <th scope="row">Tuesday</th>
                                   <td>8:30-9:30</td>
-                                  <td>8:30-9:30</td>
+                                  <td class="unavailable-slot">8:30-9:30</td>
 
                                   <td>8:30-9:30</td>
-                                  <td>8:30-9:30</td>
+                                  <td class="available-slot">8:30-9:30</td>
 
 
                                   <td>8:30-9:30</td>
-                                  <td>8:30-9:30</td>
+                                  <td class="available-slot">8:30-9:30</td>
                                 </tr>
                                 <tr>
                                   <th scope="row">Wednesday</th>
                                   <td>8:30-9:30</td>
                                   <td>8:30-9:30</td>
 
-                                  <td>8:30-9:30</td>
+                                  <td class="unavailable-slot">8:30-9:30</td>
                                   <td>8:30-9:30</td>
 
 
@@ -1274,26 +1289,43 @@
                                   </tr>
                               </table>
                         </div>
+                        <div class="calender_identifiers">
+                            <div class="row">
+                                <div class="col-md-12" style="display: flex;
+                                justify-content: space-evenly;">
+                                    <div>
+                                        <div class="circle"></div><span style="padding-left: 10px;">Available</span>
+                            
+                                    </div>
+                                    <div>
+                                        <div class="circle unavailable-circle"></div><span style="padding-left: 10px;">Not available</span>
+                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
 
                     <div class="education_card glass">
-                        <h4 class="font_h4 education_heading">Education</h4>
+                        <h3 class=" education_heading">Education</h3>
                         <p>M.Sc. - gujrat forensic science university ( 2019 )</p>
                         <p>M.Sc. - gujrat forensic science university ( 2019 )</p>
 
                     </div>
 
                     <div class="awards_card glass">
-                        <h4 class="font_h4 education_heading">Awards & Memberships</h4>
+                        <h3 class=" education_heading">Awards & Memberships</h3>
                         <p>M.Sc. - gujrat forensic science university ( 2019 )</p>
                         <p>M.Sc. - gujrat forensic science university ( 2019 )</p>
                     </div>
 
                     <div class="keywords_card glass">
-                        <h4 class="font_h4 education_heading">Keywords</h4>
-                        <p>M.Sc. - gujrat forensic science university ( 2019 )</p>
-                        <p>M.Sc. - gujrat forensic science university ( 2019 )</p>
+                        <h3 class=" education_heading">Keywords</h3>
+                        <button type="button" class="btn btn-primary btn-sm">Primary</button>
+                        <button type="button" class="btn btn-primary btn-sm">Primary</button>
+                        <button type="button" class="btn btn-primary btn-sm">Primary</button>
+                        
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-4 col-lg-3">
@@ -1359,9 +1391,14 @@
                                 </a>
                             </li>
                             
-                           
+                            <div class="view-more-btn my-4">
+                                <a href="javascript:;" class="btn btn-secondary btn-sm btn-shadow mt-mobile-2">View More
+                                </a>
+                              </div>
                             
                         </ul>
+
+                        
 
                     </div>
 
