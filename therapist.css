@@ -68,6 +68,10 @@
     color: rgb(66 85 99);
 }
 
+.blog-card .teaser{
+    color: rgb(66 85 99);
+}
+
 .therapist_detail_card .glass{
     margin: unset;
     margin-bottom: 2rem;
@@ -77,6 +81,49 @@
     color: #309f8c;
     font-family: 'Gilroy-Bold'
 }
+
+
+.date_views{
+    color: #428DFF;
+}
+
+.trending-heading{
+    text-align: center;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);
+    border-radius: 20px;
+    padding: 20px;
+    color: #428DFF;
+}
+
+.blog_counts{
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    color: #428DFF;
+
+}
+
+
+.notification {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+  }
+  
+  
+  
+  .notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #85B2FE 0%, #1A6FFF 100%);
+    color: white;
+  }
 
 
 .awards_card{
@@ -328,6 +375,13 @@ font-size: 1.2rem;
     font-size: 1.2rem;
 }
 
+
+.blog-card{
+    /* text-align: center; */
+    font-size: 1.2rem;
+    padding: 1.5rem;
+}
+
 #therapist-list .payment-base_entry-content p{
     margin-bottom: 0;
 }
@@ -336,6 +390,13 @@ font-size: 1.2rem;
 #therapist-list .font_h4{
     font-size: 1.4rem;
     text-transform: capitalize;
+}
+
+
+/* blog page css */
+
+.keywords a{
+    width:100%;
 }
 
 /* range slider */
