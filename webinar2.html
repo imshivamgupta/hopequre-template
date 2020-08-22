@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="bootstrap-4.3.1.css" />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fonts.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <aside class="fadeMeOut">
@@ -1648,25 +1653,26 @@
           </div>
         </div>
       </section>
+      <div class="header-skewed-home__bg2"></div>
     </header>
     <article class="agenda section-spacing" id="agenda">
       <div class="container">
-        <header class="section-header text-center">
+        <header class="section-header text-center d-none">
           <h2>What You Will Learn</h2>
           <h3>Topics that will be covered in this webinar</h3>
         </header>
         <div class="row">
-          <div class="col-md-6 col-md-pull-6">
+          <div class="col-md-4 col-md-pull-6">
             <div class="grid-box">
               <div class="grid-item d-flex align-items-start mb-4">
-                <img src="assets/icons/059-resume 1.png" alt="" width="30" />
+                <img src="assets/icons/059-resume 1.png" alt="" width="50" />
                 <div class="ml-3">
                   <h4>Benefit 1</h4>
                   <p>E-Certificates will be provided</p>
                 </div>
               </div>
               <div class="grid-item d-flex align-items-start mb-4">
-                <img src="assets/icons/015-brain 2.png" alt="" width="30" />
+                <img src="assets/icons/015-brain 2.png" alt="" width="50" />
                 <div class="ml-3">
                   <h4>Benefit</h4>
                   <p>Gather knowledge from leading experts in the field.</p>
@@ -1676,7 +1682,7 @@
                 <img
                   src="assets/icons/014-planet-earth 1.png"
                   alt=""
-                  width="30"
+                  width="50"
                 />
                 <div class="ml-3">
                   <h4>Benefit 1</h4>
@@ -1685,25 +1691,30 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-md-push-6">
+          <div class="col-md-8 col-md-push-6">
             <div class="embed-responsive embed-responsive-16by9 text-center">
+              <div class="">
+                <h2 style="color: #309f8c;">
+                  Show Visitors What <br />
+                  they’re signing up for
+                </h2>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry has been the.
+                </p>
+              </div>
               <!--Modal Video-->
-              <a href="https://vimeo.com/109054393" class="play-btn"
-                ><i class="fa fa-play fa-2x"></i>
-              </a>
+
               <!--Modal Video end-->
 
               <!--HTML5 Video-->
-              <video
-                autoplay=""
-                loop=""
-                muted=""
-                class="video-bg"
-                poster="assets/img/2.png"
-              >
-                <source src="video/vb.mp4" type="video/mp4" />
-                <source src="video/vb.webm" type="video/webm" />
-              </video>
+              <iframe
+                src="https://www.youtube.com/embed/rA56B4JyTgI"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                class=""
+              ></iframe>
               <!--HTML5 Video end-->
             </div>
           </div>
@@ -1711,41 +1722,47 @@
       </div>
     </article>
 
-    <div class="text-center schedule section-spacing">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="row">
-              <div class="col-sm-4 col-md-2">
-                <h3>
-                  <img src="assets/icons/calendar 1.png" alt="" class="mb-3" />
-                  <br />
-                  Date
-                </h3>
-              </div>
-              <div class="col-sm-4 col-md-2">
-                <h3>
-                  <img src="assets/icons/Group.png" class="mb-3" alt="" />
-                  <br />
-                  Fees
-                </h3>
-              </div>
-              <div class="col-sm-4 col-md-2">
-                <h3>
-                  <img src="assets/icons/clock 2.png" class="mb-3" alt="" />
-                  <br />
-                  Time
-                </h3>
-              </div>
-              <div class="col-sm-4 col-md-2">
-                <h3>
-                  <img src="assets/icons/Group-1.png" class="mb-3" alt="" />
-                  <br />
-                  Duration
-                </h3>
-              </div>
-              <div class="col-sm-12 col-md-4">
-                <a href="#" class="btn btn-primary">CLAIM YOUR SPOT NOW</a>
+    <div class="container-fluid">
+      <div class="text-center schedule section-spacing">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-sm-4 col-md-2">
+                  <h3>
+                    <img
+                      src="assets/icons/calendar 1.png"
+                      alt=""
+                      class="mb-3"
+                    />
+                    <br />
+                    Date
+                  </h3>
+                </div>
+                <div class="col-sm-4 col-md-2">
+                  <h3>
+                    <img src="assets/icons/Group.png" class="mb-3" alt="" />
+                    <br />
+                    Fees
+                  </h3>
+                </div>
+                <div class="col-sm-4 col-md-2">
+                  <h3>
+                    <img src="assets/icons/clock 2.png" class="mb-3" alt="" />
+                    <br />
+                    Time
+                  </h3>
+                </div>
+                <div class="col-sm-4 col-md-2">
+                  <h3>
+                    <img src="assets/icons/Group-1.png" class="mb-3" alt="" />
+                    <br />
+                    Duration
+                  </h3>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                  <a href="#" class="btn btn-secondary">CLAIM YOUR SPOT NOW</a>
+                </div>
               </div>
             </div>
           </div>
@@ -1753,89 +1770,63 @@
       </div>
     </div>
 
-    <section class="host section-spacing" id="host">
-      <div class="container">
-        <header class="section-header text-center">
-          <h2>About the Webinar</h2>
-          <h3>Expert who will be conducting this webinar</h3>
-        </header>
-
-        <!--host info-->
-
-        <div class="row">
-          <div class="col-md-6 text-center">
-            <img src="assets/img/2.png" class="img-fluid" alt="Host Name" />
-          </div>
-          <div class="col-md-6">
-            <article>
-              <h4>John Doe</h4>
-              <h5>CEO, Abc company</h5>
-              <hr />
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse rutrum eleifend arcu sit amet hendrerit. Etiam
-                tempor ante ac ipsum finibus, at consectetur urna tristique.
-                Nulla nec lacinia velit.
-              </p>
-              <img
-                src="img/signature.svg"
-                alt="Host signature"
-                class="signature"
-              />
-
-              <!--social-->
-
-              <ul class="social">
-                <li>
-                  <a href="https://twitter.com/" target="_blank"
-                    ><i class="fa fa-twitter"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="https://www.facebook.com/" target="_blank"
-                    ><i class="fa fa-facebook"></i
-                  ></a>
-                </li>
-              </ul>
-
-              <!--social end-->
-            </article>
+    <section
+      class="pt-xs-100 pb-xs-100 text-icon-section mobile-fix-1"
+      id="pofm"
+    >
+      <div class="text-icon-section__wrapper">
+        <div class="container">
+          <div class="glass">
+            <div
+              class="col-md-8 mx-auto text-center"
+              style="margin-bottom: 5rem;"
+            >
+              <h2 class="font_32 my-5">
+                About the Webinar
+                <div class="gradient"></div>
+              </h2>
+            </div>
+            <div class="col-md-10 mx-auto">
+              <div class="row pb-xs-40 mt-5">
+                <div class="col-md-5">
+                  <img
+                    src="assets/img/2.png"
+                    alt=""
+                    class="img-fluid"
+                    style="
+                      border-radius: 25px;
+                      box-shadow: 12px 8px 14px 11px #45b8a417;
+                      height: 220px;
+                      object-fit: cover;
+                      width: 100%;
+                    "
+                  />
+                </div>
+                <div class="col-md-6 text-left mt-4 ml-auto">
+                  <h3 style="font-family: 'Gilroy-Bold'; font-size: 2.5rem;">
+                    Deepika Padukone
+                  </h3>
+                  <p style="color: #899cbb;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quiat sunt maxime ipsa et inventore? Impedit eos repudiandae
+                    nostrum reiciendis fugit?
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-
-        <!--host info end-->
       </div>
     </section>
 
-    <div class="counter text-center section-spacing">
-      <!--container-->
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-3 col-xs-6">
-            <h3 class="total-number-1">100</h3>
-            <p>Webinar</p>
-          </div>
-          <div class="col-sm-3 col-xs-6">
-            <h3 class="total-number-2">5000</h3>
-            <p>Attended</p>
-          </div>
-          <div class="col-sm-3 col-xs-6">
-            <h3 class="total-number-3">1200</h3>
-            <p>Hours</p>
-          </div>
-          <div class="col-sm-3 col-xs-6">
-            <h3 class="total-number-4">1500</h3>
-            <p>Subscribers</p>
-          </div>
-        </div>
-      </div>
-      <!--container end-->
-    </div>
-
-    <section class="cards-slider">
+    <section class="cards-slider pb-md-5">
       <div class="container">
         <header class="section-header text-center mt-5">
-          <h2>Webinar Gallery</h2>
+          <h2>
+            Webinar Gallery
+            <div class="gradient"></div>
+          </h2>
+          <p>Know about the expert conducting the webinar</p>
         </header>
         <div class="cards">
           <div id="results">
@@ -1843,74 +1834,126 @@
               <div class="cards">
                 <div class="row row-eq-height justify-content-center">
                   <div
-                    class="col-12 col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 pb-4"
+                    class="col-12 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-4 pb-4"
                   >
-                    <a href="#">
-                      <div class="card cards-card">
-                        <div
-                          class="card-image"
-                          style="background-image: url('assets/img/2.png');"
-                        ></div>
-                        <!-- // .card-image -->
-                        <div class="card-body">
-                          <h4 class="card-title font_h4_light">
-                            The future of payment arrives early
-                          </h4>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                          </p>
-                        </div>
-                        <!-- // .card-body -->
+                    <a
+                      href="#"
+                      class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card"
+                    >
+                      <div
+                        class="payment-base_entry-img"
+                        style="
+                          background: url('assets/img/2.png') no-repeat center;
+                          background-size: cover;
+                        "
+                      ></div>
+
+                      <div
+                        class="payment-base_entry-content d-flex flex-column flex-fill"
+                      >
+                        <h6
+                          class="title font_h4"
+                          style="color: #309f8c; font-family: 'Gilroy-Bold';"
+                        >
+                          Acquirer/acquiring bank
+                        </h6>
+                        <p class="teaser mb-2">
+                          Accept payments from your.
+                        </p>
                       </div>
-                      <!-- // .card -->
                     </a>
                   </div>
                   <div
-                    class="col-12 col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 pb-4"
+                    class="col-12 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-4 pb-4"
                   >
-                    <a href="#">
-                      <div class="card cards-card">
-                        <div
-                          class="card-image"
-                          style="background-image: url('assets/img/2.png');"
-                        ></div>
-                        <!-- // .card-image -->
-                        <div class="card-body">
-                          <h4 class="card-title font_h4_light">
-                            The future of payment arrives early
-                          </h4>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                          </p>
-                        </div>
-                        <!-- // .card-body -->
+                    <a
+                      href="#"
+                      class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card"
+                    >
+                      <div
+                        class="payment-base_entry-img"
+                        style="
+                          background: url('assets/img/2.png') no-repeat center;
+                          background-size: cover;
+                        "
+                      ></div>
+
+                      <div
+                        class="payment-base_entry-content d-flex flex-column flex-fill"
+                      >
+                        <h6
+                          class="title font_h4"
+                          style="color: #309f8c; font-family: 'Gilroy-Bold';"
+                        >
+                          Acquirer/acquiring bank
+                        </h6>
+                        <p class="teaser mb-2">
+                          Accept payments from your.
+                        </p>
                       </div>
-                      <!-- // .card -->
                     </a>
                   </div>
                   <div
-                    class="col-12 col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 pb-4"
+                    class="col-12 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-4 pb-4"
                   >
-                    <a href="#">
-                      <div class="card cards-card">
-                        <div
-                          class="card-image"
-                          style="background-image: url('assets/img/2.png');"
-                        ></div>
-                        <!-- // .card-image -->
-                        <div class="card-body">
-                          <h4 class="card-title font_h4_light">
-                            The future of payment arrives early
-                          </h4>
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                          </p>
-                        </div>
-                        <!-- // .card-body -->
+                    <a
+                      href="#"
+                      class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card"
+                    >
+                      <div
+                        class="payment-base_entry-img"
+                        style="
+                          background: url('assets/img/2.png') no-repeat center;
+                          background-size: cover;
+                        "
+                      ></div>
+
+                      <div
+                        class="payment-base_entry-content d-flex flex-column flex-fill"
+                      >
+                        <h6
+                          class="title font_h4"
+                          style="color: #309f8c; font-family: 'Gilroy-Bold';"
+                        >
+                          Acquirer/acquiring bank
+                        </h6>
+                        <p class="teaser mb-2">
+                          Accept payments from your.
+                        </p>
                       </div>
-                      <!-- // .card -->
                     </a>
                   </div>
+                  <div
+                    class="col-12 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-4 pb-4"
+                  >
+                    <a
+                      href="#"
+                      class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card"
+                    >
+                      <div
+                        class="payment-base_entry-img"
+                        style="
+                          background: url('assets/img/2.png') no-repeat center;
+                          background-size: cover;
+                        "
+                      ></div>
+
+                      <div
+                        class="payment-base_entry-content d-flex flex-column flex-fill"
+                      >
+                        <h6
+                          class="title font_h4"
+                          style="color: #309f8c; font-family: 'Gilroy-Bold';"
+                        >
+                          Acquirer/acquiring bank
+                        </h6>
+                        <p class="teaser mb-2">
+                          Accept payments from your.
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+
                   <!-- // .col-* -->
                 </div>
                 <!-- // .row -->
@@ -1921,7 +1964,7 @@
       </div>
     </section>
 
-    <section class="video section-spacing">
+    <section class="video section-spacing d-none">
       <div class="container">
         <header class="section-header text-center">
           <h2>Watch Our Previous Webinars</h2>
@@ -1940,20 +1983,339 @@
       </div>
     </section>
 
+    <div class="container-fluid">
+      <div class="counter text-center section-spacing">
+        <!--container-->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h5 class="text-white">
+                Get real time access to technology enabled seamless Webinars and
+                a panel of experts. Stay updated with the insightful information
+                offered by the leading experts from the industry.
+              </h5>
+            </div>
+          </div>
+        </div>
+        <!--container end-->
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="text-center section-spacing">
+        <!--container-->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <section class="cards-slider">
+                <div class="container">
+                  <div class="cards-slider__title">
+                    <div
+                      class="cards-slider__subtitle"
+                      style="
+                        position: relative;
+                        left: 50%;
+                        transform: translateX(-50%);
+                      "
+                    >
+                      <h3 class="font_h3 text-center">Webinar Gallery</h3>
+                    </div>
+
+                    <div class="cards-slider-arrows">
+                      <div
+                        class="swiper-button-prev4 prev swiper-button-disabled"
+                        tabindex="-1"
+                        role="button"
+                        aria-label="Previous slide"
+                        aria-disabled="true"
+                      >
+                        <svg viewBox="0 0 48 48">
+                          <title>Back</title>
+                          <polygon
+                            points="30.59 8 32 9.41 18.83 24 32 38.59 30.59 40 16 24 30.59 8"
+                          ></polygon>
+                        </svg>
+                      </div>
+                      <div
+                        class="swiper-button-next4 next"
+                        tabindex="0"
+                        role="button"
+                        aria-label="Next slide"
+                        aria-disabled="false"
+                      >
+                        <svg viewBox="0 0 48 48">
+                          <title>Next</title>
+                          <polygon
+                            points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
+                          ></polygon>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="cards-slider__slider container">
+                  <div
+                    class="swiper-container4 swiper-container-initialized swiper-container-horizontal"
+                  >
+                    <div class="swiper-wrapper">
+                      <div
+                        class="swiper-slide swiper-slide-active"
+                        style="width: 270px; margin-right: 20px;"
+                        data-swiper-slide-index="0"
+                      >
+                        <a
+                          href="#"
+                          class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card"
+                        >
+                          <div
+                            class="payment-base_entry-img"
+                            style="
+                              background: url('assets/img/2.png') no-repeat
+                                center;
+                              background-size: cover;
+                            "
+                          ></div>
+
+                          <div
+                            class="payment-base_entry-content d-flex flex-column flex-fill"
+                          >
+                            <h6
+                              class="title font_h4"
+                              style="
+                                color: #309f8c;
+                                font-family: 'Gilroy-Bold';
+                              "
+                            >
+                              Acquirer/acquiring bank
+                            </h6>
+                            <p class="teaser mb-2">
+                              Accept payments from your.
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="swiper-slide swiper-slide-next"
+                        style="width: 270px; margin-right: 20px;"
+                        data-swiper-slide-index="0"
+                      >
+                        <a
+                          href="#"
+                          class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card"
+                        >
+                          <div
+                            class="payment-base_entry-img"
+                            style="
+                              background: url('assets/img/2.png') no-repeat
+                                center;
+                              background-size: cover;
+                            "
+                          ></div>
+
+                          <div
+                            class="payment-base_entry-content d-flex flex-column flex-fill"
+                          >
+                            <h6
+                              class="title font_h4"
+                              style="
+                                color: #309f8c;
+                                font-family: 'Gilroy-Bold';
+                              "
+                            >
+                              Acquirer/acquiring bank
+                            </h6>
+                            <p class="teaser mb-2">
+                              Accept payments from your.
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="swiper-slide"
+                        style="width: 270px; margin-right: 20px;"
+                        data-swiper-slide-index="0"
+                      >
+                        <a
+                          href="#"
+                          class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card"
+                        >
+                          <div
+                            class="payment-base_entry-img"
+                            style="
+                              background: url('assets/img/2.png') no-repeat
+                                center;
+                              background-size: cover;
+                            "
+                          ></div>
+
+                          <div
+                            class="payment-base_entry-content d-flex flex-column flex-fill"
+                          >
+                            <h6
+                              class="title font_h4"
+                              style="
+                                color: #309f8c;
+                                font-family: 'Gilroy-Bold';
+                              "
+                            >
+                              Acquirer/acquiring bank
+                            </h6>
+                            <p class="teaser mb-2">
+                              Accept payments from your.
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="swiper-slide"
+                        style="width: 270px; margin-right: 20px;"
+                        data-swiper-slide-index="0"
+                      >
+                        <a
+                          href="#"
+                          class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card"
+                        >
+                          <div
+                            class="payment-base_entry-img"
+                            style="
+                              background: url('assets/img/2.png') no-repeat
+                                center;
+                              background-size: cover;
+                            "
+                          ></div>
+
+                          <div
+                            class="payment-base_entry-content d-flex flex-column flex-fill"
+                          >
+                            <h6
+                              class="title font_h4"
+                              style="
+                                color: #309f8c;
+                                font-family: 'Gilroy-Bold';
+                              "
+                            >
+                              Acquirer/acquiring bank
+                            </h6>
+                            <p class="teaser mb-2">
+                              Accept payments from your.
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="swiper-slide"
+                        style="width: 270px; margin-right: 20px;"
+                        data-swiper-slide-index="0"
+                      >
+                        <a
+                          href="#"
+                          class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card"
+                        >
+                          <div
+                            class="payment-base_entry-img"
+                            style="
+                              background: url('assets/img/2.png') no-repeat
+                                center;
+                              background-size: cover;
+                            "
+                          ></div>
+
+                          <div
+                            class="payment-base_entry-content d-flex flex-column flex-fill"
+                          >
+                            <h6
+                              class="title font_h4"
+                              style="
+                                color: #309f8c;
+                                font-family: 'Gilroy-Bold';
+                              "
+                            >
+                              Acquirer/acquiring bank
+                            </h6>
+                            <p class="teaser mb-2">
+                              Accept payments from your.
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="swiper-slide"
+                        style="width: 270px; margin-right: 20px;"
+                        data-swiper-slide-index="0"
+                      >
+                        <a
+                          href="#"
+                          class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card"
+                        >
+                          <div
+                            class="payment-base_entry-img"
+                            style="
+                              background: url('assets/img/2.png') no-repeat
+                                center;
+                              background-size: cover;
+                            "
+                          ></div>
+
+                          <div
+                            class="payment-base_entry-content d-flex flex-column flex-fill"
+                          >
+                            <h6
+                              class="title font_h4"
+                              style="
+                                color: #309f8c;
+                                font-family: 'Gilroy-Bold';
+                              "
+                            >
+                              Acquirer/acquiring bank
+                            </h6>
+                            <p class="teaser mb-2">
+                              Accept payments from your.
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <span
+                      class="swiper-notification"
+                      aria-live="assertive"
+                      aria-atomic="true"
+                    ></span>
+                    <span
+                      class="swiper-notification"
+                      aria-live="assertive"
+                      aria-atomic="true"
+                    ></span>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <!--container end-->
+      </div>
+    </div>
+
     <section
       class="form section-spacing"
       style="
-        background: url('assets/img/corpate-bg.jpeg') no-repeat;
+        background: url('assets/img/image\ 9.png') no-repeat;
         background-size: cover;
+        border-radius: 5rem;
+        width: 95%;
+        margin: 1.5rem auto;
       "
     >
-      <div class="container">
+      <div class="col-md-12">
         <header class="section-header text-center">
           <h2 class="text-white">Claim Your Spot Now</h2>
           <h3 class="text-white">Video recordings of previous live webinars</h3>
         </header>
         <div class="row">
-          <div class="col-md-6 mx-auto bg-white p-5 rounded">
+          <div
+            class="col-md-6 mx-auto bg-white p-5 rounded"
+            style="border-radius: 2rem !important;"
+          >
             <form>
               <div class="form-group">
                 <label for="exampleFormControlSelect1">Select Webinar</label>
@@ -2048,7 +2410,47 @@
       </div>
     </section>
 
-    <section class="cta text-center section-spacing">
+    <section
+      class="pt-xs-100 pb-xs-100 text-icon-section mobile-fix-1"
+      id="pofm"
+    >
+      <div class="text-icon-section__wrapper">
+        <div class="container">
+          <div class="glass">
+            <div
+              class="col-md-8 mx-auto text-center"
+              style="margin-bottom: 5rem;"
+            >
+              <h2 class="font_32">
+                Watch Our Previous Webinars
+              </h2>
+              <p>Start watching our previous live webinar video recordings</p>
+            </div>
+            <div class="col-md-10 mx-auto">
+              <div class="row pb-xs-40 mt-5">
+                <div class="col-md-12">
+                  <iframe
+                    src="https://www.youtube.com/embed/rA56B4JyTgI"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    class=""
+                    style="
+                      width: 100%;
+                      height: 450px;
+                      border-radius: 40px;
+                      box-shadow: 3px 6px 10px 4px #d6f0eb;
+                    "
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta text-center section-spacing d-none">
       <div class="container">
         <header class="section-header">
           <h2>Join The Webinar</h2>
@@ -2125,6 +2527,51 @@
           document.getElementById('demo').innerHTML = 'EXPIRED'
         }
       }, 60000)
+    </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper('.swiper-container4', {
+        spaceBetween: 30,
+        navigation: {
+          nextEl: '.swiper-button-next4',
+          prevEl: '.swiper-button-prev4',
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+        },
+      })
+      var swiper = new Swiper('.swiper-container5', {
+        spaceBetween: 30,
+        navigation: {
+          nextEl: '.swiper-button-next5',
+          prevEl: '.swiper-button-prev5',
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+        },
+      })
     </script>
   </body>
 </html>

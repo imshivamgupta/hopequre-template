@@ -7996,7 +7996,8 @@ section.form .form-group {
      ========================================================================== */
 
 .schedule {
-  background: #3396fe;
+  background: linear-gradient(180deg, #85B2FE 0%, #1A6FFF 100%);
+border-radius: 50px;
 }
 
 .schedule h3 {
@@ -8077,8 +8078,9 @@ section.form .form-group {
 }
 
 .counter {
-  background: url(assets/img/corpate-bg.jpeg) center center no-repeat;
-  background-size: cover;
+  background: linear-gradient(180deg, #62DBC6 0%, #309F8C 100%);
+  border: 3px solid #FFFFFF;
+  border-radius: 37px;
   position: relative;
 }
 
@@ -8090,7 +8092,6 @@ section.form .form-group {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
 }
 
 .counter h3 {
@@ -9137,6 +9138,31 @@ header.programs+.assesment-base .card.hq-card{
 }
 /* Programs Page style::END */
 
+/* Webinar Page style::Start */
+.embed-responsive-16by9::before{
+  padding: 0;
+}
+.embed-responsive{
+  background: rgb(197 241 233);
+  height: 480px;
+  padding: 1.5rem;
+  border-radius: 40px;
+  border: 6px solid white;
+}
+.embed-responsive div{
+  color: #309F8C;
+}
+.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video{
+  width: 75%;
+  height: 280px;
+  margin: 0 auto;
+  top: unset;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 1.5rem;
+  border-radius: 30px;
+}
+/* Webinar Page style::End */
 /* custom checkbox design */
 
 /* Customize the label (the container) */
