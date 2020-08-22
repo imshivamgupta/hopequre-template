@@ -283,6 +283,7 @@ font-size: 1.2rem;
     box-shadow: 5px 10.7209px 117.93px rgb(108 197 181 / 19%);
     border-radius: 20px;
     left: 25px !important;
+    padding: 15px;
 }
 
 .filters .dropdown-item:focus, .dropdown-item:hover {
@@ -331,9 +332,6 @@ font-size: 1.2rem;
     margin-bottom: 0;
 }
 
-#therapist-list .payment-base_entry-content .price{
-    margin-bottom: 15px;
-}
 
 #therapist-list .font_h4{
     font-size: 1.4rem;
