@@ -72,8 +72,8 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold" style="color:rgba(0,0,0,0.8)!important">Generalised Anxiety Disorder</p>
-          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
+          <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Generalised Anxiety Disorder</p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(255,255,255,1)!important">
             State Of Arousal that is evoked by general events in day to day
             life.
           </p>
@@ -88,8 +88,8 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold  text-dark"  style="color:rgba(0,0,0,0.8)!important">Panic Disorder</p>
-          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
+          <p class="body_text_bold  text-dark"  style="color:rgba(255,255,255)!important">Panic Disorder</p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(255,255,255,1)!important">
             State of panic that evokes a state of breathlessness, fear and
             stress all together.
           </p>
@@ -105,8 +105,8 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold  text-dark"  style="color:rgba(0,0,0,0.8)!important">Phobias</p>
-          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
+          <p class="body_text_bold  text-dark"  style="color:rgba(255,255,255)!important">Phobias</p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(255,255,255,1)!important">
             Struggling with Irrational fear, Get over your Phobias with us!
           </p>
         </div>
@@ -121,8 +121,8 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold  text-dark"  style="color:rgba(0,0,0,0.8)!important">Social Anxiety</p>
-          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
+          <p class="body_text_bold  text-dark"  style="color:rgba(255,255,255)!important">Social Anxiety</p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(255,255,255,1)!important">
             Seek therapy If facing people or social gatherings give you nerve
             wrecking anxiety.
           </p>
@@ -277,8 +277,8 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
       />
     </i>
     <div class="d-flex flex-column">
-      <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Substance</p>
-      <p class="font_p_small" style="font-weight:400; color:rgba(0,0,0,.8)!important">
+      <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Substance</p>
+      <p class="font_p_small" style="font-weight:400; color:rgba(255,255,255,1)!important">
       Inability to stop substance use
       </p>
     </div>
@@ -292,8 +292,8 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
     />
   </i>
   <div class="d-flex flex-column">
-    <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Alcohol</p>
-    <p class="font_p_small" style="font-weight:400; color:rgba(0,0,0,.8)!important">
+    <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Alcohol</p>
+    <p class="font_p_small" style="font-weight:400; color:rgba(255,255,255,1)!important">
     Inability to control your use of alcohol
     </p>
   </div>
@@ -307,8 +307,8 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
   />
 </i>
 <div class="d-flex flex-column">
-  <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Smoking</p>
-  <p class="font_p_small" style="font-weight:400; color:rgba(0,0,0,.8)!important">
+  <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Smoking</p>
+  <p class="font_p_small" style="font-weight:400; color:rgba(255,255,255,1)!important">
   Inability to stop using nicotine.
   </p>
 </div>
@@ -322,9 +322,9 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
   />
 </i>
 <div class="d-flex flex-column">
-  <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">
+  <p class="body_text_bold" style="color:rgba(0255,255,255,1!important">
   Internet & Mobile, Video Games </p>
-  <p class="font_p_small" style="font-weight:400; color:rgba(0,0,0,.8)!important">
+  <p class="font_p_small" style="font-weight:400; color:rgba(255,255,255,1)!important">
   Inability to stop using nicotine.
   </p>
 </div>
@@ -338,9 +338,9 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
   />
 </i>
 <div class="d-flex flex-column">
-  <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">
+  <p class="body_text_bold" style="color:rgba(0255,255,255,1!important">
   Gambling </p>
-  <p class="font_p_small" style="font-weight:400; color:rgba(0,0,0,.8)!important">
+  <p class="font_p_small" style="font-weight:400; color:rgba(255,255,255,1)!important">
   Maladaptive patterns of gambling behavior
   </p>
 </div>
@@ -354,9 +354,9 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
   />
 </i>
 <div class="d-flex flex-column">
-  <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">
+  <p class="body_text_bold" style="color:rgba(0255,255,255,1!important">
   Sexual</p>
-  <p class="font_p_small" style="font-weight:400; color:rgba(0,0,0,.8)!important">
+  <p class="font_p_small" style="font-weight:400; color:rgba(255,255,255,1)!important">
   Cumpulsive engagement in sexual activity, despite negative consequences.
   </p>
 </div>
@@ -392,8 +392,8 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Impulse control disorders</p>
-          <p class="font_p_small" style="font-weight:400; color:rgba(0,0,0,.8)!important">
+          <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Impulse control disorders</p>
+          <p class="font_p_small" style="font-weight:400; color:rgba(255,255,255,1)!important">
             Inability to resist an urge to carrry out an implusive act.
           </p>
         </div>
@@ -407,8 +407,8 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Adult ADHD</p>
-          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
+          <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Adult ADHD</p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(255,255,255,1)!important">
             Persistent difficulty in paying atention, and controlling
             hyperactive and impulsive behaviour.
           </p>
@@ -445,8 +445,8 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
       />
     </i>
     <div class="d-flex flex-column">
-      <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Personal Stress</p>
-      <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
+      <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Personal Stress</p>
+      <p class="font_p_small" style="font-weight:400;color:rgba(255,255,255,1)!important">
       Personal situations that are tough to handle
       </p>
     </div>
@@ -460,8 +460,8 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
     />
   </i>
   <div class="d-flex flex-column">
-    <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Workplace Stress</p>
-    <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
+    <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Workplace Stress</p>
+    <p class="font_p_small" style="font-weight:400;color:rgba(255,255,255,1)!important">
     Workplace issues hindering normal life functioning
     </p>
   </div>
@@ -475,8 +475,8 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
   />
 </i>
 <div class="d-flex flex-column">
-  <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Relationship Stress</p>
-  <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
+  <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Relationship Stress</p>
+  <p class="font_p_small" style="font-weight:400;color:rgba(255,255,255,1)!important">
   Relationship issues going over-board
   </p>
 </div>
@@ -529,8 +529,8 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Procastination</p>
-          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
+          <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Procastination</p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(255,255,255,1)!important">
             Inability to start working due to lack of motivation.
           </p>
         </div>
@@ -544,8 +544,8 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Time Management</p>
-          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
+          <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Time Management</p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(255,255,255,1)!important">
             Manage your time efficiently.
           </p>
         </div>
@@ -559,8 +559,8 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Self harm & Suicidal Behaviour </p>
-          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
+          <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Self harm & Suicidal Behaviour </p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(255,255,255,1)!important">
             Control behaviour or thoughts involving pain or injury to oneself.
           </p>
         </div>
@@ -721,8 +721,8 @@ let childMenu = `<div class="position-relative therapist-menu new-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Operant Defiant Disorder</p>
-          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
+          <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Operant Defiant Disorder</p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(255,255,255,1)!important">
             Frequent and reccuring patterns of anger, arugument, rebel and
             revenge.
           </p>
@@ -737,8 +737,8 @@ let childMenu = `<div class="position-relative therapist-menu new-menu">
           />
         </i>
         <div class="d-flex flex-column">
-          <p class="body_text_bold" style="color:rgba(0,0,0,.8)!important">Conduct Disorder</p>
-          <p class="font_p_small" style="font-weight:400;color:rgba(0,0,0,.8)!important">
+          <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Conduct Disorder</p>
+          <p class="font_p_small" style="font-weight:400;color:rgba(255,255,255,1)!important">
             Patterns of Disrputive and violent behaviour, especially violating
             norms
           </p>
