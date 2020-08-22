@@ -6583,13 +6583,15 @@ a.dropdown-item:hover .show-on-hover {
   display: block;
   position: absolute;
   z-index: 999;
-  background-color: rgb(246, 252, 255);
+  background-color: rgb(78 140 160);
   left: 70%;
   top: 0%;
   min-width: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 2px solid rgb(255 255 255);
+  border-radius: 25px;
 }
 a.dropdown-item:hover .show-on-hover.left-side {
   left: -95%;
@@ -6817,6 +6819,7 @@ section#timeline .image {
   }
   .cat_about {
     margin-bottom: 2rem;
+    width: 250px;
   }
   .home .card.hq-card {
     margin: 0;
