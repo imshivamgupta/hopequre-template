@@ -7351,10 +7351,33 @@ body.dark-nav .main-nav .header__nav-links_dark .nav-item--icon {
 
 .hq-accordion ul li.animEffect {
   background-size: cover;
+  position: relative;
+  padding: 1.5rem;
+}
+
+.hq-accordion ul li.animEffect .content{
+  position: absolute;
+  top: 1.5rem;
+  color: white;
+}
+.hq-accordion ul li.animEffect .content h3{
+  color: white;
+  font-family: 'Gilroy-Medium';
+}
+.content p, .content .btn{
+  display: none;
 }
 
 .hq-accordion ul li.animEffect:hover {
   width: 65% !important;
+}
+
+.hq-accordion ul li.animEffect:hover .content{
+  width: 400px;
+}
+.hq-accordion ul li.animEffect:hover .content p,
+.hq-accordion ul li.animEffect:hover .content .btn{
+  display: inline-block;
 }
 
 @-webkit-keyframes appear-1 {
