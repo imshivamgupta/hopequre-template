@@ -97,10 +97,41 @@
 
 .blog_counts{
     background: #fff;
-    padding: 10px;
+    padding: 11px 13px;
     border-radius: 50%;
     color: #428DFF;
 
+}
+
+.keywords-btn ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.keywords-btn li{
+    float: left;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+    margin-right: 10px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.keywords-btn li a{
+    border: 2px solid transparent;
+    padding: 7px;
+    background: #2ec8a6;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 
@@ -261,6 +292,10 @@ button{
     border-radius: 44px;
     box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.1);
     font-size: 1.2rem;
+}
+
+.blog-nav{
+    float: left;
 }
 
 .left-nav .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -487,6 +522,11 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 
 .disorder_search{
     margin-top: 2rem !important;
+}
+
+.card-reverse{
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 }
