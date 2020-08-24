@@ -240,8 +240,8 @@
       </div>
     </aside>
 
-    <header class="header-gray cd-morph-dropdown dark therapy-page">
-      <nav class="navbar navbar-expand-lg main-nav">
+    <header class="header-gray cd-morph-dropdown dark custom-header blue">
+      <nav class="navbar navbar-expand-lg main-nav shade-dark">
         <div class="container position-relative">
           <!-- header logo -->
           <div class="header__logo">
@@ -1609,39 +1609,54 @@
         </div>
       </div>
 
-      <div class="container therapy-header-card glass-effect-therapy">
-        <section class="triangle-header__content background-shape">
-          <!-- header triangles -->
-          <div class="header__large-tri header__large-tri--color-blue">
-            <div class="inner_tri inner_tri--color inner_tri__1"></div>
-            <div class="inner_tri inner_tri--color inner_tri__2"></div>
-            <div class="inner_tri inner_tri--color inner_tri__3"></div>
-          </div>
-
-          
-
-          <!-- ====================== Resources Image ====================== -->
-
-          <div class="row header__resources__main-title">
-            <div class="col-md-6">
-              <div class="">
-                <h1 class="font_h1 font-weight-700"> Meet our Professionals to Receive Online Therapy</h1>
-                <p class="font_lead_normal">
-                  We help you choose from a wide range of online counselling services with the help of online counselling chat and video counseling to receive psychological help to gain self-awareness. 
-                </p>
-                <p class="font_lead_normal">
-                  At HopeQure, we register professionals who are licensed, background verified, well-qualified, experienced and registered with licensing authorities. Your therapist will analyse your concerns and will help you by providing the best online mental health counselling services.
-                </p>
-              </div>
+      <div class="container mb-md-5">
+        <div class="glass">
+          <section class="triangle-header__content background-shape">
+            <!-- header triangles -->
+            <div class="header__large-tri header__large-tri--color-blue">
+              <div class="inner_tri inner_tri--color inner_tri__1"></div>
+              <div class="inner_tri inner_tri--color inner_tri__2"></div>
+              <div class="inner_tri inner_tri--color inner_tri__3"></div>
             </div>
 
-            <div class="col-md-6">
-              <div class="header_image">
-                <img src="assets/img/therapy-header.png" alt="">
+            <!-- ====================== Resources Image ====================== -->
+
+            <div
+              class="row header__resources__main-title"
+              style="margin: 60px 0;"
+            >
+              <div class="col-md-6 d-flex align-items-center">
+                <div class="">
+                  <h1
+                    class="font_h1 font-weight-700"
+                    style="font-family: 'Gilroy-Bold';"
+                  >
+                    Online Therapy
+                  </h1>
+                  <p
+                    class="font_lead_normal mt-md-3"
+                    style="color: #309f8c; font-family: 'Gilroy-Medium';"
+                  >
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s,
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="header_image">
+                  <img
+                    src="assets/img/header-bg-2.png"
+                    width="450"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </div>
       </div>
     </header>
 
@@ -1652,13 +1667,23 @@
             <ul>
               <li
                 class="animEffect"
+                style="background-image: url('assets/img/p1.png');"
+              >
+                <div class="content">
+                  <h3>ONLINE PERSONAL TRAINING</h3>
+                  <p>
+                    Connect with your favourite Cult trainer to get customized
+                    workout plans & learn correct techniques and postures
+                  </p>
+                  <button class="btn btn-secondary">Know More</button>
+                </div>
+              </li>
+              <li
+                class="animEffect"
                 style="
-                  background-image: url('https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_1/image/vm/6eff7f11-8946-4c5f-8da7-cde2f462358e.png');
+                  background-image: url('https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_1/image/vm/ade07fad-abc0-4deb-98ec-f04b17e206a6.png');
                 "
               ></li>
-              <li class="animEffect"></li>
-              <li class="animEffect"></li>
-              <li class="animEffect"></li>
               <li
                 class="animEffect"
                 style="
@@ -1671,11 +1696,11 @@
       </div>
     </section>
 
-    <section id="category" class="my-5">
+    <section class="my-5">
       <div class="container">
         <div class="row">
           <div class="hq-accordion-mobile col-md-12">
-            <ul>
+            <ul id="mobileSlider">
               <li
                 class="animEffect active"
                 style="
@@ -1711,10 +1736,13 @@
                     class="col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 pb-4 mt-5"
                   >
                     <a href="#">
-                      <div class="card cards-card">
+                      <div class="card cards-card" style="border-radius: 20px;">
                         <div
                           class="card-image"
-                          style="background-color: royalblue;"
+                          style="
+                            background-image: url('assets/img/2.png');
+                            border-radius: 20px;
+                          "
                         ></div>
                         <!-- // .card-image -->
                         <div class="card-body">
@@ -1746,8 +1774,9 @@
                               >
                                 <polygon
                                   points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
-                                ></polygon></svg
-                              >Lorem, ipsum dolor.
+                                ></polygon>
+                              </svg>
+                              Lorem, ipsum dolor.
                             </li>
                             <li class="d-flex align-items-center">
                               <svg
@@ -1756,259 +1785,24 @@
                                 viewBox="0 0 48 48"
                                 fill="rgb(41 131 251)"
                                 stroke="rgb(41 131 251)"
-                              >
-                                <polygon
-                                  points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
-                                ></polygon></svg
-                              >Lorem, ipsum dolor.
-                            </li>
-                          </ul>
-
-                          <div class="card-body-footer">
-                            <a
-                              class="btn btn-primary p-0 px-2 py-1 d-flex align-items-center"
-                              href="#"
-                              >Start Program
-                              <svg
-                                class="ml-1"
-                                width="20"
-                                viewBox="0 0 48 48"
-                                fill="white"
-                                stroke="white"
                               >
                                 <polygon
                                   points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
                                 ></polygon>
                               </svg>
-                            </a>
-                          </div>
-                        </div>
-                        <!-- // .card-body -->
-                      </div>
-                      <!-- // .card -->
-                    </a>
-                  </div>
-
-                  <div
-                    class="col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 pb-4 mt-5"
-                  >
-                    <a href="#">
-                      <div class="card cards-card">
-                        <div
-                          class="card-image"
-                          style="background-color: royalblue;"
-                        ></div>
-                        <!-- // .card-image -->
-                        <div class="card-body">
-                          <h4 class="card-title font_h4_light">
-                            The future of payment arrives early
-                          </h4>
-                          <ul class="text-dark m-0 p-0">
-                            <li class="d-flex align-items-center">
-                              <svg
-                                class="ml-1"
-                                width="20"
-                                viewBox="0 0 48 48"
-                                fill="rgb(41 131 251)"
-                                stroke="rgb(41 131 251)"
-                              >
-                                <polygon
-                                  points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
-                                ></polygon></svg
-                              >Lorem, ipsum dolor.
-                            </li>
-                            <li class="d-flex align-items-center">
-                              <svg
-                                class="ml-1"
-                                width="20"
-                                viewBox="0 0 48 48"
-                                fill="rgb(41 131 251)"
-                                stroke="rgb(41 131 251)"
-                              >
-                                <polygon
-                                  points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
-                                ></polygon></svg
-                              >Lorem, ipsum dolor.
-                            </li>
-                            <li class="d-flex align-items-center">
-                              <svg
-                                class="ml-1"
-                                width="20"
-                                viewBox="0 0 48 48"
-                                fill="rgb(41 131 251)"
-                                stroke="rgb(41 131 251)"
-                              >
-                                <polygon
-                                  points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
-                                ></polygon></svg
-                              >Lorem, ipsum dolor.
+                              Lorem, ipsum dolor.
                             </li>
                           </ul>
 
-                          <div class="card-body-footer">
-                            <a
-                              class="btn btn-primary p-0 px-2 py-1 d-flex align-items-center"
-                              href="#"
-                              >Start Program
-                              <svg
-                                class="ml-1"
-                                width="20"
-                                viewBox="0 0 48 48"
-                                fill="white"
-                                stroke="white"
-                              >
-                                <polygon
-                                  points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
-                                ></polygon>
-                              </svg>
-                            </a>
-                          </div>
-                        </div>
-                        <!-- // .card-body -->
-                      </div>
-                      <!-- // .card -->
-                    </a>
-                  </div>
-                  <div
-                    class="col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 pb-4 mt-5"
-                  >
-                    <a href="#">
-                      <div class="card cards-card">
-                        <div
-                          class="card-image"
-                          style="background-color: royalblue;"
-                        ></div>
-                        <!-- // .card-image -->
-                        <div class="card-body">
-                          <h4 class="card-title font_h4_light">
-                            The future of payment arrives early
-                          </h4>
-                          <ul class="text-dark m-0 p-0">
-                            <li class="d-flex align-items-center">
-                              <svg
-                                class="ml-1"
-                                width="20"
-                                viewBox="0 0 48 48"
-                                fill="rgb(41 131 251)"
-                                stroke="rgb(41 131 251)"
-                              >
-                                <polygon
-                                  points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
-                                ></polygon></svg
-                              >Lorem, ipsum dolor.
-                            </li>
-                            <li class="d-flex align-items-center">
-                              <svg
-                                class="ml-1"
-                                width="20"
-                                viewBox="0 0 48 48"
-                                fill="rgb(41 131 251)"
-                                stroke="rgb(41 131 251)"
-                              >
-                                <polygon
-                                  points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
-                                ></polygon></svg
-                              >Lorem, ipsum dolor.
-                            </li>
-                            <li class="d-flex align-items-center">
-                              <svg
-                                class="ml-1"
-                                width="20"
-                                viewBox="0 0 48 48"
-                                fill="rgb(41 131 251)"
-                                stroke="rgb(41 131 251)"
-                              >
-                                <polygon
-                                  points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
-                                ></polygon></svg
-                              >Lorem, ipsum dolor.
-                            </li>
-                          </ul>
-
-                          <div class="card-body-footer">
-                            <a
-                              class="btn btn-primary p-0 px-2 py-1 d-flex align-items-center"
-                              href="#"
-                              >Start Program
-                              <svg
-                                class="ml-1"
-                                width="20"
-                                viewBox="0 0 48 48"
-                                fill="white"
-                                stroke="white"
-                              >
-                                <polygon
-                                  points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
-                                ></polygon>
-                              </svg>
-                            </a>
-                          </div>
-                        </div>
-                        <!-- // .card-body -->
-                      </div>
-                      <!-- // .card -->
-                    </a>
-                  </div>
-                  <div
-                    class="col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 pb-4 mt-5"
-                  >
-                    <a href="#">
-                      <div class="card cards-card">
-                        <div
-                          class="card-image"
-                          style="background-color: royalblue;"
-                        ></div>
-                        <!-- // .card-image -->
-                        <div class="card-body">
-                          <h4 class="card-title font_h4_light">
-                            The future of payment arrives early
-                          </h4>
-                          <ul class="text-dark m-0 p-0">
-                            <li class="d-flex align-items-center">
-                              <svg
-                                class="ml-1"
-                                width="20"
-                                viewBox="0 0 48 48"
-                                fill="rgb(41 131 251)"
-                                stroke="rgb(41 131 251)"
-                              >
-                                <polygon
-                                  points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
-                                ></polygon></svg
-                              >Lorem, ipsum dolor.
-                            </li>
-                            <li class="d-flex align-items-center">
-                              <svg
-                                class="ml-1"
-                                width="20"
-                                viewBox="0 0 48 48"
-                                fill="rgb(41 131 251)"
-                                stroke="rgb(41 131 251)"
-                              >
-                                <polygon
-                                  points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
-                                ></polygon></svg
-                              >Lorem, ipsum dolor.
-                            </li>
-                            <li class="d-flex align-items-center">
-                              <svg
-                                class="ml-1"
-                                width="20"
-                                viewBox="0 0 48 48"
-                                fill="rgb(41 131 251)"
-                                stroke="rgb(41 131 251)"
-                              >
-                                <polygon
-                                  points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"
-                                ></polygon></svg
-                              >Lorem, ipsum dolor.
-                            </li>
-                          </ul>
-
-                          <div class="card-body-footer">
-                            <a
-                              class="btn btn-primary p-0 px-2 py-1 d-flex align-items-center"
-                              href="#"
+                          <div
+                            class="card-body-footer"
+                            style="
+                              right: 50%;
+                              min-width: 240px;
+                              transform: translateX(50%);
+                            "
+                          >
+                            <a class="btn btn-primary" href="#"
                               >Start Program
                               <svg
                                 class="ml-1"
@@ -2049,7 +1843,7 @@
       "
     >
       <div class="row">
-        <div class="col-md-8 mx-auto" style="margin-bottom: 100px;">
+        <div class="col-md-7 mx-auto" style="margin-bottom: 100px;">
           <h1 class="h1_font_size text-center">Know where to start from</h1>
           <p class="text-center">
             Online Counselling can be very confusing. But, we at HopeQure,
@@ -2060,120 +1854,162 @@
       <div class="container">
         <div class="row align-items-center col-space">
           <div class="col-md-6 pt-5 pt-md-0">
-            <h2 class="font_h3">
-              Who Should Take Therapy
-            </h2>
-            <h3 class="font_h5 mb-4"></h3>
-            <p>
-              For someone who might be going through unusual thoughts and
-              behaviour patterns.
-            </p>
-            <a href="#" target="_blank" class="btn btn-primary btn-shadow"
-              >Learn More</a
-            >
+            <div class="glass m-0">
+              <h2
+                class="font_h3"
+                style="color: #309f8c; font-family: 'Gilroy-Bold';"
+                style="color: #309f8c; font-family: 'Gilroy-Bold';"
+              >
+                Who Should Take Therapy
+              </h2>
+              <h3 class="font_h5 mb-4"></h3>
+              <p>
+                For someone who might be going through unusual thoughts and
+                behaviour patterns.
+              </p>
+              <a href="#" target="_blank" class="btn btn-primary btn-shadow"
+                >Learn More</a
+              >
+            </div>
           </div>
           <div class="col-md-6 pt-5 pt-md-0">
-            <h2 class="font_h3">
-              How Counselling Helps
-            </h2>
-            <h3 class="font_h5 mb-4"></h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea sunt
-              qui magnam, minus doloribus error, et explicabo nemo nulla ullam
-              cupiditate, nostrum consequatur eius neque alias illum animi
-              recusandae ut?
-            </p>
-            <a href="#" target="_blank" class="btn btn-primary btn-shadow"
-              >Learn More</a
-            >
-          </div>
-        </div>
-        <div class="row align-items-center col-space">
-          <div class="col-md-6 pt-5 pt-md-0">
-            <h2 class="font_h3">
-              Online Counselling At HopeQure
-            </h2>
-            <h3 class="font_h5 mb-4"></h3>
-            <p>
-              Connect with the right expert on video cousnelling with the
-              comfort of youir home
-            </p>
-            <a href="#" target="_blank" class="btn btn-primary btn-shadow"
-              >Learn More</a
-            >
-          </div>
-          <div class="col-md-6 pt-5 pt-md-0">
-            <h2 class="font_h3">
-              Need Of Security And Confidentiality
-            </h2>
-            <h3 class="font_h5 mb-4"></h3>
-            <p>
-              HopeQure is HIPAA compliant and abides by all security norms to
-              ensure confidentiality
-            </p>
-            <a href="#" target="_blank" class="btn btn-primary btn-shadow"
-              >Learn More</a
-            >
+            <div class="glass m-0">
+              <h2
+                class="font_h3"
+                style="color: #309f8c; font-family: 'Gilroy-Bold';"
+                style="color: #309f8c; font-family: 'Gilroy-Bold';"
+              >
+                How Counselling Helps
+              </h2>
+              <h3 class="font_h5 mb-4"></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea
+                sunt qui magnam, minus doloribus error, et explicabo nemo nulla
+                ullam cupiditate, nostrum consequatur eius neque alias illum
+                animi recusandae ut?
+              </p>
+              <a href="#" target="_blank" class="btn btn-primary btn-shadow"
+                >Learn More</a
+              >
+            </div>
           </div>
         </div>
         <div class="row align-items-center col-space">
           <div class="col-md-6 pt-5 pt-md-0">
-            <h2 class="font_h3">
-              Selecting Right Therapist
-            </h2>
-            <h3 class="font_h5 mb-4"></h3>
-            <p>
-              Choose the right therapist for your needs from a range of
-              therapist with various experience and specialisations
-            </p>
-            <a href="#" target="_blank" class="btn btn-primary btn-shadow"
-              >Learn More</a
-            >
+            <div class="glass m-0">
+              <h2
+                class="font_h3"
+                style="color: #309f8c; font-family: 'Gilroy-Bold';"
+              >
+                Online Counselling At HopeQure
+              </h2>
+              <h3 class="font_h5 mb-4"></h3>
+              <p>
+                Connect with the right expert on video cousnelling with the
+                comfort of youir home
+              </p>
+              <a href="#" target="_blank" class="btn btn-primary btn-shadow"
+                >Learn More</a
+              >
+            </div>
           </div>
           <div class="col-md-6 pt-5 pt-md-0">
-            <h2 class="font_h3">
-              Types Of Therapies
-            </h2>
-            <h3 class="font_h5 mb-4"></h3>
-            <p>
-              There are various therapies used to treat psychologicals issues.
-              Counselling, talk therapy, CBT, REBT etc.
-            </p>
-            <a href="#" target="_blank" class="btn btn-primary btn-shadow"
-              >Learn More</a
-            >
+            <div class="glass m-0">
+              <h2
+                class="font_h3"
+                style="color: #309f8c; font-family: 'Gilroy-Bold';"
+              >
+                Need Of Security And Confidentiality
+              </h2>
+              <h3 class="font_h5 mb-4"></h3>
+              <p>
+                HopeQure is HIPAA compliant and abides by all security norms to
+                ensure confidentiality
+              </p>
+              <a href="#" target="_blank" class="btn btn-primary btn-shadow"
+                >Learn More</a
+              >
+            </div>
           </div>
         </div>
         <div class="row align-items-center col-space">
           <div class="col-md-6 pt-5 pt-md-0">
-            <h2 class="font_h3">
-              Tracking Therapy Progress
-            </h2>
-            <h3 class="font_h5 mb-4"></h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
-              incidunt perferendis atque architecto tempore veritatis vero
-              fugiat ut neque placeat harum odio deleniti laudantium rerum
-              tempora quia quos, obcaecati laboriosam.
-            </p>
-            <a href="#" target="_blank" class="btn btn-primary btn-shadow"
-              >Learn More</a
-            >
+            <div class="glass m-0">
+              <h2
+                class="font_h3"
+                style="color: #309f8c; font-family: 'Gilroy-Bold';"
+              >
+                Selecting Right Therapist
+              </h2>
+              <h3 class="font_h5 mb-4"></h3>
+              <p>
+                Choose the right therapist for your needs from a range of
+                therapist with various experience and specialisations
+              </p>
+              <a href="#" target="_blank" class="btn btn-primary btn-shadow"
+                >Learn More</a
+              >
+            </div>
           </div>
           <div class="col-md-6 pt-5 pt-md-0">
-            <h2 class="font_h3">
-              Duration Of Therapy
-            </h2>
-            <h3 class="font_h5 mb-4"></h3>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Explicabo temporibus esse vitae eveniet quis necessitatibus.
-              Necessitatibus, sint eum repellat est incidunt facere! Molestiae
-              at, atque quisquam quod accusantium neque eos.
-            </p>
-            <a href="#" target="_blank" class="btn btn-primary btn-shadow"
-              >Learn More</a
-            >
+            <div class="glass m-0">
+              <h2
+                class="font_h3"
+                style="color: #309f8c; font-family: 'Gilroy-Bold';"
+              >
+                Types Of Therapies
+              </h2>
+              <h3 class="font_h5 mb-4"></h3>
+              <p>
+                There are various therapies used to treat psychologicals issues.
+                Counselling, talk therapy, CBT, REBT etc.
+              </p>
+              <a href="#" target="_blank" class="btn btn-primary btn-shadow"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center col-space">
+          <div class="col-md-6 pt-5 pt-md-0">
+            <div class="glass m-0">
+              <h2
+                class="font_h3"
+                style="color: #309f8c; font-family: 'Gilroy-Bold';"
+              >
+                Tracking Therapy Progress
+              </h2>
+              <h3 class="font_h5 mb-4"></h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
+                incidunt perferendis atque architecto tempore veritatis vero
+                fugiat ut neque placeat harum odio deleniti laudantium rerum
+                tempora quia quos, obcaecati laboriosam.
+              </p>
+              <a href="#" target="_blank" class="btn btn-primary btn-shadow"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div class="col-md-6 pt-5 pt-md-0">
+            <div class="glass m-0">
+              <h2
+                class="font_h3"
+                style="color: #309f8c; font-family: 'Gilroy-Bold';"
+              >
+                Duration Of Therapy
+              </h2>
+              <h3 class="font_h5 mb-4"></h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Explicabo temporibus esse vitae eveniet quis necessitatibus.
+                Necessitatibus, sint eum repellat est incidunt facere! Molestiae
+                at, atque quisquam quod accusantium neque eos.
+              </p>
+              <a href="#" target="_blank" class="btn btn-primary btn-shadow"
+                >Learn More</a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -2385,5 +2221,21 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
     <script src="jquery.min.js"></script>
     <script src="main.js"></script>
+    <script>
+      let mobileSlider = document.querySelector('#mobileSlider')
+      let totalSlider = mobileSlider.getElementsByTagName('li')
+      for (let index = 0; index < totalSlider.length; index++) {
+        totalSlider[index].addEventListener('click', (e) => {
+          let singalSlider = document.getElementsByClassName('active')
+          singalSlider.length > 0
+            ? (singalSlider[0].className = singalSlider[0].className.replace(
+                ' active',
+                ''
+              ))
+            : null
+          e.target.className += ' active'
+        })
+      }
+    </script>
   </body>
 </html>

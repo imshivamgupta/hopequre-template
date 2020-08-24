@@ -7342,7 +7342,7 @@ body.dark-nav .main-nav .header__nav-links_dark .nav-item--icon {
   display: table-cell;
   vertical-align: bottom;
   position: relative;
-  width: 16.666%;
+  width: calc(100% / 3);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-transition: all 500ms ease;
@@ -7350,12 +7350,34 @@ body.dark-nav .main-nav .header__nav-links_dark .nav-item--icon {
 }
 
 .hq-accordion ul li.animEffect {
-  background-image: url('https://cdn-images.cure.fit/www-curefit-com/image/upload/w_600,h_470,fl_progressive,f_auto,q_auto:eco/dpr_1/image/vm/ade07fad-abc0-4deb-98ec-f04b17e206a6.png');
-  background-position: right;
+  background-size: cover;
+  position: relative;
+  padding: 1.5rem;
+}
+
+.hq-accordion ul li.animEffect .content{
+  position: absolute;
+  top: 1.5rem;
+  color: white;
+}
+.hq-accordion ul li.animEffect .content h3{
+  color: white;
+  font-family: 'Gilroy-Medium';
+}
+.content p, .content .btn{
+  display: none;
 }
 
 .hq-accordion ul li.animEffect:hover {
-  width: 50% !important;
+  width: 65% !important;
+}
+
+.hq-accordion ul li.animEffect:hover .content{
+  width: 400px;
+}
+.hq-accordion ul li.animEffect:hover .content p,
+.hq-accordion ul li.animEffect:hover .content .btn{
+  display: inline-block;
 }
 
 @-webkit-keyframes appear-1 {
@@ -9114,7 +9136,14 @@ header.custom-header .header__large-tri--color-blue {
   filter: drop-shadow(0px 8px 80px rgba(71, 145, 255, 0.04));
 
 }
+header.custom-header.blue .header__large-tri--color-blue {
 
+background: linear-gradient(179.96deg, rgba(26, 111, 255, 0.33) 41.1%, rgba(26, 111, 255, 0) 99.97%);
+}
+
+.shade-dark{
+  background-color: rgb(0 0 0 / 20%);
+}
 .swiper-slide .card.hq-card{
   box-shadow: unset;
   border-radius: 50px;
