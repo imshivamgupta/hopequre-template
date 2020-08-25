@@ -502,6 +502,17 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 	margin-top: -1px;
 }
 
+
+/* blog-details page css */
+
+.promoted-stories ul li{
+    margin-bottom: 3rem;
+}
+
+.blog-post p{
+    text-align: left;
+}
+
 /* media queries */
 
 @media (max-width: 767.98px) {
