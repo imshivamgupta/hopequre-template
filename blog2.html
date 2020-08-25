@@ -7,12 +7,13 @@
   <title>Blog</title>
   <link rel="stylesheet" href="bootstrap-4.3.1.css" />
   <link rel="stylesheet" href="main.css" />
-  <link rel="stylesheet" href="fonts.css" />
+  <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="therapist.css" />
+  <link rel="stylesheet" href="fonts.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
-<body class="gradient_background">
-  <!-- Menu -->
+<body style="background-size: cover;">
   <aside class="fadeMeOut">
     <div class="square square-1"></div>
     <div class="square square-2"></div>
@@ -128,8 +129,8 @@
     </div>
   </aside>
 
-  <header class="header-gray cd-morph-dropdown dark therapy-page">
-    <nav class="navbar navbar-expand-lg main-nav overlay-bg">
+  <header class="hero-section header-img header-gray cd-morph-dropdown dark" id="hero-section">
+    <nav class="navbar navbar-expand-lg main-nav">
       <div class="container position-relative">
         <!-- header logo -->
         <div class="header__logo">
@@ -1072,563 +1073,662 @@
       </div>
     </div>
 
-    <div class="container therapy-header-card glass-effect-therapy">
-      <section class="triangle-header__content background-shape">
-        <!-- header triangles -->
-        <div class="header__large-tri header__large-tri--color-blue">
-          <div class="inner_tri inner_tri--color inner_tri__1"></div>
-          <div class="inner_tri inner_tri--color inner_tri__2"></div>
-          <div class="inner_tri inner_tri--color inner_tri__3"></div>
-        </div>
-
-
-
-        <!-- ====================== Resources Image ====================== -->
-
-        <div class="row  therapy-title">
-          <div class="col-md-6">
-            <div class="">
-              <h1 class="font_h1 font-weight-700 mb-4">Knowledge <br> Hub</h1>
-              <p class="font_lead_normal">
-                We help you choose from a wide range of online counselling services with the help of online counselling chat and video counseling to receive psychological help to gain self-awareness.
-              </p>
-              <p class="font_lead_normal">
-                At HopeQure, we register professionals who are licensed, background verified, well-qualified, experienced and registered with licensing authorities. Your therapist will analyse your concerns and will help you by providing the best online mental health counselling services.
-              </p>
-            </div>
-
-            <div class="filter__search search-input-therapy">
-              <form class="noSubmit">
-                <div class="input-group">
-                  <input type="text" id="search-input" class="form-control subscribe_input ais-search-box--input"
-                    placeholder="Search Therapist" aria-label="Username" aria-describedby="basic-addon1"
-                    onkeyup="javascript: if(event.keyCode == 13) scrollToResult();" autocapitalize="off"
-                    autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" value="" />
-                  <div class="input-group-prepend input_btn">
-                    <span class="input-group-text input_btn_span" id="basic-addon1">
-                      <svg viewBox="0 0 48 48">
-                        <title>Search</title>
-                        <path
-                          d="M48,46.59L29.65,28.23a17,17,0,1,0-1.41,1.41L46.59,48ZM1.94,17A15,15,0,1,1,17,32,15.06,15.06,0,0,1,1.94,17Z">
-                        </path>
-                      </svg>
-                    </span>
-                  </div>
-
-                </div>
-              </form>
-            </div>
-
-          </div>
-
-          <div class="col-md-6">
-            <div class="header_image">
-              <img src="assets/img/therapy-header.png" alt="">
-            </div>
-
-          </div>
-        </div>
-      </section>
-    </div>
-  </header>
-
-  <section id="therapist-list" class="mt-5">
-    <div class="container">
-      <div class="row card-reverse">
-        <div class="col-md-4 col-sm-4 col-lg-4 ">
-            <div class="keywords mb-4">
-                <h3>Keywords</h3>
-                <div class="keywords-btn">
-                    <ul>
-                      <li>
-                        <a href="" class="btn btn-green">Bullied</a>
-                      </li>
-                      <li>
-                        <a href="" class="btn btn-green">Struggle</a>
-                      </li>
-                      <li>
-                        <a href="" class="btn btn-green">Lunch</a>
-                      </li>
-                      <li>
-                        <a href="" class="btn btn-green">hpoequre</a>
-                      </li>
-                      <li>
-                        <a href="" class="btn btn-green">Psychologist</a>
-                      </li>
-                      <li>
-                      <a href="" class="btn btn-green">Thoughts</a></li>
-                      <li>
-                        <a href="" class="btn btn-green">COnduct</a>
-                      </li>
-                      <li>
-                        <a href="" class="btn btn-green">Disorder</a>
-                      </li>
-                      <li>
-                        <a href="" class="btn btn-green">Grief</a>
-                      </li>
-                      <li>
-                        <a href="" class="btn btn-green">Loss</a>
-                      </li>
-                      <li>
-                        <a href="" class="btn btn-green">Stages</a>
-                      </li>
-                      <li>
-                        <a href="" class="btn btn-green">Behavior</a>
-                      </li>
-
-                    </ul>
-                </div>
-            </div>
-
-          <div class="left-nav blog-nav mb-5">
-            <div class="nav flex-column nav-pills" id="v-pills-tab" aria-orientation="vertical" style="padding:20px">
-            <h4 class="trending-heading">Trending Blogs</h4>
-            <hr>
-
-            <ul>
-                <li>
-                    <a class="nav-link"  data-toggle="pill" href="#"
-                    aria-controls="v-pills-home" aria-selected="true"> <span class="blog_counts">01</span> Down the Memory Lane</a>
-                </li>
-                <li>
-                    <a class="nav-link"  data-toggle="pill" href="#"
-                    aria-controls="v-pills-profile" aria-selected="false"> <span class="blog_counts">02</span> How to select the Right Therapist ?</a>
-                </li>
-                
-            </ul>
-             
-                
-
-                <h4 class="trending-heading mt-5">Recommended Blogs</h4>
-                <hr>
-             <ul>
-               <li>
-                <a class="nav-link"  data-toggle="pill" href="#"
-                aria-controls="v-pills-home" aria-selected="true"> <span class="blog_counts">01</span> Down the Memory Lane</a>
-               </li>
-
-               <li>
-                <a class="nav-link"  data-toggle="pill" href="#"
-                aria-controls="v-pills-profile" aria-selected="false"> <span class="blog_counts">02</span> How to select the Right Therapist ?</a>
-               </li>
-
-               <li>
-                <a class="nav-link"  data-toggle="pill" href="#"
-                aria-controls="v-pills-profile" aria-selected="false"> <span class="blog_counts">03</span> How to select the Right Therapist ?</a>
-               </li>
-             </ul>
-               
-             
-
-               
-                
-              
-            </div>
-
-
-            
-            
-          </div>
-        </div>
-        <div class="col-md-8 col-sm-8 col-lg-8">
-          <div class="row">
-            <div class="mb-5 col-12 col-sm-12 col-md-12 col-lg-12">
-              <div 
-                class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card">
-                <div class="payment-base_entry-img" style="
-                  background: url('assets/img/2.png') no-repeat center;
-                  background-size: cover;
-                "></div>
-
-                    <div class="blog-card d-flex flex-column flex-fill">
-                    <h3 class="title" style="color: #309f8c; font-family: 'Gilroy-Bold';text-align: center;">
-                        Blog Title
-                    </h3>
-                    <div class="date_views d-flex justify-content-between">
-                        <p>By HopeQure I 200 Views </p>
-                        <p>21st Aug’20</p>
-                    </div>
-                    <p class="teaser  education">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    </p>
-
-                        <div class="d-flex justify-content-between my-3">
-                            <div class="like_btn">
-                                <a href="#" class="notification">
-                                    <span><img src="assets/icons/like.svg" height="35" alt=""></span>
-                                    <span class="badge">3</span>
-                                  </a>
-                            </div>
-                            
-                            <div class="btn btn-primary">
-                                Read More
-                                <svg viewBox="0 0 48 48" width="25" stroke="#fff" fill="#fff">
-                                    <polygon points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"></polygon>
-                                </svg>
-                            </div>
-
-                            <div class="like_btn">
-                                <a href="#" class="notification">
-                                    <span><img src="assets/icons/comment.svg" height="35" alt=""></span>
-                                    <span class="badge">3</span>
-                                  </a>
-                            </div>
-
-                        
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- for two blog in row -->
-
-
-            <div class="mb-5 col-12 col-sm-6 col-md-12 col-lg-6">
-                <div 
-                  class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card">
-                  <div class="payment-base_entry-img" style="
-                    background: url('assets/img/2.png') no-repeat center;
-                    background-size: cover;
-                  "></div>
-  
-                      <div class="blog-card d-flex flex-column flex-fill">
-                      <h3 class="title" style="color: #309f8c; font-family: 'Gilroy-Bold';text-align: center;">
-                          Blog Title
-                      </h3>
-                      <div class="date_views d-flex flex-column">
-                          <p class="mb-0">By HopeQure I 200 Views </p>
-                          <p class="mb-2">21st Aug’20</p>
-                      </div>
-                      <p class="teaser  education">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                      </p>
-  
-                          <div class="d-flex justify-content-between my-3">
-                              <div class="like_btn">
-                                  <a href="#" class="notification">
-                                      <span><img src="assets/icons/like.svg" height="35" alt=""></span>
-                                      <span class="badge">3</span>
-                                    </a>
-                              </div>
-                              
-                              <div class="btn btn-primary">
-                                  Read More
-                                  <svg viewBox="0 0 48 48" width="25" stroke="#fff" fill="#fff">
-                                      <polygon points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"></polygon>
-                                  </svg>
-                              </div>
-  
-                              <div class="like_btn">
-                                  <a href="#" class="notification">
-                                      <span><img src="assets/icons/comment.svg" height="35" alt=""></span>
-                                      <span class="badge">3</span>
-                                    </a>
-                              </div>
-  
-                          
-                          </div>
-                      </div>
-                  </div>
-            </div>
-
-
-            <div class="mb-5 col-12 col-sm-6 col-md-12 col-lg-6">
-                <div 
-                  class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card">
-                  <div class="payment-base_entry-img" style="
-                    background: url('assets/img/2.png') no-repeat center;
-                    background-size: cover;
-                  "></div>
-  
-                      <div class="blog-card d-flex flex-column flex-fill">
-                      <h3 class="title" style="color: #309f8c; font-family: 'Gilroy-Bold';text-align: center;">
-                          Blog Title
-                      </h3>
-                      <div class="date_views d-flex flex-column">
-                          <p class="mb-0">By HopeQure I 200 Views </p>
-                          <p class="mb-2">21st Aug’20</p>
-                      </div>
-                      <p class="teaser  education">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                      </p>
-  
-                          <div class="d-flex justify-content-between my-3">
-                              <div class="like_btn">
-                                  <a href="#" class="notification">
-                                      <span><img src="assets/icons/like.svg" height="35" alt=""></span>
-                                      <span class="badge">3</span>
-                                    </a>
-                              </div>
-                              
-                              <div class="btn btn-primary">
-                                  Read More
-                                  <svg viewBox="0 0 48 48" width="25" stroke="#fff" fill="#fff">
-                                      <polygon points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"></polygon>
-                                  </svg>
-                              </div>
-  
-                              <div class="like_btn">
-                                  <a href="#" class="notification">
-                                      <span><img src="assets/icons/comment.svg" height="35" alt=""></span>
-                                      <span class="badge">3</span>
-                                    </a>
-                              </div>
-  
-                          
-                          </div>
-                      </div>
-                  </div>
-            </div>
-
-            <!-- ends here -->
-
-            <div class="mb-5 col-12 col-sm-12 col-md-12 col-lg-12">
-                <div 
-                  class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card">
-                  <div class="payment-base_entry-img" style="
-                    background: url('assets/img/2.png') no-repeat center;
-                    background-size: cover;
-                  "></div>
-  
-                      <div class="blog-card d-flex flex-column flex-fill">
-                      <h3 class="title" style="color: #309f8c; font-family: 'Gilroy-Bold';text-align: center;">
-                          Blog Title
-                      </h3>
-                      <div class="date_views d-flex justify-content-between">
-                          <p>By HopeQure I 200 Views </p>
-                          <p>21st Aug’20</p>
-                      </div>
-                      <p class="teaser  education">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                      </p>
-  
-                          <div class="d-flex justify-content-between my-3">
-                              <div class="like_btn">
-                                  <a href="#" class="notification">
-                                      <span><img src="assets/icons/like.svg" height="35" alt=""></span>
-                                      <span class="badge">3</span>
-                                    </a>
-                              </div>
-                              
-                              <div class="btn btn-primary">
-                                  Read More
-                                  <svg viewBox="0 0 48 48" width="25" stroke="#fff" fill="#fff">
-                                      <polygon points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"></polygon>
-                                  </svg>
-                              </div>
-  
-                              <div class="like_btn">
-                                  <a href="#" class="notification">
-                                      <span><img src="assets/icons/comment.svg" height="35" alt=""></span>
-                                      <span class="badge">3</span>
-                                    </a>
-                              </div>
-  
-                          
-                          </div>
-                      </div>
-                  </div>
+    <section class="container welcome-message text-left" style="display: none;">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>
+            Webinar
+            <span class="rotate" style="text-shadow: black 0px 0px 0px; opacity: 1;">
+              Duration 1 Hour</span>
+          </h1>
+          <h2>
+            Let Users Know Abour Your Webinar Through This Awesome Landing
+            Page
+          </h2>
+          <div class="cta-btn mt-5">
+            <div class="timer d-flex justify-content-center">
+              <div class="day">
+                <span id="days">24</span>
+                <p>days</p>
               </div>
-
-
-          </div>
-          <div class="row">
-            <div class="col-md-12" style="text-align:center">
-              <div class="view-more-btn">
-                <a href="javascript:;" class="btn btn-secondary btn-sm btn-shadow mt-mobile-2">View More
-                </a>
+              <h1 class="mx-4">:</h1>
+              <div class="day">
+                <span id="hours">12</span>
+                <p>hours</p>
+              </div>
+              <h1 class="mx-4">:</h1>
+              <div class="day">
+                <span id="mins">30</span>
+                <p>minutes</p>
               </div>
             </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
-
-
-
-
-
-  <footer class="footer footer-light__light-theme mt-6 mt-md-6 mt-lg-7">
-    <div class="container">
-      <div class="footer-light__logo">
-        <a class="logo-default d-flex-inline align-items-center" href="#"><img width="30"
-            src="https://www.hopequre.com/images/logo.png" alt="logo" />
-          <span class="text-black ml-1 font-weight-bolder">HopeQure</span>
-        </a>
-      </div>
-
-      <div class="row footer-light__row">
-        <div class="col-lg-8 col-xl-8">
-          <div class="row mb-6">
-            <div class="col-4">
-              <span class="font_h6_medium footer-light__list-title">Solutions</span>
-              <ul class="footer-light__list mb-3">
-                <li class="list-item">
-                  <a href="#">Accepting payments</a>
-                </li>
-                <li class="list-item">
-                  <a href="#">Making payments</a>
-                </li>
-              </ul>
-              <span class="font_h6_medium footer-light__list-title">Industries</span>
-              <ul class="footer-light__list">
-                <li class="list-item">
-                  <a href="#">Digital</a>
-                </li>
-                <li class="list-item">
-                  <a href="#">Retail</a>
-                </li>
-                <li class="list-item">
-                  <a href="#">Travel &amp; mobility</a>
-                </li>
-                <li class="list-item">
-                  <a href="#">Financial services</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-4">
-              <span class="font_h6_medium footer-light__list-title">Company</span>
-              <ul class="footer-light__list">
-                <li class="list-item">
-                  <a href="#">About </a>
-                </li>
-                <li class="list-item">
-                  <a href="#">Newsroom</a>
-                </li>
-                <li class="list-item">
-                  <a href="#">Social Media</a>
-                </li>
-                <li class="list-item">
-                  <a href="#">Careers</a>
-                </li>
-                <li class="list-item">
-                  <a href="#" target="_blank" rel="noopener">Investor Relations</a>
-                </li>
-                <li class="list-item">
-                  <a href="#">Blog</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-4">
-              <span class="font_h6_medium footer-light__list-title">Knowledge Hub</span>
-              <ul class="footer-light__list">
-                <li class="list-item">
-                  <a href="#">Overview</a>
-                </li>
-                <li class="list-item">
-                  <a href="#">E-Books &amp; White Papers</a>
-                </li>
-                <li class="list-item">
-                  <a href="#">Case Studies</a>
-                </li>
-                <li class="list-item">
-                  <a href="#">Insights</a>
-                </li>
-                <li class="list-item">
-                  <a href="#">Support</a>
-                </li>
-                <li class="list-item">
-                  <a href="#">Videos</a>
-                </li>
-                <li class="list-item">
-                  <a href="#">Payment Base</a>
-                </li>
-                <li class="list-item">
-                  <a href="#">Glossary</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-12 col-lg-4 footer__subscription footer-light__subscription">
-          <div class="row mb-5">
-            <div class="col-md-6 col-lg-12">
-              <span class="font_h6_medium footer-light__list-title">Newsletter</span>
-
-              <form class="footer__form footer-light__form" action="#" method="post" accept-charset="utf-8">
-                <input type="hidden" name="account_id" value="2727" />
-                <input type="hidden" name="account_code" value="xnfX4" />
-                <input type="hidden" name="optinsetup_id" value="93" />
-                <input type="hidden" name="optinsetup_code" value="yQrhZ" />
-                <input type="hidden" class="subscribe_93_mwic" name="ic" value="53074" />
-                <div class="input-group">
-                  <input id="subscribe_93_optin_field_10" name="fields[10]" value="" type="email" required=""
-                    class="form-control subscribe_input" placeholder="Email …" aria-label="Email …"
-                    aria-describedby="basic-addon1" />
-                  <div class="input-group-append">
-                    <button type="submit" class="btn btn-newsletter"></button>
-                  </div>
-                </div>
-                <div class="form-group form-group-checkbox">
-                  <div class="custom-control custom-checkbox">
-                    <input type="checkbox" name="privacy" value="Yes" class="custom-control-input"
-                      id="form-input-privacy" required="" />
-                    <label class="custom-control-label" for="form-input-privacy" style="display: block;">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptas!
-                      <a href="#" target="_blank">Privacy Policy</a>. I can
-                      revoke this consent at any time without incurring any
-                      additional costs other than Internet connection costs.
-                      <span class="require-sign"></span></label>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <section class="footer__foot footer-light__foot">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <p class="copyright">© HopeQure 2020</p>
-          </div>
-          <div class="col-md-6 d-flex legal-nav">
-            <p>
-              <a href="#">Documents</a>
-            </p>
-            <p>
-              <a href="#">Legal Notice</a>
-            </p>
-            <p>
-              <a href="#">Privacy Policy</a>
-            </p>
+            <p>* Limited registration only. Register before we're filled.</p>
           </div>
         </div>
       </div>
     </section>
-  </footer>
+    <div class="header-skewed-home__bg2"></div>
+  </header>
+
+  <div class="container-fluid">
+    <div class="text-center section-spacing">
+      <!--container-->
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-8 col-lg-8 glass blog-post" style="margin:0 auto;">
+            <h3 class="title" style="color: #309f8c; font-family: 'Gilroy-Bold';text-align: center;">
+              Gunjan Saxena – How Much of the Film Is Fact and How Much Is Fiction?
+            </h3>
+            <div class="date_views d-flex justify-content-center">
+              <p>By HopeQure I 200 Views </p>
+              <p>21st Aug’20</p>
+            </div>
+            <p>
+              If one has been interacting with faujis on social media these days (as I have) one would think that the
+              only incident of any importance is the release and reaction to the film Gunjan Saxena: Kargil Girl.
+              Individuals and groups have reacted with (mostly) outrage; claiming that the film affects them personally
+              or institutionally. As a fauji wife of a respectable vintage, I obviously have my own dearly held
+              opinions. So is the film based on fact or is it fiction? What does Gunjan Saxena feel about it? How have
+              her colleagues reacted? Does the film sully the IAF’s image? <br> <br>
+              getting her sorties cancelled at the drop of a hat. Saxena taking off in the middle of the night without
+              sanctioned leave (this would be treated as AWOL and serious action would be taken). Silly shenanigans such
+              as the arm-wrestling, the army officer brother mysteriously present where his sister is stationed;
+              seemingly with the sole motive of protecting her… all this was clearly made up. And no, Saxena did not
+              face enemy fire, nor did she rescue her own flight commander. No chopper was shot down in Kargil as shown
+              and the Chetak Cheetah she flew could not possibly have withstood the kind of fire it was shown to come
+              under. This is all fiction; fabrication, cinematic licence, call it what you will. <br> <br>
+
+              Also, showing young male officers acting like some college hostel inmates, constantly dancing to choli ke
+              peechhe was silly. In reality, fauji parties are fun, and everyone is invited including families! The male
+              officers ganging up against the single female officer is also obviously gross exaggeration – taking
+              (cinematic) license to liberty. <br><br>
+
+              There has been a fierce backlash: male officers are offended by the way they are portrayed. Women officers
+              are annoyed that Saxena is portrayed as a victim, which belies their own experiences and reflects badly
+              upon their professional capabilities. There is also the claim that Saxena herself is unnecessarily
+              glorified for things she never did. <br><br>
+
+              There is another woman officer who claims that it was she and not Saxena who was the first woman to fly
+              during Kargil (check out the screengrab of her Facebook post). Another woman army officer has written an
+              article expressing anger at the whole victim narrative of the film. Numerous people – part of the fauj or
+              otherwise connected to it – claim that such portrayals tarnish the image of the Air Force. The film is
+              poorly researched; as such many have called for the banning of the film.
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-4 promoted-stories">
+            <h3 class="title" style="color: #309f8c; font-family: 'Gilroy-Bold';text-align: center;">
+             Promoted Stories
+            </h3>
+            <ul>
+              <li>
+                <a href="#"
+                  class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card">
+                  <div class="payment-base_entry-img" style="
+                        background: url('assets/img/2.png') no-repeat center;
+                        background-size: cover;
+                      "></div>
+
+                  <div class="payment-base_entry-content d-flex flex-column flex-fill">
+                    <h6 class="title font_h4" style="color: #309f8c; font-family: 'Gilroy-Bold';">
+                      Acquirer/acquiring bank
+                    </h6>
+                    <p class="teaser mb-2">
+                      Accept payments from your.
+                    </p>
+                    <div class="d-flex justify-content-center pos-cos">
+                      <div class="btn btn-primary">
+                        Read more
+                        <svg viewBox="0 0 48 48" width="25" stroke="#fff" fill="#fff">
+                          <polygon points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"></polygon>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card">
+                  <div class="payment-base_entry-img" style="
+                        background: url('assets/img/2.png') no-repeat center;
+                        background-size: cover;
+                      "></div>
+
+                  <div class="payment-base_entry-content d-flex flex-column flex-fill">
+                    <h6 class="title font_h4" style="color: #309f8c; font-family: 'Gilroy-Bold';">
+                      Acquirer/acquiring bank
+                    </h6>
+                    <p class="teaser mb-2">
+                      Accept payments from your.
+                    </p>
+                    <div class="d-flex justify-content-center pos-cos">
+                      <div class="btn btn-primary">
+                        Read more
+                        <svg viewBox="0 0 48 48" width="25" stroke="#fff" fill="#fff">
+                          <polygon points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"></polygon>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card">
+                  <div class="payment-base_entry-img" style="
+                        background: url('assets/img/2.png') no-repeat center;
+                        background-size: cover;
+                      "></div>
+
+                  <div class="payment-base_entry-content d-flex flex-column flex-fill">
+                    <h6 class="title font_h4" style="color: #309f8c; font-family: 'Gilroy-Bold';">
+                      Acquirer/acquiring bank
+                    </h6>
+                    <p class="teaser mb-2">
+                      Accept payments from your.
+                    </p>
+                    <div class="d-flex justify-content-center pos-cos">
+                      <div class="btn btn-primary">
+                        Read more
+                        <svg viewBox="0 0 48 48" width="25" stroke="#fff" fill="#fff">
+                          <polygon points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"></polygon>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container-fluid">
+    <div class="text-center section-spacing">
+      <!--container-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <section class="cards-slider">
+              <div class="container">
+                <div class="cards-slider__title">
+                  <div class="cards-slider__subtitle" style="
+                        position: relative;
+                        left: 50%;
+                        transform: translateX(-50%);
+                      ">
+                    <h3 class="font_h3 text-center">Recommended Assessments</h3>
+                  </div>
+
+                  <div class="cards-slider-arrows">
+                    <div class="swiper-button-prev4 prev swiper-button-disabled" tabindex="-1" role="button"
+                      aria-label="Previous slide" aria-disabled="true">
+                      <svg viewBox="0 0 48 48">
+                        <title>Back</title>
+                        <polygon points="30.59 8 32 9.41 18.83 24 32 38.59 30.59 40 16 24 30.59 8"></polygon>
+                      </svg>
+                    </div>
+                    <div class="swiper-button-next4 next" tabindex="0" role="button" aria-label="Next slide"
+                      aria-disabled="false">
+                      <svg viewBox="0 0 48 48">
+                        <title>Next</title>
+                        <polygon points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"></polygon>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cards-slider__slider container">
+                <div class="swiper-container4 swiper-container-initialized swiper-container-horizontal">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide-active" style="width: 270px; margin-right: 20px;"
+                      data-swiper-slide-index="0">
+                      <a href="#"
+                        class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card">
+                        <div class="payment-base_entry-img" style="
+                              background: url('assets/img/2.png') no-repeat
+                                center;
+                              background-size: cover;
+                            "></div>
+
+                        <div class="payment-base_entry-content d-flex flex-column flex-fill">
+                          <h6 class="title font_h4" style="
+                                color: #309f8c;
+                                font-family: 'Gilroy-Bold';
+                              ">
+                            Acquirer/acquiring bank
+                          </h6>
+                          <p class="teaser mb-2">
+                            Accept payments from your.
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide swiper-slide-next" style="width: 270px; margin-right: 20px;"
+                      data-swiper-slide-index="0">
+                      <a href="#"
+                        class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card">
+                        <div class="payment-base_entry-img" style="
+                              background: url('assets/img/2.png') no-repeat
+                                center;
+                              background-size: cover;
+                            "></div>
+
+                        <div class="payment-base_entry-content d-flex flex-column flex-fill">
+                          <h6 class="title font_h4" style="
+                                color: #309f8c;
+                                font-family: 'Gilroy-Bold';
+                              ">
+                            Acquirer/acquiring bank
+                          </h6>
+                          <p class="teaser mb-2">
+                            Accept payments from your.
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide" style="width: 270px; margin-right: 20px;" data-swiper-slide-index="0">
+                      <a href="#"
+                        class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card">
+                        <div class="payment-base_entry-img" style="
+                              background: url('assets/img/2.png') no-repeat
+                                center;
+                              background-size: cover;
+                            "></div>
+
+                        <div class="payment-base_entry-content d-flex flex-column flex-fill">
+                          <h6 class="title font_h4" style="
+                                color: #309f8c;
+                                font-family: 'Gilroy-Bold';
+                              ">
+                            Acquirer/acquiring bank
+                          </h6>
+                          <p class="teaser mb-2">
+                            Accept payments from your.
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide" style="width: 270px; margin-right: 20px;" data-swiper-slide-index="0">
+                      <a href="#"
+                        class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card">
+                        <div class="payment-base_entry-img" style="
+                              background: url('assets/img/2.png') no-repeat
+                                center;
+                              background-size: cover;
+                            "></div>
+
+                        <div class="payment-base_entry-content d-flex flex-column flex-fill">
+                          <h6 class="title font_h4" style="
+                                color: #309f8c;
+                                font-family: 'Gilroy-Bold';
+                              ">
+                            Acquirer/acquiring bank
+                          </h6>
+                          <p class="teaser mb-2">
+                            Accept payments from your.
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide" style="width: 270px; margin-right: 20px;" data-swiper-slide-index="0">
+                      <a href="#"
+                        class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card">
+                        <div class="payment-base_entry-img" style="
+                              background: url('assets/img/2.png') no-repeat
+                                center;
+                              background-size: cover;
+                            "></div>
+
+                        <div class="payment-base_entry-content d-flex flex-column flex-fill">
+                          <h6 class="title font_h4" style="
+                                color: #309f8c;
+                                font-family: 'Gilroy-Bold';
+                              ">
+                            Acquirer/acquiring bank
+                          </h6>
+                          <p class="teaser mb-2">
+                            Accept payments from your.
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide" style="width: 270px; margin-right: 20px;" data-swiper-slide-index="0">
+                      <a href="#"
+                        class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card">
+                        <div class="payment-base_entry-img" style="
+                              background: url('assets/img/2.png') no-repeat
+                                center;
+                              background-size: cover;
+                            "></div>
+
+                        <div class="payment-base_entry-content d-flex flex-column flex-fill">
+                          <h6 class="title font_h4" style="
+                                color: #309f8c;
+                                font-family: 'Gilroy-Bold';
+                              ">
+                            Acquirer/acquiring bank
+                          </h6>
+                          <p class="teaser mb-2">
+                            Accept payments from your.
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                  <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <!--container end-->
+    </div>
+  </div>
+
+
+
+  <div class="container-fluid">
+    <div class="counter text-center section-spacing">
+      <!--container-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h5 class="text-white">
+              Get real time access to technology enabled seamless Webinars and
+              a panel of experts. Stay updated with the insightful information
+              offered by the leading experts from the industry.
+            </h5>
+          </div>
+        </div>
+      </div>
+      <!--container end-->
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="text-center section-spacing">
+      <!--container-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <section class="cards-slider">
+              <div class="container">
+                <div class="cards-slider__title">
+                  <div class="cards-slider__subtitle" style="
+                        position: relative;
+                        left: 50%;
+                        transform: translateX(-50%);
+                      ">
+                    <h3 class="font_h3 text-center">Suggested Programs related to this Topic</h3>
+                  </div>
+
+                  <div class="cards-slider-arrows">
+                    <div class="swiper-button-prev4 prev swiper-button-disabled" tabindex="-1" role="button"
+                      aria-label="Previous slide" aria-disabled="true">
+                      <svg viewBox="0 0 48 48">
+                        <title>Back</title>
+                        <polygon points="30.59 8 32 9.41 18.83 24 32 38.59 30.59 40 16 24 30.59 8"></polygon>
+                      </svg>
+                    </div>
+                    <div class="swiper-button-next4 next" tabindex="0" role="button" aria-label="Next slide"
+                      aria-disabled="false">
+                      <svg viewBox="0 0 48 48">
+                        <title>Next</title>
+                        <polygon points="17.41 8 16 9.41 29.17 24 16 38.59 17.41 40 32 24 17.41 8"></polygon>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cards-slider__slider container">
+                <div class="swiper-container4 swiper-container-initialized swiper-container-horizontal">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide-active" style="width: 270px; margin-right: 20px;"
+                      data-swiper-slide-index="0">
+                      <a href="#"
+                        class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card">
+                        <div class="payment-base_entry-img" style="
+                              background: url('assets/img/2.png') no-repeat
+                                center;
+                              background-size: cover;
+                            "></div>
+
+                        <div class="payment-base_entry-content d-flex flex-column flex-fill">
+                          <h6 class="title font_h4" style="
+                                color: #309f8c;
+                                font-family: 'Gilroy-Bold';
+                              ">
+                            Acquirer/acquiring bank
+                          </h6>
+                          <p class="teaser mb-2">
+                            Accept payments from your.
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide swiper-slide-next" style="width: 270px; margin-right: 20px;"
+                      data-swiper-slide-index="0">
+                      <a href="#"
+                        class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card">
+                        <div class="payment-base_entry-img" style="
+                              background: url('assets/img/2.png') no-repeat
+                                center;
+                              background-size: cover;
+                            "></div>
+
+                        <div class="payment-base_entry-content d-flex flex-column flex-fill">
+                          <h6 class="title font_h4" style="
+                                color: #309f8c;
+                                font-family: 'Gilroy-Bold';
+                              ">
+                            Acquirer/acquiring bank
+                          </h6>
+                          <p class="teaser mb-2">
+                            Accept payments from your.
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide" style="width: 270px; margin-right: 20px;" data-swiper-slide-index="0">
+                      <a href="#"
+                        class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card">
+                        <div class="payment-base_entry-img" style="
+                              background: url('assets/img/2.png') no-repeat
+                                center;
+                              background-size: cover;
+                            "></div>
+
+                        <div class="payment-base_entry-content d-flex flex-column flex-fill">
+                          <h6 class="title font_h4" style="
+                                color: #309f8c;
+                                font-family: 'Gilroy-Bold';
+                              ">
+                            Acquirer/acquiring bank
+                          </h6>
+                          <p class="teaser mb-2">
+                            Accept payments from your.
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide" style="width: 270px; margin-right: 20px;" data-swiper-slide-index="0">
+                      <a href="#"
+                        class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card">
+                        <div class="payment-base_entry-img" style="
+                              background: url('assets/img/2.png') no-repeat
+                                center;
+                              background-size: cover;
+                            "></div>
+
+                        <div class="payment-base_entry-content d-flex flex-column flex-fill">
+                          <h6 class="title font_h4" style="
+                                color: #309f8c;
+                                font-family: 'Gilroy-Bold';
+                              ">
+                            Acquirer/acquiring bank
+                          </h6>
+                          <p class="teaser mb-2">
+                            Accept payments from your.
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide" style="width: 270px; margin-right: 20px;" data-swiper-slide-index="0">
+                      <a href="#"
+                        class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card">
+                        <div class="payment-base_entry-img" style="
+                              background: url('assets/img/2.png') no-repeat
+                                center;
+                              background-size: cover;
+                            "></div>
+
+                        <div class="payment-base_entry-content d-flex flex-column flex-fill">
+                          <h6 class="title font_h4" style="
+                                color: #309f8c;
+                                font-family: 'Gilroy-Bold';
+                              ">
+                            Acquirer/acquiring bank
+                          </h6>
+                          <p class="teaser mb-2">
+                            Accept payments from your.
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide" style="width: 270px; margin-right: 20px;" data-swiper-slide-index="0">
+                      <a href="#"
+                        class="payment-base_entry assessment-card d-flex flex-column justify-content-center card hq-card">
+                        <div class="payment-base_entry-img" style="
+                              background: url('assets/img/2.png') no-repeat
+                                center;
+                              background-size: cover;
+                            "></div>
+
+                        <div class="payment-base_entry-content d-flex flex-column flex-fill">
+                          <h6 class="title font_h4" style="
+                                color: #309f8c;
+                                font-family: 'Gilroy-Bold';
+                              ">
+                            Acquirer/acquiring bank
+                          </h6>
+                          <p class="teaser mb-2">
+                            Accept payments from your.
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                  <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <!--container end-->
+    </div>
+  </div>
+
+
+
+
+
+
   <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
   <script src="jquery.min.js"></script>
-  <script src="main.js"></script>
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date('Aug 10, 2020 15:37:25').getTime()
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+      // Get today's date and time
+      var now = new Date().getTime()
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24))
+      var hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      )
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000)
+
+      // Display the result in the element with id="demo"
+      // document.getElementById('demo').innerHTML =
+      //   days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's '
+
+      let daysDIV = document.querySelector('#days'),
+        hoursDIV = document.querySelector('#hours'),
+        minsDIV = document.querySelector('#mins')
+      daysDIV.innerHTML = days
+      hoursDIV.innerHTML = hours
+      minsDIV.innerHTML = minutes
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(x)
+        document.getElementById('demo').innerHTML = 'EXPIRED'
+      }
+    }, 60000)
+  </script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script>
-
-const
-	range = document.getElementById('range'),
-	rangeV = document.getElementById('rangeV'),
-	setValue = ()=>{
-		const
-			newValue = Number( (range.value - range.min) * 100 / (range.max - range.min) ),
-			newPosition = 10 - (newValue * 0.2);
-		rangeV.innerHTML = `<span>${range.value}</span>`;
-		rangeV.style.left = `calc(${newValue}% + (${newPosition}px))`;
-	};
-document.addEventListener("DOMContentLoaded", setValue);
-range.addEventListener('input', setValue);
-
-
-
-
+    var swiper = new Swiper('.swiper-container4', {
+      spaceBetween: 30,
+      navigation: {
+        nextEl: '.swiper-button-next4',
+        prevEl: '.swiper-button-prev4',
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 20,
+        },
+      },
+    })
+    var swiper = new Swiper('.swiper-container5', {
+      spaceBetween: 30,
+      navigation: {
+        nextEl: '.swiper-button-next5',
+        prevEl: '.swiper-button-prev5',
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 20,
+        },
+      },
+    })
   </script>
 </body>
 
