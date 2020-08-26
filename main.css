@@ -9267,3 +9267,24 @@ header.programs+.assesment-base .card.hq-card{
 
 
 /* custom checkbox style ends */
+
+
+
+
+/* book-inputs style start */
+
+.book-input .form-control{
+    padding: 2px 15px;
+    border-radius: 8px;
+}
+
+.book-input .error-msg{
+    text-align: left;
+    width: 100%;
+    color: #EC4848;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+
+/* ends here */

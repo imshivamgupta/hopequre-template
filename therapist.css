@@ -417,7 +417,11 @@ font-size: 1.2rem;
     padding: 1.5rem;
 }
 
-#therapist-list .payment-base_entry-content p{
+ #therapist-list .payment-base_entry-content p{
+    margin-bottom: 0;
+}
+
+.blog-therapist .payment-base_entry-content p{
     margin-bottom: 0;
 }
 
