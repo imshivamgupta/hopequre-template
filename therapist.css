@@ -68,9 +68,7 @@
     color: rgb(66 85 99);
 }
 
-.blog-card .teaser{
-    color: rgb(66 85 99);
-}
+
 
 .therapist_detail_card .glass{
     margin: unset;
@@ -294,9 +292,7 @@ button{
     font-size: 1.2rem;
 }
 
-.blog-nav{
-    float: left;
-}
+
 
 .left-nav .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #fff;
@@ -307,6 +303,7 @@ button{
 
 .left-nav .nav-link:hover{
     background-color: #e3e7ef6e;
+    border-radius: 50px;
 }
 
 
@@ -411,19 +408,13 @@ font-size: 1.2rem;
 }
 
 
-.blog-card{
-    /* text-align: center; */
-    font-size: 1.2rem;
-    padding: 1.5rem;
-}
+
 
  #therapist-list .payment-base_entry-content p{
     margin-bottom: 0;
 }
 
-.blog-therapist .payment-base_entry-content p{
-    margin-bottom: 0;
-}
+
 
 
 #therapist-list .font_h4{
@@ -432,11 +423,9 @@ font-size: 1.2rem;
 }
 
 
-/* blog page css */
 
-.keywords a{
-    width:100%;
-}
+
+
 
 /* range slider */
 
@@ -505,6 +494,81 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 	margin-left: -5px;
 	margin-top: -1px;
 }
+
+
+/* blog page */
+
+.blog-nav{
+    float: left;
+}
+
+.blog-card{
+    /* text-align: center; */
+    font-size: 1.2rem;
+    padding: 1.5rem;
+}
+
+.blog-therapist .payment-base_entry-content p{
+    margin-bottom: 0;
+}
+
+.keywords a{
+    width:100%;
+}
+
+.blog-card .teaser{
+    color: rgb(66 85 99);
+}
+
+#blog-category-menu {
+    background-color: unset;
+  }
+  #blog-category-menu .list-group-item {
+    background-color: unset;
+    border: none;
+  }
+  #blog-category-menu a.list-group-item {
+    color: rgb(66 85 99);
+  }
+  #blog-category-menu a.list-group-item:hover,
+  #blog-category-menu a.list-group-item:focus,
+  #blog-category-menu a.list-group-item.active:hover,
+  #blog-category-menu a.list-group-item.active:focus {
+    background-color: #85b2fe40;
+    border-radius: 20px;
+  }
+  #blog-category-menu a.list-group-item.active
+   {
+    color: rgb(66 85 99);
+    background-color: unset !important;
+    border: none;
+  }
+  #blog-category-menu .list-group-item:first-child,
+  #blog-category-menu .list-group-item:last-child {
+    border-radius: 0;
+  }
+  #blog-category-menu .list-group-level1 .list-group-item {
+    padding-left: 30px;
+  }
+  #blog-category-menu .list-group-level2 .list-group-item {
+    padding-left: 60px;
+  }
+
+  .caret{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+  }
+  
+
+
+/* ends here */
+
 
 
 /* blog-details page css */
