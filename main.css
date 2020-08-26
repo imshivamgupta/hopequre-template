@@ -9268,6 +9268,17 @@ header.programs+.assesment-base .card.hq-card{
 
 /* custom checkbox style ends */
 
+/* border-bottom style for heading in blog-2 page */
+
+.heading-border-bottom{
+  border-bottom: 4px solid rgba(255, 108, 135, 0.2);
+  line-height: 2;
+}
+
+
+
+/* ends here */
+
 
 
 
