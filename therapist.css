@@ -516,6 +516,12 @@ input[type=range]:focus::-webkit-slider-runnable-track {
     width:100%;
 }
 
+.comment-section textarea{
+    border-radius: 40px;
+    border: 6px solid #309f8c1f;
+    padding: 15px;
+}
+
 .blog-card .teaser{
     color: rgb(66 85 99);
 }
@@ -565,6 +571,67 @@ input[type=range]:focus::-webkit-slider-runnable-track {
     border-left: 4px solid transparent;
   }
   
+
+  /* like section */
+  
+.like-section i {
+    cursor:pointer;
+    padding:10px 12px 8px;
+    background:#fff;
+    border-radius:50%;
+    display:inline-block;
+    margin:0 0 15px;
+    color:#aaa;
+    transition:.2s;
+  }
+  
+  .like-section i:hover {
+    color:#666;
+  }
+  
+  .like-section i:before {
+    font-family:fontawesome;
+    content:'\f004';
+    font-style:normal;
+  }
+  
+  .like-section span {
+    position: absolute;
+    bottom:70px;
+    left:0;
+    right:0;
+    visibility: hidden;
+    transition:.6s;
+    z-index:-2;
+    font-size:2px;
+    color:transparent;
+    font-weight:400;
+  }
+  
+  .like-section i.press {
+    animation: size .4s;
+    color:#e23b3b;
+  }
+  
+  .like-section span.press {
+    bottom:120px;
+    font-size:14px;
+    visibility:visible;
+    animation: fade 1s;
+  }
+  
+  @keyframes fade {
+    0% {color:#transparent;}
+    50% {color:#e23b3b;}
+    100% {color:#transparent;}
+  }
+  
+  @keyframes size {
+    0% {padding:10px 12px 8px;}
+    50% {padding:14px 16px 12px;  
+      margin-top:-4px;}
+    100% {padding:10px 12px 8px;}
+  }
 
 
 /* ends here */
