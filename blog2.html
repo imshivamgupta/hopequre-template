@@ -1504,14 +1504,14 @@
                   </div>
 
                   <div class="cards-slider-arrows">
-                    <div class="swiper-button-prev4 prev swiper-button-disabled" tabindex="-1" role="button"
+                    <div class="swiper-button-prev5 prev swiper-button-disabled" tabindex="-1" role="button"
                       aria-label="Previous slide" aria-disabled="true">
                       <svg viewBox="0 0 48 48">
                         <title>Back</title>
                         <polygon points="30.59 8 32 9.41 18.83 24 32 38.59 30.59 40 16 24 30.59 8"></polygon>
                       </svg>
                     </div>
-                    <div class="swiper-button-next4 next" tabindex="0" role="button" aria-label="Next slide"
+                    <div class="swiper-button-next5 next" tabindex="0" role="button" aria-label="Next slide"
                       aria-disabled="false">
                       <svg viewBox="0 0 48 48">
                         <title>Next</title>
@@ -1523,7 +1523,7 @@
               </div>
 
               <div class="cards-slider__slider container">
-                <div class="swiper-container4 swiper-container-initialized swiper-container-horizontal">
+                <div class="swiper-container5 swiper-container-initialized swiper-container-horizontal">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide swiper-slide-active" style="width: 270px; margin-right: 20px;"
                       data-swiper-slide-index="0">
@@ -1691,14 +1691,14 @@
                   </div>
 
                   <div class="cards-slider-arrows">
-                    <div class="swiper-button-prev4 prev swiper-button-disabled" tabindex="-1" role="button"
+                    <div class="swiper-button-prev6 prev swiper-button-disabled" tabindex="-1" role="button"
                       aria-label="Previous slide" aria-disabled="true">
                       <svg viewBox="0 0 48 48">
                         <title>Back</title>
                         <polygon points="30.59 8 32 9.41 18.83 24 32 38.59 30.59 40 16 24 30.59 8"></polygon>
                       </svg>
                     </div>
-                    <div class="swiper-button-next4 next" tabindex="0" role="button" aria-label="Next slide"
+                    <div class="swiper-button-next6 next" tabindex="0" role="button" aria-label="Next slide"
                       aria-disabled="false">
                       <svg viewBox="0 0 48 48">
                         <title>Next</title>
@@ -1710,7 +1710,7 @@
               </div>
 
               <div class="cards-slider__slider container">
-                <div class="swiper-container4 swiper-container-initialized swiper-container-horizontal">
+                <div class="swiper-container6 swiper-container-initialized swiper-container-horizontal">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide swiper-slide-active" style="width: 270px; margin-right: 20px;"
                       data-swiper-slide-index="0">
@@ -2286,6 +2286,28 @@
       navigation: {
         nextEl: '.swiper-button-next5',
         prevEl: '.swiper-button-prev5',
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 20,
+        },
+      },
+    })
+
+    var swiper = new Swiper('.swiper-container6', {
+      spaceBetween: 30,
+      navigation: {
+        nextEl: '.swiper-button-next6',
+        prevEl: '.swiper-button-prev6',
       },
       breakpoints: {
         640: {

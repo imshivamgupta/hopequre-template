@@ -6984,6 +6984,12 @@ nav.sticky .header__logo span.mode-color {
   background-color: royalblue;
   transform: translateY(80px);
 }
+
+.b-80-low{
+  transform: translatey(40px);
+}
+
+
 @media (max-width: 576px) {
   .collage div {
     height: 65px;
@@ -7018,6 +7024,12 @@ nav.sticky .header__logo span.mode-color {
   .t-80-low {
     transform: unset;
   }
+
+  .b-80-low {
+    transform: unset;
+  }
+
+
   .home .image-rotated-45__content {
     margin-top: 40px;
   }
@@ -9296,6 +9308,82 @@ header.programs+.assesment-base .card.hq-card{
     font-size: 14px;
     text-transform: capitalize;
 }
+
+
+/* ends here */
+
+
+/* therapy page 2 style */
+
+.therapy-depression-cause ul li{
+  background: #C5F2EA;
+  border: 1px solid #309F8C;
+  box-sizing: border-box;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 2rem;
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 15%);
+}
+
+
+
+.box-1-circle{
+  background: #FFFFFF;
+    border: 2px solid #9B51E0;
+    border-radius: 50%;
+    padding: 4rem 1rem;
+    text-align: center;
+    width: 220px;
+    height: 220px;
+}
+
+.margin-left-circle{
+  margin-left: 34%;
+}
+
+.box-2-circle{
+  background: #FFFFFF;
+  border: 2px solid #F2C94C;
+
+    border-radius: 50%;
+    padding: 4rem .5rem;
+    text-align: center;
+    width: 220px;
+    height: 220px;
+
+}
+
+
+
+.box-3-circle{
+  background: #FFFFFF;
+  border: 2px solid #65B858;
+    border-radius: 50%;
+    padding: 4rem 1rem;
+    text-align: center;
+
+}
+
+
+@media (max-width: 767.98px) {
+  .box-1-circle,.box-2-circle,.box-3-circle{
+    height: unset;
+    width: unset;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    border: 6px solid white;
+    background: rgb(197 241 233);
+  }
+
+  .margin-left-circle{
+    margin-left:0;
+  }
+}
+
+
+
+
 
 
 /* ends here */
