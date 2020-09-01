@@ -9596,5 +9596,137 @@ header.programs+.assesment-base .card.hq-card{
   border-radius: 40px;
 }
 
+.about-text-box{
+  text-align: left;
+}
+
+
+@media only screen and (max-width: 767px){
+  .about-text-box{
+    text-align: center !important;
+  }
+
+  .card-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+}
+
+/* ends here */
+
+
+/* our team style begins */
+
+.team-members {
+  text-align: left;
+}
+
+.team-members ul {
+  margin: 0px -15px;
+  padding: 0px;
+}
+
+.team-members ul .team-cover {
+  list-style-type: none;
+  display: block;
+  float: left;
+  margin-bottom: 10px;
+  width: 27%;
+  padding: 0px 15px;
+}
+
+.ourteam-container .team-members .teamHolder {
+  display: block;
+}
+
+.teamHolder {
+  margin: 0 auto;
+  display: inline-block;
+  padding: 15px 10px;
+}
+
+.team-cover .image-section {
+  position: relative;
+  margin: 0px auto 25px;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.team-cover .image-section img.team-image {
+  max-width: 100%;
+  position: relative;
+  z-index: 1;
+  height: auto;
+  border-radius: 50%;
+}
+
+.team-cover .text-team {
+  text-align: center;
+}
+
+.team-members .text-team .name, .advisors .team-members .row h3 {
+  font-weight: 800;
+  font-size: 16px;
+  color: #182b4c;
+  margin: 0px 0px 4px;
+  position: relative;
+}
+
+.team-members .text-team .designation {
+  margin: 0px;
+  font-size: 12px;
+  color: #717171;
+  font-weight: 400;
+  min-height: 48px;
+}
+
+
+@media only screen and (max-width: 480px){
+.team-members ul .team-cover {
+    width: 80%;
+}
+}
+
+@media only screen and (max-width: 575px){
+.team-members ul .team-cover {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+}
+
+}
+
+
+@media only screen and (max-width: 767px){
+.team-members ul .team-cover .image-section img.team-image {
+    width: 100%;
+}
+
+.team-members ul .team-cover, .advisors .team-members ul .team-cover {
+  
+  text-align: center;
+}
+
+}
+
+
+@media only screen and (max-width: 991px){
+
+
+.team-members ul.d-flex.justify-content-center {
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+    -webkit-justify-content: flex-start !important;
+    justify-content: flex-start !important;
+}
+
+}
+
+
+
 
 /* ends here */
