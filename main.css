@@ -9567,3 +9567,34 @@ header.programs+.assesment-base .card.hq-card{
 }
 
 /* ends here */
+
+
+
+/* about us page style starts here */
+
+.about-page p{
+  font-size: 1.2rem;
+}
+
+.light-green-background-image{
+  position: relative;
+  top: 0px;
+  width: 80%;
+}
+
+.dark-green-background-image{
+  position: absolute;
+  left: 15px;
+  width: 90%;
+}
+
+.intro-image{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 40px;
+}
+
+
+/* ends here */
