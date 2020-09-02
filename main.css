@@ -1453,7 +1453,7 @@ a.close.disabled {
 }
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 800px;
     margin: 1.75rem auto;
   }
   .modal-dialog-scrollable {
@@ -8445,7 +8445,7 @@ select.form-control {
 }
 
 .modal .modal-content {
-  border-radius: 3px;
+  border-radius: 40px;
 }
 
 /* ==========================================================================
@@ -9662,10 +9662,26 @@ header.programs+.assesment-base .card.hq-card{
   z-index: 1;
   height: auto;
   border-radius: 50%;
+  transition-duration: 2s;
+  box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.1);
+}
+
+.team-cover .image-section img.team-image:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  z-index: 0;
 }
 
 .team-cover .text-team {
   text-align: center;
+}
+
+.image-section .next-btn{
+  position: absolute;
+    right: 10px;
+    bottom: 0px;
+    z-index: 1;
 }
 
 .team-members .text-team .name, .advisors .team-members .row h3 {
@@ -9726,6 +9742,40 @@ header.programs+.assesment-base .card.hq-card{
 
 }
 
+.team-modal .modal-content{
+  border-radius: 30px;
+  background: rgba(255, 255, 255, .6);
+    border: 6px solid white;
+
+}
+
+.team-modal .modal-dialog{
+  margin: 8% auto;
+}
+
+
+
+.modal-img img{
+  border-radius: 30px;
+  box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.1);
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.modal-img img:hover{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.team-modal .close{
+  background: #72a6fe;
+    border-radius: 50%;
+    padding: 0 8px;
+    top: 0px;
+    right: 20px;
+}
 
 
 
