@@ -1453,7 +1453,7 @@ a.close.disabled {
 }
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 1.75rem auto;
   }
   .modal-dialog-scrollable {
@@ -4786,8 +4786,8 @@ nav a {
   border-radius: 4px;
 }
 .image-rotated-45 {
-  width: 280px;
-  height: 280px;
+  width: 250px;
+  height: 250px;
   border-radius: 3rem;
   overflow: hidden;
   position: relative;
@@ -9618,6 +9618,10 @@ header.programs+.assesment-base .card.hq-card{
 
 /* our team style begins */
 
+.our-team .modal-content p{
+  text-align: justify;
+}
+
 .team-members {
   text-align: left;
 }
@@ -9632,7 +9636,7 @@ header.programs+.assesment-base .card.hq-card{
   display: block;
   float: left;
   margin-bottom: 10px;
-  width: 27%;
+  width: 25%;
   padding: 0px 15px;
 }
 
@@ -9657,13 +9661,14 @@ header.programs+.assesment-base .card.hq-card{
 }
 
 .team-cover .image-section img.team-image {
-  max-width: 100%;
   position: relative;
   z-index: 1;
   height: auto;
   border-radius: 50%;
   transition-duration: 2s;
   box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.1);
+  height: 150px;
+    width: 150px;
 }
 
 .team-cover .image-section img.team-image:hover {
@@ -9686,7 +9691,7 @@ header.programs+.assesment-base .card.hq-card{
 
 .team-members .text-team .name, .advisors .team-members .row h3 {
   font-weight: 800;
-  font-size: 16px;
+  font-size: 1.2rem;
   color: #182b4c;
   margin: 0px 0px 4px;
   position: relative;
@@ -9694,7 +9699,7 @@ header.programs+.assesment-base .card.hq-card{
 
 .team-members .text-team .designation {
   margin: 0px;
-  font-size: 12px;
+  font-size: .9rem;
   color: #717171;
   font-weight: 400;
   min-height: 48px;
@@ -9777,6 +9782,75 @@ header.programs+.assesment-base .card.hq-card{
     right: 20px;
 }
 
+.team-modal .modal-img{
+  text-align: center;
+}
+
+
+
+/* ends here */
+
+/* therapy content page one starts here */
+
+.therapy-content-page p,li{
+  font-size:1.2rem;
+  text-align: justify;
+}
+
+.therapy-content-page b{
+  color:#3c3c3c;
+}
+
+.header-content-page-padding{
+  padding-right:50px;
+}
+
+#more,#rightmore,#durationmore,#securitymore,#onlinemore,#mentalmore,#trackingmore,#therapymore {
+  display: none;
+}
+
+#typemore {
+  display: none;
+}
+
+
+@media (max-width: 767.98px){
+  
+.therapy-content-page .image-rotated-45 .image-rotated-45__img {
+    transform: rotate(-45deg);
+}
+.header-content-page-padding{
+  padding-right:0px;
+}
+}
+
+@media (max-width: 767.98px){
+  .therapy-content-page .image-rotated-45 {
+    transform: rotate(45deg);
+    margin: 30px auto;
+    width: 250px !important;
+    height: 250px;
+}
+
+}
+
+/* ends here */
+
+
+/* floating animation style starts here */
+.floating {  
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  
+}
+
+@keyframes floating {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
 
 
 /* ends here */
