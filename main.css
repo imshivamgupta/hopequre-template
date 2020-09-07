@@ -5384,14 +5384,14 @@ body.sticky {
     .header__nav-links_ul
     .nav-item.dropdown
     .dropdown-menu
-    a.dropdown-item {
+    .dropdown-item {
     color: #425563 !important;
   }
   .main-nav
     .header__nav-links_ul
     .nav-item.dropdown
     .dropdown-menu
-    a.dropdown-item
+    .dropdown-item
     i {
     margin-right: 10px;
   }
@@ -5399,7 +5399,7 @@ body.sticky {
     .header__nav-links_ul
     .nav-item.dropdown
     .dropdown-menu
-    a.dropdown-item
+    .dropdown-item
     i
     img {
     margin-top: -5px;
@@ -5408,7 +5408,7 @@ body.sticky {
     .header__nav-links_ul
     .nav-item.dropdown
     .dropdown-menu
-    a.dropdown-item:hover {
+    .dropdown-item:hover {
     background: 0 0;
   }
   .main-nav
@@ -5459,7 +5459,7 @@ body.sticky {
   .header__nav-links_ul
   .nav-item.dropdown
   .dropdown-menu
-  a.dropdown-item
+  .dropdown-item
   i {
   margin-right: 10px;
 }
@@ -5528,7 +5528,7 @@ body.sticky {
   .dropdown-menu
   .row
   .col-lg-6:nth-child(2)
-  a.dropdown-item:hover {
+  .dropdown-item:hover {
   background: 0 0;
 }
 
@@ -6517,8 +6517,10 @@ html.mix-blend-mode body.docready .header-skewed__tri {
 
 .cat_about {
   position: relative;
-  background: #FFFFFF;
-  border: 2.5px solid #DCFFF9;
+  /* background: #FFFFFF;
+  border: 2.5px solid #DCFFF9; */
+  background: rgba(255, 255, 255, .6);
+    border: 6px solid white;
   border-radius: 25px;
   /* width: 100%; */
   /* width: 265px; */
@@ -6579,7 +6581,7 @@ html.mix-blend-mode body.docready .header-skewed__tri {
 .show-on-hover {
   display: none;
 }
-a.dropdown-item:hover .show-on-hover {
+.dropdown-item:hover .show-on-hover {
   display: block;
   position: absolute;
   z-index: 999;
@@ -6593,39 +6595,39 @@ a.dropdown-item:hover .show-on-hover {
   border: 2px solid rgb(255 255 255);
   border-radius: 25px;
 }
-a.dropdown-item:hover .show-on-hover.left-side {
+.dropdown-item:hover .show-on-hover.left-side {
   left: -95%;
 }
-a.dropdown-item:hover {
+.dropdown-item:hover {
   background-color: rgb(234 234 234 / 40%) !important;
   border: 2px solid rgb(255 255 255);
   border-radius: 15px;}
-a.dropdown-item:hover p.body_text_bold {
+.dropdown-item:hover p.body_text_bold {
   color: #fff !important;
 }
-a.dropdown-item:hover p.font_p_small {
+.dropdown-item:hover p.font_p_small {
   color: #fff !important;
 }
-a.dropdown-item.hover:hover {
+.dropdown-item.hover:hover {
   background-color: rgb(234 234 234 / 40%) !important;
     border: 2px solid rgb(255 255 255);
     border-radius: 15px;
 }
-a.dropdown-item.hover:hover p.body_text_bold {
+.dropdown-item.hover:hover p.body_text_bold {
   color: #fff !important;
 }
-a.dropdown-item.hover:hover p.font_p_small {
+.dropdown-item.hover:hover p.font_p_small {
   color: #fff !important;
 }
-a.dropdown-item.hover-active {
+.dropdown-item.hover-active {
   background-color: rgb(234 234 234 / 40%) !important;
   border: 2px solid rgb(255 255 255);
   border-radius: 15px;
 }
-a.dropdown-item.hover-active p.body_text_bold {
+.dropdown-item.hover-active p.body_text_bold {
   color: #fff !important;
 }
-a.dropdown-item.hover-active p.font_p_small {
+.dropdown-item.hover-active p.font_p_small {
   color: #fff !important;
 }
 
@@ -7376,9 +7378,9 @@ body.dark-nav .main-nav .header__nav-links_dark .nav-item--icon {
   color: white;
   font-family: 'Gilroy-Medium';
 }
-.content p, .content .btn{
+/* .content p, .content .btn{
   display: none;
-}
+} */
 
 .hq-accordion ul li.animEffect:hover {
   width: 65% !important;
@@ -9404,7 +9406,7 @@ header.programs+.assesment-base .card.hq-card{
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: 12px solid #fff;
+  border: 12px solid #e9e9e9a3;
   position: absolute;
   top: 0;
   left: 0;
@@ -9455,7 +9457,8 @@ header.programs+.assesment-base .card.hq-card{
   border-radius: 50%;
   background: #fff;
   font-size: 24px;
-  color: #309f8c;
+  color: #1E2843;
+    font-weight: 600;
   line-height: 135px;
   text-align: center;
   position: absolute;
@@ -9554,6 +9557,14 @@ header.programs+.assesment-base .card.hq-card{
 .corporate-page .cat_about{
   padding: 1rem;
 }
+
+.corporate-page .font-size-p p {
+  font-size:1.2rem;
+  text-align: justify;
+}
+
+
+
 
 
 /* ends here */

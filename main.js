@@ -1,10 +1,10 @@
-;(function () {
+; (function () {
   var words = [
-      'for Psychological Issues',
-      'for Emotional Issues',
-      'for Relationship Issues',
-      'for Personal Issues',
-    ],
+    'for Psychological Issues',
+    'for Emotional Issues',
+    'for Relationship Issues',
+    'for Personal Issues',
+  ],
     i = 0
   setInterval(function () {
     $('#changingword').fadeOut(function () {
@@ -25,7 +25,7 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
 </div>
 <a
   class="dropdown-item d-flex dropdown-item-navigationTitle position-relative"
-  href="#"
+  href="google.com"
 >
   <i>
     <img
@@ -42,9 +42,9 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
     </p>
   </div>
 </a>
-<a
+<div
   class="dropdown-item d-flex dropdown-item-navigationTitle position-relative"
-  href="#"
+  
 >
   <i>
     <img
@@ -64,22 +64,29 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
   <div class="show-on-hover card hq-card">
     <ul>
       <li class="d-flex my-2">
+       <a href="#" class="d-flex" style="width: -webkit-fill-available;">
         <i>
-          <img
-            src="assets/icons/058-brain-2 1.png"
-            width="25"
-            height="25"
-          />
-        </i>
-        <div class="d-flex flex-column">
-          <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Generalised Anxiety Disorder</p>
-          <p class="font_p_small" style="font-weight:400;color:rgba(255,255,255,1)!important">
-            State Of Arousal that is evoked by general events in day to day
-            life.
-          </p>
-        </div>
+        <img
+          src="assets/icons/058-brain-2 1.png"
+          width="25"
+          height="25"
+        />
+      </i>
+      <div class="d-flex flex-column">
+        <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Generalised Anxiety Disorder</p>
+        <p class="font_p_small" style="font-weight:400;color:rgba(255,255,255,1)!important">
+          State Of Arousal that is evoked by general events in day to day
+          life.
+        </p>
+      </div>
+        
+       </a>
       </li>
+
+
+      
       <li class="d-flex my-2">
+      <a href="#" class="d-flex" style="width: -webkit-fill-available;">
         <i>
           <img
           src="assets/icons/004-anger 1.png"
@@ -94,8 +101,10 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
             stress all together.
           </p>
         </div>
+        </a>
       </li>
       <li class="d-flex my-2">
+      <a href="#" class="d-flex" style="width: -webkit-fill-available;">
         <i>
           <img
           src="assets/icons/070-death 1.png"
@@ -110,8 +119,10 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
             Struggling with Irrational fear, Get over your Phobias with us!
           </p>
         </div>
+        </a>
       </li>
       <li class="d-flex my-2">
+      <a href="#" class="d-flex" style="width: -webkit-fill-available;">
         <i>
           <img
           src="assets/icons/028-schizophrenia 1.png"
@@ -127,10 +138,11 @@ let clinicalMenu = `<div class="position-relative new-menu therapist-menu">
             wrecking anxiety.
           </p>
         </div>
+        </a>
       </li>
     </ul>
   </div>
-</a>
+</div>
 <a
   class="dropdown-item d-flex dropdown-item-navigationTitle position-relative"
   href="#"
@@ -249,9 +261,8 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
     </p>
   </div>
 </a>
-<a
+<div
   class="dropdown-item d-flex dropdown-item-navigationTitle position-relative"
-  href="#"
 >
   <i>
     <img
@@ -269,104 +280,116 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
   <div class="show-on-hover card hq-card">
     <ul>
     <li class="d-flex">
-    <i>
-      <img
-        src="assets/icons/no-drugs (1) 1.png"
-        width="25"
-        height="25"
-      />
-    </i>
-    <div class="d-flex flex-column">
-      <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Substance</p>
-      <p class="font_p_small" style="font-weight:400; color:rgba(255,255,255,1)!important">
-      Inability to stop substance use
-      </p>
-    </div>
-  </li>
-  <li class="d-flex">
-  <i>
-    <img
-      src="assets/icons/whiskey 1.png"
-      width="25"
-      height="25"
-    />
-  </i>
-  <div class="d-flex flex-column">
-    <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Alcohol</p>
-    <p class="font_p_small" style="font-weight:400; color:rgba(255,255,255,1)!important">
-    Inability to control your use of alcohol
-    </p>
-  </div>
-</li>
-<li class="d-flex">
-<i>
-  <img
-    src="assets/icons/quit-smoking 1.png"
-    width="25"
-    height="25"
-  />
-</i>
-<div class="d-flex flex-column">
-  <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Smoking</p>
-  <p class="font_p_small" style="font-weight:400; color:rgba(255,255,255,1)!important">
-  Inability to stop using nicotine.
-  </p>
-</div>
-</li>
-<li class="d-flex">
-<i>
-  <img
-    src="assets/icons/comunications 1.png"
-    width="25"
-    height="25"
-  />
-</i>
-<div class="d-flex flex-column">
-  <p class="body_text_bold" style="color:rgba(0255,255,255,1!important">
-  Internet & Mobile, Video Games </p>
-  <p class="font_p_small" style="font-weight:400; color:rgba(255,255,255,1)!important">
-  Inability to stop using nicotine.
-  </p>
-</div>
-</li>
-<li class="d-flex">
-<i>
-  <img
-    src="assets/icons/poker-chip 1.png"
-    width="25"
-    height="25"
-  />
-</i>
-<div class="d-flex flex-column">
-  <p class="body_text_bold" style="color:rgba(0255,255,255,1!important">
-  Gambling </p>
-  <p class="font_p_small" style="font-weight:400; color:rgba(255,255,255,1)!important">
-  Maladaptive patterns of gambling behavior
-  </p>
-</div>
-</li>
-<li class="d-flex">
-<i>
-  <img
-    src="assets/icons/sex-addict 1.png"
-    width="25"
-    height="25"
-  />
-</i>
-<div class="d-flex flex-column">
-  <p class="body_text_bold" style="color:rgba(0255,255,255,1!important">
-  Sexual</p>
-  <p class="font_p_small" style="font-weight:400; color:rgba(255,255,255,1)!important">
-  Cumpulsive engagement in sexual activity, despite negative consequences.
-  </p>
-</div>
-</li>
+      <a href="#" class="d-flex" style="width: -webkit-fill-available;">
+        <i>
+          <img
+            src="assets/icons/no-drugs (1) 1.png"
+            width="25"
+            height="25"
+          />
+        </i>
+        <div class="d-flex flex-column">
+          <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Substance</p>
+          <p class="font_p_small" style="font-weight:400; color:rgba(255,255,255,1)!important">
+          Inability to stop substance use
+          </p>
+        </div>
+      </a>
+    </li>
+    <li class="d-flex">
+      <a href="#" class="d-flex" style="width: -webkit-fill-available;">
+        <i>
+          <img
+            src="assets/icons/whiskey 1.png"
+            width="25"
+            height="25"
+          />
+        </i>
+        <div class="d-flex flex-column">
+          <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Alcohol</p>
+          <p class="font_p_small" style="font-weight:400; color:rgba(255,255,255,1)!important">
+          Inability to control your use of alcohol
+          </p>
+        </div>
+      </a>
+    </li>
+    <li class="d-flex">
+      <a href="#" class="d-flex" style="width: -webkit-fill-available;">
+        <i>
+          <img
+            src="assets/icons/quit-smoking 1.png"
+            width="25"
+            height="25"
+          />
+        </i>
+        <div class="d-flex flex-column">
+          <p class="body_text_bold" style="color:rgba(255,255,255,1)!important">Smoking</p>
+          <p class="font_p_small" style="font-weight:400; color:rgba(255,255,255,1)!important">
+          Inability to stop using nicotine.
+          </p>
+        </div>
+      </a>
+    </li>
+    <li class="d-flex">
+      <a href="#" class="d-flex" style="width: -webkit-fill-available;">
+        <i>
+          <img
+            src="assets/icons/comunications 1.png"
+            width="25"
+            height="25"
+          />
+        </i>
+        <div class="d-flex flex-column">
+          <p class="body_text_bold" style="color:rgba(0255,255,255,1!important">
+          Internet & Mobile, Video Games </p>
+          <p class="font_p_small" style="font-weight:400; color:rgba(255,255,255,1)!important">
+          Inability to stop using nicotine.
+          </p>
+        </div>
+      </a>
+    </li>
+    <li class="d-flex">
+      <a href="#" class="d-flex" style="width: -webkit-fill-available;">
+        <i>
+          <img
+            src="assets/icons/poker-chip 1.png"
+            width="25"
+            height="25"
+          />
+        </i>
+        <div class="d-flex flex-column">
+          <p class="body_text_bold" style="color:rgba(0255,255,255,1!important">
+          Gambling </p>
+          <p class="font_p_small" style="font-weight:400; color:rgba(255,255,255,1)!important">
+          Maladaptive patterns of gambling behavior
+          </p>
+        </div>
+      </a>
+    </li>
+      <li class="d-flex">
+        <a href="#" class="d-flex" style="width: -webkit-fill-available;">
+          <i>
+            <img
+              src="assets/icons/sex-addict 1.png"
+              width="25"
+              height="25"
+            />
+          </i>
+          <div class="d-flex flex-column">
+            <p class="body_text_bold" style="color:rgba(0255,255,255,1!important">
+            Sexual</p>
+            <p class="font_p_small" style="font-weight:400; color:rgba(255,255,255,1)!important">
+            Cumpulsive engagement in sexual activity, despite negative consequences.
+            </p>
+          </div>
+        </a>
+      </li>
     </ul>
   </div>
-</a>
-<a
+</div>
+<div
   class="dropdown-item d-flex dropdown-item-navigationTitle position-relative"
-  href="#"
+  
 >
   <i>
     <img
@@ -384,6 +407,7 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
   <div class="show-on-hover card hq-card">
     <ul>
       <li class="d-flex my-2">
+      <a href="#" class="d-flex" style="width: -webkit-fill-available;">
         <i>
           <img
             src="assets/icons/027-open-mind 1.png"
@@ -397,8 +421,10 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
             Inability to resist an urge to carrry out an implusive act.
           </p>
         </div>
+      </a>
       </li>
       <li class="d-flex my-2">
+      <a href="#" class="d-flex" style="width: -webkit-fill-available;">
         <i>
           <img
             src="assets/icons/061-learning 1.png"
@@ -413,13 +439,14 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
             hyperactive and impulsive behaviour.
           </p>
         </div>
+        </a>
       </li>
     </ul>
   </div>
-</a>
-<a
+</div>
+<div
   class="dropdown-item d-flex dropdown-item-navigationTitle position-relative"
-  href="#"
+  
 >
   <i>
     <img
@@ -437,6 +464,7 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
   <div class="show-on-hover card hq-card">
     <ul>
     <li class="d-flex">
+    <a href="#" class="d-flex" style="width: -webkit-fill-available;">
     <i>
       <img
         src="assets/icons/072-exhausted-1 1.png"
@@ -450,8 +478,10 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
       Personal situations that are tough to handle
       </p>
     </div>
+    </a>
   </li>
   <li class="d-flex">
+  <a href="#" class="d-flex" style="width: -webkit-fill-available;">
   <i>
     <img
       src="assets/icons/053-folder 1.png"
@@ -465,8 +495,10 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
     Workplace issues hindering normal life functioning
     </p>
   </div>
+  </a>
 </li>
 <li class="d-flex">
+<a href="#" class="d-flex" style="width: -webkit-fill-available;">
 <i>
   <img
     src="assets/icons/062-conflict 1.png"
@@ -480,10 +512,11 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
   Relationship issues going over-board
   </p>
 </div>
+</a>
 </li>
     </ul>
   </div>
-</a>
+</div>
 <a
   class="dropdown-item d-flex dropdown-item-navigationTitle position-relative"
   href="#"
@@ -500,7 +533,7 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
     <p class="font_p_small">Disturbances in sexual desires and responses.</p>
   </div>
 </a>
-<a
+<div
   class="dropdown-item d-flex dropdown-item-navigationTitle position-relative"
   href="#"
 >
@@ -521,6 +554,7 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
   <div class="show-on-hover card hq-card left-side">
     <ul>
       <li class="d-flex">
+      <a href="#" class="d-flex" style="width: -webkit-fill-available;">
         <i>
           <img
             src="assets/icons/031-stopclock 1.png"
@@ -534,8 +568,10 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
             Inability to start working due to lack of motivation.
           </p>
         </div>
+      </a>
       </li>
       <li class="d-flex">
+      <a href="#" class="d-flex" style="width: -webkit-fill-available;">
         <i>
           <img
             src="assets/icons/025-alarm-clock 1.png"
@@ -549,8 +585,10 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
             Manage your time efficiently.
           </p>
         </div>
+      </a>
       </li>
       <li class="d-flex">
+      <a href="#" class="d-flex" style="width: -webkit-fill-available;">
         <i>
           <img
             src="assets/icons/055-dreaming-1 1.png"
@@ -564,10 +602,11 @@ let behaviorMenu = `<div class="position-relative new-menu behaviour-menu">
             Control behaviour or thoughts involving pain or injury to oneself.
           </p>
         </div>
+        </a>
       </li>
     </ul>
   </div>
-</a>
+</div>
 </div>
 `
 let relationshipMenu = `<div class="position-relative new-menu relationship-menu">
@@ -692,9 +731,8 @@ let childMenu = `<div class="position-relative therapist-menu new-menu">
     </p>
   </div>
 </a>
-<a
+<div
   class="dropdown-item d-flex dropdown-item-navigationTitle position-relative"
-  href="#"
 >
   <i>
     <img
@@ -713,6 +751,7 @@ let childMenu = `<div class="position-relative therapist-menu new-menu">
   <div class="show-on-hover card hq-card">
     <ul>
       <li class="d-flex my-2">
+      <a href="#" class="d-flex" style="width: -webkit-fill-available;">
         <i>
           <img
             src="assets/icons/anxiety 1.png"
@@ -727,8 +766,10 @@ let childMenu = `<div class="position-relative therapist-menu new-menu">
             revenge.
           </p>
         </div>
+        </a>
       </li>
       <li class="d-flex my-2">
+      <a href="#" class="d-flex" style="width: -webkit-fill-available;">
         <i>
           <img
           src="assets/icons/nervous 1.png"
@@ -743,6 +784,7 @@ let childMenu = `<div class="position-relative therapist-menu new-menu">
             norms
           </p>
         </div>
+        </a>
       </li>
     </ul>
   </div>
