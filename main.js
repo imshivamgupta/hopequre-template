@@ -788,7 +788,7 @@ let childMenu = `<div class="position-relative therapist-menu new-menu">
       </li>
     </ul>
   </div>
-</a>
+</div>
 <a
   class="dropdown-item d-flex dropdown-item-navigationTitle position-relative"
   href="#"
