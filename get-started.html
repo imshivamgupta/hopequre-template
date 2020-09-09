@@ -17,7 +17,7 @@
     />
   </head>
 
-  <body class="home docready about-page" style="background-size: cover;">
+  <body class="home docready" style="background-size: cover;">
     <div class="bottom-menu d-grid d-sm-none">
       <div
         class="d-flex align-items-center justify-content-between flex-column"
@@ -1515,99 +1515,85 @@
         <div class="col-md-12">
             <div class="row">
               <div
-                class="col-md-8 mx-auto glass p-5 rounded contact-form"
+                class="col-md-12 mx-auto glass p-5 rounded contact-form"
                 style="border-radius: 2rem !important;"
               >
-              <header class="section-header text-center">
-                <h2 style="color: #309F8C;" >Send us a message</h2>
-                <p>If you have any query regarding our counsellors or if you wish to provide any feedback please submit the below form and we will get in touch with you.</p>
-              </header> 
-                <form>
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <label for="">Full Name</label>
-                        <input
-                          type="text"
-                          class="form-control is-valid"
-                          id=""
-                          aria-describedby="emailHelp"
-                          placeholder="Enter Full name"
-                        />
-                        <div class="valid-feedback">
-                          Looks good!
+                <div class="row">
+                    <div class="col-md-6 form-space">
+                        <header class="section-header text-left d-none">
+                            <h4 style="color: #309F8C;" >Who are you seeking this session for?</h4>
+                        </header>
+
+                        <div class="form-group radio-btn d-none">
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
                         </div>
-                      </div>
-                    </div>
-                    
-          
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <label for="exampleInputEmail1">Email</label>
-                        <input
-                          type="text"
-                          class="form-control is-valid"
-                          id="exampleInputEmail1"
-                          aria-describedby="emailHelp"
-                          placeholder="Enter Your Email"
-                        />
-                        <div class="valid-feedback">
-                          Looks good!
-                        </div>
-                      </div>
-                    </div>
-          
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <label for="exampleInputEmail1">Mobile Number</label>
-                        <div class="row">
-                          <div class="col-md-3">
+
+                        
+
+                        <div class="form-group d-none">
                             <input
-                              type="text"
-                              class="form-control"
-                              aria-describedby="emailHelp"
-                              placeholder="+91"
+                            type="text"
+                            class="form-control is-valid"
+                            id=""
+                            aria-describedby="emailHelp"
+                            placeholder="Enter Full name"
                             />
-                          </div>
-                          <div class="col-md-9">
-                            <input
-                              type="text"
-                              class="form-control is-invalid"
-                              aria-describedby="emailHelp"
-                              placeholder="Enter Mobile Number"
-                            />
-                          </div>
                         </div>
-                        <div class="invalid-feedback">
-                          Looks good!
+
+
+                        <div class="form-group d-none">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+
+                        <div class="success mt-5 ">
+                            <div class='flash success'>
+                                <div class='bg'>
+                                  <div class='bg-icon'></div>
+                                  <div class='bg-btns'></div>
+                                </div>
+                                <div class='inside'>
+                                  <figure class='icon'>
+                                    <svg viewBox='0 0 84 84'>
+                                      <g fill='none'>
+                                        <circle cx='42' cy='42' fill='#BDE3CA' r='42'></circle>
+                                        <path d='M30,62 C33.0710678,65.0710678 37.3137085,66.9705627 42,66.9705627 C46.6862915,66.9705627 50.9289322,65.0710678 54,62' stroke-width='5' stroke='#5FB67D'></path>
+                                        <circle cx='30' cy='42' fill='#5FB67D' r='3'></circle>
+                                        <circle cx='54' cy='42' fill='#5FB67D' r='3'></circle>
+                                      </g>
+                                    </svg>
+                                  </figure>
+                                  <div>
+                                    <h2>Success!</h2>
+                                    <p>You’re all set. Thank you, For Completing the questionnaire!</p>
+                                  </div>
+                                  <div class='btns'>
+                                    <button>
+                                      <svg viewBox='0 0 56 56'>
+                                        <polyline fill='none' points='16 29.4852814 24.4852814 37.9705627 41.4852814 21' stroke-width='4' stroke='#5FB67D'></polyline>
+                                      </svg>
+                                    </button>
+                                    
+                                  </div>
+                                </div>
+                              </div>
                         </div>
-                      </div>
+                        
                     </div>
-          
-          
-                   
-                    
-          
-                    <div class="col-md-12">
-                        <label for="exampleInputEmail1">Your Message</label>
-                      <div class="form-group">
-                        <textarea name="" id="" style="width: 100%;padding: 1rem;border: 1px solid #eaeaea;" placeholder="Your Message.." rows="10"></textarea>
-                      </div>
+
+                    <div class="col-md-6">
+                        <div class="get-started-form-img">
+                            <img src="assets/img/start.png" style="width: 100%;" alt="">
+                        </div>
                     </div>
-                    
-                  </div>
-          
-                 
-                  
-                  
-          
-                  
-          
-                  
-                  <button type="submit" class="btn btn-primary d-block ml-auto">
-                  Send Message
-                  </button>
-                </form>
+                </div>
+                
               </div>
             </div>
           </div>
@@ -1641,7 +1627,24 @@
           <div class="col-lg-8 col-xl-8">
             <div class="row mb-6">
               <div class="col-4">
-                <p>Map Your Mood with Mood-O-Meter</p>
+                <p>Map Your Mood with <br> Mood-O-Meter</p>
+                <div class="mood-list">
+                    <div class="choosed-emoji text-center floating">
+                        <span style='font-size:5em;'>&#128512;</span>
+                    </div>
+
+                    <div class="emoji-list text-center btn-group">
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn" style="padding: 0.5rem 0.3rem;"><span style='font-size:1.5em;'>&#128546;</span></button>
+                            <button type="button" class="btn" style="padding: 0.5rem 0.3rem;"><span style='font-size:1.5em;'>&#128543;</span></button>
+                            <button type="button" class="btn" style="padding: 0.5rem 0.3rem;"><span style='font-size:1.5em;'>&#128545;</span></button>
+                            <button type="button" class="btn" style="padding: 0.5rem 0.3rem;"><span style='font-size:1.5em;'>&#128528;</span></button>
+                            <button type="button" class="btn" style="padding: 0.5rem 0.3rem;"><span style='font-size:1.5em;'>&#128522;</span></button>
+                          </div>
+                        
+                        
+                    </div>
+                </div>
               </div>
 
               <div class="col-4">
