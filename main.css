@@ -10426,3 +10426,44 @@ header.programs+.assesment-base .card.hq-card{
 
 
 /* ends here */
+
+/* program page style starts here */
+
+.heading-dot-style::after{
+  content: "";
+  position: relative;
+  border-radius: 20px;
+  display: inline-block;
+  background: #ffad69;
+  bottom: -2px;
+  right: -5px;
+  width: 15px;
+  height: 15px;
+}
+
+.subtitle-dot-style::before{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background: #ffad69;
+  position: absolute;
+  content: "";
+  left: 5px;
+  top: -7px;
+  z-index: -1;
+}
+
+.font-size-p{
+  font-size: 1.2rem;
+}
+
+.perk-icon{
+  position: relative;
+    margin: 2rem;
+    text-align: center;
+}
+
+
+/* ends here */
+
+
