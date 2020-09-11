@@ -10511,6 +10511,13 @@ header.programs+.assesment-base .card.hq-card{
   padding: 7em 1em;
 }
 
+.register-left .btn-greenGradient{
+  background: #fff;
+    border-radius: 16px;
+    color: #1A6FFF;
+    border: 2px solid #1A6FFF;
+}
+
 .register-right {
   background: #f8f9fa;
   border-top-left-radius: 10% 50%;
