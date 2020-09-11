@@ -10527,4 +10527,84 @@ header.programs+.assesment-base .card.hq-card{
 
 /* ends here */
 
+/* faq page style starts here */
+.accordionFifteen .panel {
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+  margin: 0;
+  margin-bottom: -15px;
+}
+.accordionFifteen .panel-default
+{
+  display: block;
+    background: rgba(255, 255, 255, .6);
+    padding: 15px 20px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    /* border: 1px solid #ff5d7d; */
+    border-bottom: none;
+    text-decoration: none;
+    text-align: left;
+    border-radius: 20px !important;
+    margin-bottom: 15px;
+}
+
+.accordionFifteen .panel-default>.panel-heading {
+  border-radius: 0px;
+  padding: 0px;
+  margin-left: -1px;
+  margin-top: -1px;
+  background: transparent;
+}
+
+.panel-default>.panel-heading {
+  color: #333;
+  border-color: #ddd;
+}
+
+
+.accordionFifteen .panel-default .panel-body{
+  padding:2em;
+  font-size:1.2rem;
+  color: #899cbb;
+}
+
+
+.accordionFifteen .panel .panel-heading a {
+ 
+  font-size: 1.3rem;
+  font-weight: 500;
+  color:#1e2843;
+  
+}
+
+.accordionFifteen .panel-title{
+  margin-bottom:0;
+}
+
+
+.accordionFifteen .panel .panel-heading a:after {
+  content: "\f107";
+  background: #1A6FFF;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  float: right;
+  font-family: 'FontAwesome';
+}
+
+
+.accordionFifteen .panel-group .panel:last-child{
+  padding-bottom: 20px;
+}
+
+
+/* ends here */
+
 
