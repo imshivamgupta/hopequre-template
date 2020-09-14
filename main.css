@@ -4211,6 +4211,7 @@ html {
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+
 .font_h3 {
   font-size: 2.25rem;
   font-family: 'Gilroy-Medium', 'Montserrat', sans-serif;
@@ -4314,6 +4315,10 @@ aside .card-deck .card .card-title {
 .home .card.hq-card .card-body-footer__link {
   font-size: 0.75rem;
   line-height: 1.2;
+}
+
+.font-p-custom{
+font-size: 1.2rem;
 }
 
 .font_26 {
@@ -5219,6 +5224,8 @@ header .main-nav.sticky .header__nav-links_dark a {
 header .main-nav.sticky .header__nav-links_dark a.btn {
   color: #fff;
 }
+
+
 @media (min-width: 992px) {
   header .main-nav.sticky {
     padding: 0;
@@ -6177,6 +6184,11 @@ html.mix-blend-mode body.docready .header-skewed__tri {
   transform: skewY(0);
   z-index: -3;
 
+}
+
+.header_image img{
+  border-radius: 50%;
+    box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.1);
 }
 @media(max-width: 776px){
   .header-skewed-home__bg2{
