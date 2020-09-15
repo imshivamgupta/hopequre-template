@@ -10635,7 +10635,7 @@ header.programs+.assesment-base .card.hq-card{
 /* ends here */
 /* footer emoji modal */
 
-.modal-dialog {
+.emoji-modal .modal-dialog {
   max-width: 650px;
 }
 
