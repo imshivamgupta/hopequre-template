@@ -1380,6 +1380,10 @@ a.close.disabled {
   display: none;
 }
 
+.showme{
+  display: none;
+}
+
 .popover {
   background-color: #fff;
   background-clip: padding-box;
@@ -7402,8 +7406,13 @@ body.dark-nav .main-nav .header__nav-links_dark .nav-item--icon {
   display: none;
 } */
 
+.hq-accordion ul li.animEffect:hover .showme{
+  display : block;
+  }
+
 .hq-accordion ul li.animEffect:hover {
   width: 65% !important;
+
 }
 
 .hq-accordion ul li.animEffect:hover .content{
