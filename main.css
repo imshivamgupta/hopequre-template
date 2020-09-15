@@ -7399,9 +7399,17 @@ body.dark-nav .main-nav .header__nav-links_dark .nav-item--icon {
   color: white;
 }
 .hq-accordion ul li.animEffect .content h3{
-  color: white;
+  color: #1e2843;
   font-family: 'Gilroy-Medium';
 }
+
+.hq-accordion ul li.animEffect .content p{
+  color: #1e2843;
+  font-family: 'Gilroy-Medium';
+}
+
+
+
 /* .content p, .content .btn{
   display: none;
 } */
@@ -7424,10 +7432,11 @@ body.dark-nav .main-nav .header__nav-links_dark .nav-item--icon {
 }
 
 .hq-accordion .btn-secondary{
-  border: 2px solid #fff;
   box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.25);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.73) 0%, rgba(255, 255, 255, 0) 47.4%), #ff714400;
     border-radius: 16px;
+    color: #1e2843;
+    border: 2px solid #1e2843;
 }
 
 
