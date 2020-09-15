@@ -7373,7 +7373,7 @@ body.dark-nav .main-nav .header__nav-links_dark .nav-item--icon {
 
 .hq-accordion ul li:nth-child(1).animEffect {
   animation-name: animation-1oqhlu1;
-  animation-duration: 0.3s;
+  animation-duration: 1s;
 }
 
 .hq-accordion ul li {
@@ -7384,7 +7384,7 @@ body.dark-nav .main-nav .header__nav-links_dark .nav-item--icon {
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  transition: all 100ms ease;
 }
 
 .hq-accordion ul li.animEffect {
@@ -7422,6 +7422,16 @@ body.dark-nav .main-nav .header__nav-links_dark .nav-item--icon {
 .hq-accordion ul li.animEffect:hover .content .btn{
   display: inline-block;
 }
+
+.hq-accordion .btn-secondary{
+  border: 2px solid #fff;
+  box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.73) 0%, rgba(255, 255, 255, 0) 47.4%), #ff714400;
+    border-radius: 16px;
+}
+
+
+
 
 @-webkit-keyframes appear-1 {
   0% {
