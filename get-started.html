@@ -1638,7 +1638,7 @@
 
                     <div class="emoji-list text-center btn-group">
                         <div class="btn-group" role="group" aria-label="Basic example">
-                            <button type="button" class="btn" style="padding: 0.5rem 0.3rem;"><span style='font-size:1.5em;'>&#128546;</span></button>
+                            <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal" style="padding: 0.5rem 0.3rem;"><span style='font-size:1.5em;'>&#128546;</span></button>
                             <button type="button" class="btn" style="padding: 0.5rem 0.3rem;"><span style='font-size:1.5em;'>&#128543;</span></button>
                             <button type="button" class="btn" style="padding: 0.5rem 0.3rem;"><span style='font-size:1.5em;'>&#128545;</span></button>
                             <button type="button" class="btn" style="padding: 0.5rem 0.3rem;"><span style='font-size:1.5em;'>&#128528;</span></button>
@@ -1868,6 +1868,39 @@
         </div>
       </section>
     </footer>
+
+
+    <!-- footer modal -->
+
+    <div class="modal fade emoji-modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="background: rgb(0 0 0 / 0.72);
+    ">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h3 class="modal-title text-center" id="exampleModalLabel">Track your Mood : <span class="font-weight-700" style="color: #309F8C;">Feeling Happy!!</span></h3>
+            <div class="gradient"></div>
+            <div class="choosed-emoji text-center floating">
+              <span style='font-size:5em;'>&#128512;</span>
+            </div>
+            <div class="para-body text-center font-weight-600" style="color: #309F8C;">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore quas ad, necessitatibus vero ipsa nesciunt ducimus corrupti temporibus commodi nulla doloribus aliquid in placeat exercitationem maiores expedita fugiat eveniet vel.
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Proceed</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
     <script src="jquery.min.js"></script>
