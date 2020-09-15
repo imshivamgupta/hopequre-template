@@ -214,6 +214,10 @@ input {
   font-size: 1.8rem;
 }
 
+.sign-up-container .form-container .form-control{
+  margin-bottom: 1rem;
+}
+
 .form-container .form-control {
   height: unset;
   padding: 2px 15px;
