@@ -5641,6 +5641,7 @@ header.open .main-nav.sticky .header__nav-links_ul + .nav-item--icon {
     -o-box-shadow: 30px 0 60px rgba(0, 0, 0, 0.15);
     box-shadow: 30px 0 60px rgba(0, 0, 0, 0.15);
     background: #fff;
+    
   }
   .cd-morph-dropdown .morph-dropdown-wrapper .dropdown-list .dropdown-arrow {
     content: '';
@@ -5818,6 +5819,7 @@ header.open .main-nav.sticky .header__nav-links_ul + .nav-item--icon {
     visibility: visible;
     opacity: 1;
     transition: all 0.3s;
+    width: 720px !important;
   }
   .cd-morph-dropdown.is-dropdown-visible
     .morph-dropdown-wrapper
@@ -6541,6 +6543,8 @@ html.mix-blend-mode body.docready .header-skewed__tri {
   /* width: 265px; */
   overflow: hidden;
   min-height: 243px;
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 5%);
+  margin-bottom: 20px;
 }
 
 .icon_wrapper {
@@ -6947,6 +6951,7 @@ section#timeline .image {
   border-radius: 40px!important;
   border: 6px solid white!important;
   background: rgba(255, 255, 255, 0.4);
+  min-height: 380px;
 }
 
 .join{
