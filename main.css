@@ -7411,7 +7411,7 @@ body.dark-nav .main-nav .header__nav-links_dark .nav-item--icon {
   }
 
 .hq-accordion ul li.animEffect:hover {
-  width: 65% !important;
+  width: 100% !important;
 
 }
 
