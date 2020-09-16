@@ -4540,6 +4540,18 @@ border-radius: 16px;
   -o-box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.1);
   box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.1);
 }
+
+
+.therapy-page .card .hq-card{
+  min-height:405px;
+}
+
+
+#therapist-list .payment-base_entry-img{
+  height: 200px;
+}
+
+
 .card-deck .card:hover {
   -webkit-box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.1);
@@ -7540,7 +7552,7 @@ section.new-col.text-image-two-cols {
   margin-bottom: 0;
 }
 @media (min-width: 576px) {
-  .filter__search form input,
+  .filter__search .form input,
   .filter__search form input:focus {
     border-radius: 90px !important;
     padding-left: 50px;
@@ -7548,8 +7560,8 @@ section.new-col.text-image-two-cols {
   }
 }
 
-.filter__search form input,
-.filter__search form input:focus {
+.filter__search .form input,
+.filter__search .form input:focus {
   border-radius: 6px !important;
   padding-left: 15px;
   height: 80px;
@@ -7613,7 +7625,7 @@ input {
 }
 
 @media (min-width: 576px) {
-  .filter__search form .input_btn_span {
+  .filter__search .form .input_btn_span {
     border-radius: 100% !important;
     width: 65px;
     height: 65px;
@@ -7621,7 +7633,7 @@ input {
   }
 }
 
-.filter__search form .input_btn_span {
+.filter__search .form .input_btn_span {
   width: 50px;
   height: 50px;
   border-radius: 6px !important;
@@ -7668,7 +7680,7 @@ main.Knowledge-hub .ais-search-box--reset-wrapper button svg {
   cursor: pointer;
 }
 
-.filter__search form .input_btn_span svg {
+.filter__search .form .input_btn_span svg {
   fill: rgb(255 255 255);
   stroke: rgb(255 255 255);
   width: 22px;
