@@ -10682,3 +10682,29 @@ header.programs+.assesment-base .card.hq-card{
 /* ends here */
 
 
+.search-input-therapy .input-group{
+  height: 50px;
+    box-shadow: unset;
+}
+
+.search-input-therapy .input-group .form-control{
+  height: 50px;
+  border-radius: unset;
+    box-shadow: unset;
+
+}
+
+.search-input-therapy .input-group .form-control:focus{
+  height: 50px;
+    box-shadow: unset;
+  border-radius: unset !important;
+
+    
+
+}
+
+
+.search-input-therapy .filter__search .form .input_btn_span{
+  margin: 0px -50px;
+}
+
