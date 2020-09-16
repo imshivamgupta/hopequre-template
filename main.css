@@ -7553,7 +7553,7 @@ section.new-col.text-image-two-cols {
 }
 @media (min-width: 576px) {
   .filter__search .form input,
-  .filter__search form input:focus {
+  .filter__search .form input:focus {
     border-radius: 90px !important;
     padding-left: 50px;
     height: 90px;
@@ -7610,7 +7610,7 @@ input {
   overflow: visible;
 }
 
-.filter__search form .input_btn {
+.filter__search .form .input_btn {
   z-index: 100;
 }
 
